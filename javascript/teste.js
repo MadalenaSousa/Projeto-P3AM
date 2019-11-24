@@ -1,5 +1,11 @@
-if (screen.pixelDepth < 8) {
-    // use low-color version of page
-} else {
-    // use regular, colorful page
-}
+fetch('json/teste.json')
+    .then(response => {
+        return response.json()
+    })
+    .then(data => {
+        // Work with JSON data here
+        console.log(data)
+    })
+    .catch(err => {
+        // Do something for an error here
+    })
