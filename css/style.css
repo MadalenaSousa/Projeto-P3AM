@@ -1,11 +1,17 @@
 body {
-    background-color: #FDF9EA;
     padding: 0;
     margin: 0;
 }
 
-.teste {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 300px;
+div.teste {
+    width: 3000px;
     display: inline-block;
+    font-size: 24pt;
+    position: absolute;
+}
+
+img.teste {
+    opacity: 0.5;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
