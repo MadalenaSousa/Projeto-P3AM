@@ -1,17 +1,74 @@
-body {
+body, html {
     padding: 0;
     margin: 0;
 }
 
-div.teste {
-    width: 3000px;
-    display: inline-block;
-    font-size: 24pt;
-    position: absolute;
+/* GRELHA */
+
+.grid {
+    width: 100%;
+
+    padding: 0 calc(100% * 20 / 980);
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
-img.teste {
-    opacity: 0.5;
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.grid * {
+    box-sizing: border-box;
+}
+
+
+.row {
+    clear: both;
+}
+
+.row.empty {
+    height: 20px;
+}
+
+[class*='col-'] {
+    float: left;
+    margin-left: calc(100% * 20 / 940);
+    width: calc(100% * 60 / 940);
+}
+
+[class*='col-'].empty::after {
+    content:'';
+    margin-left: calc(calc(100% * 20 / 940) + calc(100% * 20 / 940));
+}
+
+
+/* Coluna = 90 + Margem = 30 */
+.col-2 {
+    width: calc(calc(100% * 60 / 940) * 2 + calc(100% * 20 / 940) * 1);
+}
+.col-3 {
+    width: calc(calc(100% * 60 / 940) * 3 + calc(100% * 20 / 940) * 2);
+}
+.col-4 {
+    width: calc(calc(100% * 60 / 940) * 4 + calc(100% * 20 / 940) * 3);
+}
+.col-5 {
+    width: calc(calc(100% * 60 / 940) * 5 + calc(100% * 20 / 940) * 4);
+}
+.col-6 {
+    width: calc(calc(100% * 60 / 940) * 6 + calc(100% * 20 / 940) * 5);
+}
+.col-7 {
+    width: calc(calc(100% * 60 / 940) * 7 + calc(100% * 20 / 940) * 6);
+}
+.col-8 {
+    width: calc(calc(100% * 60 / 940) * 8 + calc(100% * 20 / 940) * 7);
+}
+.col-9 {
+    width: calc(calc(100% * 60 / 940) * 9 + calc(100% * 20 / 940) * 8);
+}
+.col-10 {
+    width: calc(calc(100% * 60 / 940) * 10 + calc(100% * 20 / 940) * 9);
+}
+.col-11 {
+    width: calc(calc(100% * 60 / 940) * 11 + calc(100% * 20 / 940) * 10);
+}
+.col-12 {
+    width: calc(calc(100% * 60 / 940) * 12 + calc(100% * 20 / 940) * 11);
 }
