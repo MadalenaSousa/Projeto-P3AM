@@ -5,70 +5,13 @@ body, html {
 
 /* GRELHA */
 
-.grid {
-    width: 100%;
-
-    padding: 0 calc(100% * 20 / 980);
-    margin: 0 auto;
+* {
     box-sizing: border-box;
 }
 
-.grid * {
-    box-sizing: border-box;
-}
-
-
-.row {
-    clear: both;
-}
-
-.row.empty {
-    height: 20px;
-}
-
-[class*='col-'] {
-    float: left;
-    margin-left: calc(100% * 20 / 940);
-    width: calc(100% * 60 / 940);
-}
-
-[class*='col-'].empty::after {
-    content:'';
-    margin-left: calc(calc(100% * 20 / 940) + calc(100% * 20 / 940));
-}
-
-
-/* Coluna = 90 + Margem = 30 */
-.col-2 {
-    width: calc(calc(100% * 60 / 940) * 2 + calc(100% * 20 / 940) * 1);
-}
-.col-3 {
-    width: calc(calc(100% * 60 / 940) * 3 + calc(100% * 20 / 940) * 2);
-}
-.col-4 {
-    width: calc(calc(100% * 60 / 940) * 4 + calc(100% * 20 / 940) * 3);
-}
-.col-5 {
-    width: calc(calc(100% * 60 / 940) * 5 + calc(100% * 20 / 940) * 4);
-}
-.col-6 {
-    width: calc(calc(100% * 60 / 940) * 6 + calc(100% * 20 / 940) * 5);
-}
-.col-7 {
-    width: calc(calc(100% * 60 / 940) * 7 + calc(100% * 20 / 940) * 6);
-}
-.col-8 {
-    width: calc(calc(100% * 60 / 940) * 8 + calc(100% * 20 / 940) * 7);
-}
-.col-9 {
-    width: calc(calc(100% * 60 / 940) * 9 + calc(100% * 20 / 940) * 8);
-}
-.col-10 {
-    width: calc(calc(100% * 60 / 940) * 10 + calc(100% * 20 / 940) * 9);
-}
-.col-11 {
-    width: calc(calc(100% * 60 / 940) * 11 + calc(100% * 20 / 940) * 10);
-}
-.col-12 {
-    width: calc(calc(100% * 60 / 940) * 12 + calc(100% * 20 / 940) * 11);
+.wrapper {
+    display: grid;
+    grid-gap: 30px;
+    grid-auto-flow: column;
+    grid-auto-columns: 90px;
 }
