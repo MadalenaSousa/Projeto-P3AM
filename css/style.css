@@ -32,7 +32,7 @@ body, html {
     margin-left: 50vw;
     transform: translateX(-50%);
     color:white;
-    font-family:"Georgia";
+    font-family:"Georgia", serif;
 }
 .capa h2{
     position:sticky;
@@ -41,7 +41,7 @@ body, html {
     margin-left: 50vw;
     transform: translateX(-50%);
     color:var(--branco);
-    font-family:"Georgia";
+    font-family:"Georgia", serif;
 
 }
 /* width */
