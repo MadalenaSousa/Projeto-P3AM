@@ -123,5 +123,6 @@ body, html {
 #DataMorte {
     font-family: "Georgia", serif;
     font-size: 9vw;
+    top: 9vw;
     -webkit-transform: rotate(-90deg);
 }
