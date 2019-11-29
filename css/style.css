@@ -4,6 +4,7 @@
     --branco:white;
     --preto:black;
 }
+
 body, html {
     padding: 0;
     margin: 0;
@@ -78,7 +79,7 @@ body, html {
     height:100vh;
 }
 
-.capa h1{
+.capa h1 {
     font-size: 5vw;
     margin-top: 45vh;
     text-align: center;
@@ -87,9 +88,10 @@ body, html {
     color: white;
     font-family:"Georgia", serif;
 }
-.capa h2{
-    position:sticky;
-    left:0;
+
+.capa h2 {
+    position: sticky;
+    left: 0;
     text-align: center;
     margin-left: 50vw;
     transform: translateX(-50%);
@@ -97,3 +99,10 @@ body, html {
     font-family:"Georgia", serif;
 }
 
+/* PÁGINAS*/
+
+#DataMorte {
+    font-family: "Georgia", serif;
+    font-size: 9vw;
+    -webkit-transform: rotate(-90deg);
+}
