@@ -55,21 +55,40 @@ body, html {
     text-align: justify;
 }
 
-.ocupa-2 {grid-column: span 2;}
-.ocupa-3 {grid-column: span 3;}
-.ocupa-4 {grid-column: span 4;}
-.ocupa-5 {grid-column: span 5;}
-.ocupa-6 {grid-column: span 6;}
-.ocupa-7 {grid-column: span 7;}
-.ocupa-8 {grid-column: span 8;}
-.ocupa-9 {grid-column: span 9;}
-.ocupa-10 {grid-column: span 10;}
-.ocupa-11 {grid-column: span 11;}
-.ocupa-12 {grid-column: span 12;}
-.ocupa-13 {grid-column: span 13;}
-.ocupa-14 {grid-column: span 14;}
-.ocupa-15 {grid-column: span 15;}
-.ocupa-16 {grid-column: span 16;}
+/*Colunas*/
+
+.ocupa-2-coluna {grid-column: span 2;}
+.ocupa-3-coluna {grid-column: span 3;}
+.ocupa-4-coluna {grid-column: span 4;}
+.ocupa-5-coluna {grid-column: span 5;}
+.ocupa-6-coluna {grid-column: span 6;}
+.ocupa-7-coluna {grid-column: span 7;}
+.ocupa-8-coluna {grid-column: span 8;}
+.ocupa-9-coluna {grid-column: span 9;}
+.ocupa-10-coluna {grid-column: span 10;}
+.ocupa-11-coluna {grid-column: span 11;}
+.ocupa-12-coluna {grid-column: span 12;}
+.ocupa-13-coluna {grid-column: span 13;}
+.ocupa-14-coluna {grid-column: span 14;}
+.ocupa-15-coluna {grid-column: span 15;}
+.ocupa-16-coluna {grid-column: span 16;}
+
+/*Linhas*/
+.ocupa-2-linha {grid-row: span 2;}
+.ocupa-3-linha {grid-row: span 3;}
+.ocupa-4-linha {grid-row: span 4;}
+.ocupa-5-linha {grid-row: span 5;}
+.ocupa-6-linha {grid-row: span 6;}
+.ocupa-7-linha {grid-row: span 7;}
+.ocupa-8-linha {grid-row: span 8;}
+.ocupa-9-linha {grid-row: span 9;}
+.ocupa-10-linha {grid-row: span 10;}
+.ocupa-11-linha {grid-row: span 11;}
+.ocupa-12-linha {grid-row: span 12;}
+.ocupa-13-linha {grid-row: span 13;}
+.ocupa-14-linha {grid-row: span 14;}
+.ocupa-15-linha {grid-row: span 15;}
+.ocupa-16-linha {grid-row: span 16;}
 
 
 /* CAPA */
