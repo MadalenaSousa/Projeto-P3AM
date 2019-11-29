@@ -1,12 +1,40 @@
-:root {
-    --branco: white;
-    --preto: black;
+/* GERAL */
+
+:root{
+    --branco:white;
+    --preto:black;
 }
 
 body, html {
     padding: 0;
     margin: 0;
 }
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    margin-top:0;
+    width:5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: white;
+    margin-right: 5px;
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
+
 
 /* GRELHA */
 
@@ -16,25 +44,49 @@ body, html {
 
 .wrapper {
     display: grid;
-    grid-gap: 30px;
     grid-auto-flow: column;
+
     grid-auto-columns: calc(100vw / 20);
     grid-auto-rows: calc(100vh / 20);
+    grid-gap: calc(100vw / 75);
+
+    font-family: "Georgia", serif;
+    font-size: 16pt;
+    text-align: justify;
 }
 
-.capa {
-    background-color: black;
-    height: 98.1vh;
+.ocupa-2 {grid-column: span 2;}
+.ocupa-3 {grid-column: span 3;}
+.ocupa-4 {grid-column: span 4;}
+.ocupa-5 {grid-column: span 5;}
+.ocupa-6 {grid-column: span 6;}
+.ocupa-7 {grid-column: span 7;}
+.ocupa-8 {grid-column: span 8;}
+.ocupa-9 {grid-column: span 9;}
+.ocupa-10 {grid-column: span 10;}
+.ocupa-11 {grid-column: span 11;}
+.ocupa-12 {grid-column: span 12;}
+.ocupa-13 {grid-column: span 13;}
+.ocupa-14 {grid-column: span 14;}
+.ocupa-15 {grid-column: span 15;}
+.ocupa-16 {grid-column: span 16;}
+
+
+/* CAPA */
+
+.capa{
+    background-color:black;
+    height:100vh;
 }
 
 .capa h1 {
     font-size: 5vw;
-    margin-top: 49vh;
+    margin-top: 45vh;
     text-align: center;
     margin-left: 50vw;
     transform: translateX(-50%);
     color: white;
-    font-family: "Georgia", serif;
+    font-family:"Georgia", serif;
 }
 
 .capa h2 {
@@ -43,74 +95,14 @@ body, html {
     text-align: center;
     margin-left: 50vw;
     transform: translateX(-50%);
-    color: var(--branco);
-    font-family: "Georgia", serif;
-
+    color: white;
+    font-family:"Georgia", serif;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 5px;
-
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: black;
-    margin-top: 0;
-    width: 5px;
-
-}
-
-::-webkit-scrollbar-track-piece {
-    background: white;
-    margin-right: 5px;
-    width: 2px;
-
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: black;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: grey;
-}
-
-.TextoLivro {
-
-    width: 30%;
-    margin-top: 7vw;
-    float: left;
-
-}
-
-.ImgLadoTexto {
-    position: relative;
-    float: left;
-    display: inline-block;
-    margin-top: 7vw;
-
-}
+/* PÁGINAS*/
 
 #DataMorte {
-    margin-top: 12vw;
-    margin-left: -8vw;
-    display: inline-block;
     font-family: "Georgia", serif;
     font-size: 9vw;
     -webkit-transform: rotate(-90deg);
-
 }
-
-#imgCarta {
-    position: relative;
-    top: -10vw;
-    margin-left: 10vw;
-
-}
-
-
-
