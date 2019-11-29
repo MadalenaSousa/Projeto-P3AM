@@ -51,6 +51,7 @@ body, html {
 
     font-family: "Georgia", serif;
     font-size: 16pt;
+    text-align: justify;
 }
 
 .ocupa-2 {grid-column: span 2;}
@@ -79,7 +80,7 @@ body, html {
 
 .capa h1{
     font-size: 5vw;
-    margin-top: 49vh;
+    margin-top: 45vh;
     text-align: center;
     margin-left: 50vw;
     transform: translateX(-50%);
@@ -94,6 +95,5 @@ body, html {
     transform: translateX(-50%);
     color: white;
     font-family:"Georgia", serif;
-
 }
 
