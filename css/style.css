@@ -90,6 +90,33 @@ body, html {
 .ocupa-15-linha {grid-row: span 15;}
 .ocupa-16-linha {grid-row: span 16;}
 
+/* NAVEGAÇÃO */
+
+nav {
+    position: fixed;
+    bottom: 5vh;
+    margin-left: 50vw;
+    transform: translateX(-50%);
+    cursor: pointer;
+
+    color: red;
+}
+
+nav > div {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#paginas div {
+    display: inline-block;
+}
+
+#paginas > div > div {
+    width: 20px;
+}
+
+
+
 
 /* CAPA */
 
