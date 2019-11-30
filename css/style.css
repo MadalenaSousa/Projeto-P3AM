@@ -102,21 +102,24 @@ nav {
     color: red;
 }
 
-nav > div {
+nav div {
     display: inline-block;
+    text-decoration: line-through;
     margin-left: 20px;
 }
 
-#paginas div {
+nav .botao-mostrar {
+    margin-left: 0;
+}
+
+nav .itens {
+    display: none;
+    margin-left: 0;
+}
+
+nav .itens.show {
     display: inline-block;
 }
-
-#paginas > div > div {
-    width: 20px;
-}
-
-
-
 
 /* CAPA */
 

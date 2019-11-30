@@ -1,4 +1,4 @@
-var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+var w = window.innerWidth;
 
 document.getElementById("home").addEventListener("click", function () {
     window.scroll({
@@ -7,12 +7,12 @@ document.getElementById("home").addEventListener("click", function () {
         behavior: "smooth"});
 });
 
-document.getElementById("paginas").addEventListener("click", function () {
-    console.log("clique");
-    document.querySelector("#paginas > div").classList.toggle("show");
+document.querySelector(".botao-mostrar").addEventListener("click", function () {
+    document.querySelector(".itens").classList.toggle("show");
 });
 
 document.getElementById("1").addEventListener("click", function () {
+
     window.scroll({
         left: w,
         top: 0,
@@ -20,6 +20,7 @@ document.getElementById("1").addEventListener("click", function () {
 });
 
 document.getElementById("2").addEventListener("click", function () {
+
     window.scroll({
         left: w * 2,
         top: 0,
@@ -27,6 +28,9 @@ document.getElementById("2").addEventListener("click", function () {
 });
 
 document.getElementById("3").addEventListener("click", function () {
+    console.log(w);
+    console.log(w*3);
+
     window.scroll({
         left: w * 3,
         top: 0,
