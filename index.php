@@ -117,13 +117,13 @@
             <h1>Eu amo-te Nadia!</h1>
         </div>
         <div class="diario wrapper" style="grid-row: span 10; grid-column: 7 / span 10">
-            <img style="grid-column: span 5; grid-row: span 5" src="imagens/fotos/checkov-family.jpg" alt="">
-            <div style="grid-column: span 5">
+            <div style="grid-column: span 5; grid-row: 7">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
-        </div>
-        <div style="grid-row: 1">
-            <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
+            <img style="grid-column: 4 / span 3; grid-row: span 5" src="imagens/fotos/checkov-family.jpg" alt="">
+            <div style="grid-row: 1; grid-column: 8 / span 2">
+                <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
+            </div>
         </div>
     </div>
 
@@ -141,14 +141,15 @@
             </div>
             Nadenka rapidamente criou o hábito de ouvir esta frase, como se cria o hábito do álcool ou da morfina. Não pode viver sem ela. É verdade que escorregar pelo monte de gelo continua a meter-lhe medo, mas agora o medo e o perigo dão um fascínio especial a estas palavras de amor, palavras que continuam a ser um mistério e um tormento para a alma. Os suspeitos continuam a ser os mesmos: eu e o vento… Não sabe qual dos dois lhe segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue a ficar embriagada.
         </div>
-        <div class="diario" style="grid-column: 7 / span 3">
-            <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 10;">
+            <div style="grid-column: span 3; grid-row: 1">
+                <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
+            </div>
+            <img style="grid-column: 4 / span 3; grid-row: 1;  position: relative; top: -200px" src="imagens/fotos/publicidade-1.jpg" alt="">
+            <div style="grid-column: 4 / span 5; grid-row: 5">
+                <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
+            </div>
         </div>
-        <img style="grid-column: 10 / span 3" src="imagens/fotos/publicidade-1.jpg" alt="">
-        <div style="grid-column: 10 / span 5">
-            <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
-        </div>
-
     </div>
 
     <!-- Página 7 -->
