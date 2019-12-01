@@ -117,7 +117,7 @@
             <h1>Eu amo-te Nadia!</h1>
         </div>
         <div class="diario wrapper" style="grid-row: span 10; grid-column: 7 / span 10">
-            <div style="grid-column: span 5; grid-row: 7">
+            <div style="grid-column: span 5; grid-row: 6">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
             <img style="grid-column: 4 / span 3; grid-row: span 5" src="imagens/fotos/checkov-family.jpg" alt="">
