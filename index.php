@@ -71,7 +71,7 @@
 
     <!-- Página 4 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
-        <div style="grid-column: 1 / span 5">
+        <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
             Ela pega-me pelo braço e passeamos demoradamente pelo sopé do monte. O mistério, aparentemente, não a deixa em paz. Foram ou não proferidas aquelas palavras? Sim ou não? Sim ou não? É uma questão de orgulho, honra, vida, felicidade, uma questão muito importante,- a questão mais importante do mundo.
             <br><br>
             Nadenka olha para mim de um modo penetrante, impaciente, responde a despropósito, está à espera que eu fale. Oh, que jogo de emoções naquela doce cara, que jogo! Vejo que luta consigo própria, que tem necessidade de falar, de dizer alguma coisa, de perguntar, mas não encontra as palavras, sente-se envergonhada, aterrorizada, bloqueada pela felicidade…
@@ -83,18 +83,23 @@
             — E se fossemos… escorregar mais uma vez?
             <br><br>
             Subimos ao monte de gelo por uma escada. Novamente, sento a pálida e trémula Nadenka no trenó, novamente voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais vertiginoso e atroador da descida, digo a meia voz:
-            <br><br>
-            — Eu amo-te Nadenka!
+            <h1>Eu amo-te Nadenka! </h1>
         </div>
-        <div class="diario" style="grid-column: 1 / span 4; grid-row: 10 / span 7">
-            <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: span 20;  position: relative; top: -250px;">
+            <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
+                <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
+            </div>
+            <img style="grid-column: 6 / span 3;" src="imagens/fotos/checkov-wife-2.jpg" alt="">
+            <div style="grid-column: 1 / span 6; grid-row: 9;">
+                <?php include('imagens/texto-diario/texto-1-pag-4.svg'); ?>
+            </div>
+            <img style="grid-row: 12; grid-column: 5 / span 4;" src="imagens/fotos/checkov-wife.jpg" alt="">
         </div>
-        <img style="grid-column: 8 / span 5" src="imagens/fotos/checkov-wife.jpg" alt="">
     </div>
 
     <!-- Página 5 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
-        <div class="ocupa-5-coluna">
+        <div style="grid-row: 1 / span 10; grid-column: 1 / span 5">
             Quando o trenó parou, Nadenka olhou para o monte que acabou de descer, depois examina a minha cara demoradamente, escuta a minha voz indiferente e impassível, e toda ela, todinha, até ao regalo e ao capucho, exprimem uma perplexidade extrema. Está-lhe escrito no rosto: “O que se está a passar? Quem disse disse aquelas palavras? Foi mesmo ele ou pareceu-me?” Esta incerteza enerva-a, faz com que ela perca a paciência.
             <br><br>
             A pobre rapariga não responde às minhas questões, com o sobrolho carregado, prestes a chorar.
@@ -109,33 +114,43 @@
             <br><br>
             Descemos pela terceira vez, e vejo como ela olha para a minha cara, estuda o movimento dos meus lábios. Mas eu aperto um lenço contra os meus lábios, tusso e, chegados a meio do monte, acabo por dizer:
             <br><br>
-            — Eu amo-te Nadia!
+            <h1>Eu amo-te Nadia!</h1>
         </div>
-        <div class="diario">
-            <?php include('imagens/ilustracoes/evolucao.svg'); ?>
+        <div class="diario wrapper" style="grid-row: span 10; grid-column: 7 / span 10">
+            <img style="grid-column: span 5; grid-row: span 5" src="imagens/fotos/checkov-family.jpg" alt="">
+            <div style="grid-column: span 5">
+                <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
+            </div>
         </div>
-        <img src="imagens/fotos/checkov-family.jpg" alt="">
+        <div style="grid-row: 1">
+            <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
+        </div>
     </div>
 
     <!-- Página 6 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
-        <div class="ocupa-5-coluna">
+        <div style="grid-row: span 15; grid-column: 1 / span 5;">
             E o mistério continua um mistério!
             <br><br>
             Nadenka está calada, pensativa… Acompanho-a a casa,
             ela tenta ir mais devagar, abranda o passo, sempre à espera que eu diga aquelas palavras. E vejo como a alma dela sofre, o esforço que faz para não dizer: “Não é possível que tenha sido o vento! Também não quero que tenha sido o vento!”
             <br><br>
             No dia seguinte, de manhã, recebo um bilhete: “Se hoje fores ao monte de gelo, vem buscar-me. N.” Desde então, vou todos os dias com a Nadenka ao monte de gelo e ao voarmos a pique de trenó, digo sempre, a meia voz, as mesmas palavras:
-            <br><br>
-            — Amo-te Nadia!
-            <br><br>
+            <div>
+                <h1>Amo-te Nadia!</h1>
+            </div>
             Nadenka rapidamente criou o hábito de ouvir esta frase, como se cria o hábito do álcool ou da morfina. Não pode viver sem ela. É verdade que escorregar pelo monte de gelo continua a meter-lhe medo, mas agora o medo e o perigo dão um fascínio especial a estas palavras de amor, palavras que continuam a ser um mistério e um tormento para a alma. Os suspeitos continuam a ser os mesmos: eu e o vento… Não sabe qual dos dois lhe segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue a ficar embriagada.
         </div>
-        <div class="diario">
-            <?php include('imagens/ilustracoes/cigarro.svg'); ?>
+        <div class="diario" style="grid-column: 7 / span 3">
+            <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
         </div>
-        <img src="imagens/fotos/publicidade-1.jpg" alt="">
+        <img style="grid-column: 10 / span 3" src="imagens/fotos/publicidade-1.jpg" alt="">
+        <div style="grid-column: 10 / span 5">
+            <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
+        </div>
+
     </div>
+
     <!-- Página 7 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
 
@@ -302,7 +317,7 @@
 
         </div>
 
-        <img style="grid-column:9;grid-row: 7/ 16" src="imagens/fotos/logo.png">
+        <img style="grid-column:9;grid-row: 7/ 16" src="imagens/fotos/logo.png" alt="">
     </div>
 </main>
 
