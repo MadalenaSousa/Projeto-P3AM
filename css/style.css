@@ -244,6 +244,7 @@ nav .itens.show {
 
 #carta {
     margin-top: -10vw;
+    margin-left: -40vw;
 }
 
 #Aborrecmento {
@@ -251,8 +252,11 @@ nav .itens.show {
     font-weight: bold;
 
 }
-#montanhas{
-    height: 20vw;
+
+#TextCimaCheckov {
+    margin-top: -10vw;
 }
+
+
 
 
