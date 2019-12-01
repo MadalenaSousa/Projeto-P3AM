@@ -87,7 +87,7 @@
             — Eu amo-te Nadenka!
         </div>
         <div class="diario" style="grid-column: 1 / span 4; grid-row: 10 / span 7">
-            <?php include('imagens/svg/rapariga-medo-texto.html'); ?>
+            <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
         </div>
         <img style="grid-column: 8 / span 5" src="imagens/fotos/checkov-wife.jpg" alt="">
     </div>
@@ -112,7 +112,7 @@
             — Eu amo-te Nadia!
         </div>
         <div class="diario">
-            <?php include('imagens/svg/evolucao.html'); ?>
+            <?php include('imagens/ilustracoes/evolucao.svg'); ?>
         </div>
         <img src="imagens/fotos/checkov-family.jpg" alt="">
     </div>
@@ -132,7 +132,7 @@
             Nadenka rapidamente criou o hábito de ouvir esta frase, como se cria o hábito do álcool ou da morfina. Não pode viver sem ela. É verdade que escorregar pelo monte de gelo continua a meter-lhe medo, mas agora o medo e o perigo dão um fascínio especial a estas palavras de amor, palavras que continuam a ser um mistério e um tormento para a alma. Os suspeitos continuam a ser os mesmos: eu e o vento… Não sabe qual dos dois lhe segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue a ficar embriagada.
         </div>
         <div class="diario">
-            <?php include('imagens/svg/cigarro.html'); ?>
+            <?php include('imagens/ilustracoes/cigarro.svg'); ?>
         </div>
         <img src="imagens/fotos/publicidade-1.jpg" alt="">
     </div>
@@ -168,16 +168,18 @@
 
         <div class="ocupa-11-coluna" style="grid-row: 1/ 16">
             <div style="grid-row: 1/ 16">
-                <img src="imagens/fotos/PaisagenVsPessoas.jpg">
+                <img src="imagens/fotos/PaisagenVsPessoas.jpg" alt="">
             </div>
-            <div style="grid-row: 10/ 16">
-                <img id="montanhas" src="imagens/ilustracoes/montanhas.svg">
-                <img style="background-color:rgba(253, 249, 234, 1)" src="imagens/texto-diario/texto-1-pag-7.svg">
+            <div style="grid-row: 10/ 13">
+                <?php include('imagens/ilustracoes/montanhas.svg'); ?>
+            </div>
+            <div class="diario" style="13 / 16">
+                <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
             </div>
         </div>
         <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
-            <img id="carta" src="imagens/fotos/carta.jpg">
-            <img src="imagens/texto-diario/texto-2-pag-7.svg">
+            <img id="carta" src="imagens/fotos/carta.jpg" alt="">
+            <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
     </div>
 
@@ -215,13 +217,14 @@
 
 
         <div class="ocupa-7-coluna" style="grid-column:6">
-            <img id="DataMorte" src="imagens/fotos/1904.svg">
+            <?php include('imagens/fotos/1904.svg'); ?>
         </div>
 
-        <img style="grid-column:11/ span 4;z-index:auto" src="imagens/fotos/pensador.jpg">
-        <img style="grid-column:8/ span 6;z-index:3;background-color:rgba(253, 249, 234, 1)"
-             src="imagens/texto-diario/texto-2-pag-8.svg">
+        <img style="grid-column:11/ span 4; z-index: -1" src="imagens/fotos/pensador.jpg" alt="">
 
+        <div class="diario" style="grid-column: 8 / span 6; grid-row: 4 / span 4">
+            <?php include('imagens/texto-diario/texto-2-pag-8.svg'); ?>
+        </div>
     </div>
 
     <!-- Página 9 -->
@@ -244,40 +247,35 @@
         </div>
 
         <div class="ocupa-5-coluna" style="grid-row: 2/ 16">
-            <img src="imagens/ilustracoes/tabuleiro-xadrez.svg">
+            <?php include('imagens/ilustracoes/tabuleiro-xadrez.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
-            <img src="imagens/ilustracoes/xadrez-peca-2.svg">
-
+            <?php include('imagens/ilustracoes/xadrez-peca-2.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 6/ 16">
-            <img src="imagens/ilustracoes/xadrez-peca-4.svg">
-
+            <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 9/ 16">
-            <img src="imagens/ilustracoes/xadrez-peca-1.svg">
+            <?php include('imagens/ilustracoes/xadrez-peca-1.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 3/ 16">
-            <img src="imagens/ilustracoes/xadrez-peca-3.svg">
+            <?php include('imagens/ilustracoes/xadrez-peca-3.svg'); ?>
         </div>
 
         <div class="ocupa-1-coluna" style="grid-row: 7/ 16">
-            <img src="imagens/ilustracoes/xadrez-peca-4.svg">
+            <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
-            <img src="imagens/ilustracoes/xadrez-peca-5.svg">
-
+            <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 10/ 16;color:white">
-            <img src="imagens/ilustracoes/xadrez-peca-5.svg">
-
+            <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
-
     </div>
 
     <!-- CONTRACAPA -->
     <div class="ocupa-16-coluna capa" style="grid-row: 1 / span 30">
-        <div class="ocupa-5-coluna" style="grid-column:4/ span 5;">
+        <div class="ocupa-5-coluna" style="grid-column:4 / span 5;">
 
             <div class="textoContraCapa" style="background-color:rgba(253, 249, 234, 1)" >
                 <br><br><br><br><br>
@@ -285,12 +283,17 @@
                 <a class="negrito">Título</a>: A Brincadeira<br><br>
                 <a class="negrito">Autor</a>: Anton Checkov<br><br>
                 <a class="negrito">Edição Gráfica</a>:
-                <br>Ana Sofia Vicente<br>
+                <br>
+                Ana Sofia Vicente<br>
                 Madalena Sousa<br>
-                Rita Marques<br><br>
-                <a class="negrito">Docentes:</a> <br>Pedro Martins<br>
+                Rita Marques<br>
+                <br>
+                <a class="negrito">Docentes:</a>
+                <br>
+                Pedro Martins<br>
                 Ana Boavida<br>
-                Luís Pereira<br><br>
+                Luís Pereira<br>
+                <br>
                 <a class="negrito">Projeto 3 - Aplicações Multimédia</a><br><br>
                 <a class="negrito"> Faculdade de Ciências e Tecnologias</a><br><br>
                 <a class="negrito">Universidade de Coimbra</a><br><br>
