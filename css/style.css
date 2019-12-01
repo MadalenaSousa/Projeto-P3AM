@@ -3,11 +3,18 @@
 :root {
     --branco: white;
     --preto: black;
+    --bege: #FDF9EA;
 }
 
 body, html {
     padding: 0;
     margin: 0;
+    min-height: 100%;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Scroll Bar */
@@ -51,6 +58,10 @@ body, html {
     font-family: "Georgia", serif;
     font-size: 14pt;
     text-align: justify;
+}
+
+.sub-wrapper {
+    grid-row: 8 / span 20;
 }
 
 /*Colunas*/
@@ -212,12 +223,12 @@ nav .itens.show {
 
 .capa {
     background-color: black;
-    height: 100vh;
+    height: 100%;
 }
 
 .capa h1 {
     font-size: 5vw;
-    margin-top: 45vh;
+    margin-top: 75vh;
     text-align: center;
     margin-left: 50vw;
     transform: translateX(-50%);
@@ -237,9 +248,25 @@ nav .itens.show {
 
 /* PÁGINAS*/
 
+/*Diário*/
+
+.diario {
+    background-color: var(--bege);
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #DataMorte {
     height: 40vw;
+    font-family: "Georgia", serif;
+    font-size: 18vw;
+    margin-top: 30vw;
+    margin-left: 3vw;
+    -webkit-transform: rotate(-90deg);
+}
 
+#pensador {
+    margin-left: 18vw;
 }
 
 #carta {
@@ -250,7 +277,6 @@ nav .itens.show {
 #Aborrecmento {
     font-size: 180px;
     font-weight: bold;
-
 }
 
 .textoContraCapa {
@@ -258,7 +284,6 @@ nav .itens.show {
     font-size: 20px;
     color: black;
     padding: 30px;
-
 }
 
 .textoContraCapa>.negrito{
