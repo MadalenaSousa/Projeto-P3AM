@@ -44,7 +44,6 @@ body, html {
 .wrapper {
     display: grid;
     grid-auto-flow: column;
-
     grid-auto-columns: calc(100vw / 20);
     grid-auto-rows: calc(100vh / 20);
     grid-gap: calc(100vw / 75);
@@ -225,8 +224,7 @@ body, html {
 #Aborrecmento{
     font-size: 180px;
     font-weight: bold;
-    margin-top: 40vw;
-    margin-left:-30vw ;
+
 
 }
 
