@@ -253,10 +253,16 @@ nav .itens.show {
 
 }
 
-#TextCimaCheckov {
-    margin-top: -10vw;
+.textoContraCapa {
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+
 }
 
-
+.textoContraCapa>.negrito{
+    font-weight: bold;
+}
 
 

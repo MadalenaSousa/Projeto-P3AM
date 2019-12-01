@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>A Brincadeira | Anton Checkov</title>
@@ -174,7 +174,7 @@
             </div>
             <div style="grid-row: 10/ 16">
                 <img id="montanhas" src="imagens/ilustracoes/montanhas.svg">
-                <img src="imagens/texto-diario/texto-1-pag-7.svg">
+                <img style="background-color:rgba(253, 249, 234, 1)" src="imagens/texto-diario/texto-1-pag-7.svg">
             </div>
         </div>
         <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
@@ -216,16 +216,13 @@
         </div>
 
 
-        <div class="ocupa-5-coluna">
+        <div class="ocupa-7-coluna" style="grid-column:6">
             <img id="DataMorte" src="imagens/fotos/1904.svg">
         </div>
 
-
-        <div class="ocupa-6-coluna">
-            <!--img id="TextCimaCheckov" src="imagens/texto-diario/texto-1-pag-8.svg"-->
-            <img src="imagens/fotos/pensador.jpg">
-            <img src="imagens/texto-diario/texto-2-pag-8.svg">
-        </div>
+        <img style="grid-column:11/ span 4;z-index:auto" src="imagens/fotos/pensador.jpg">
+        <img style="grid-column:8/ span 6;z-index:3;background-color:rgba(253, 249, 234, 1)"
+             src="imagens/texto-diario/texto-2-pag-8.svg">
 
 
     </div>
@@ -274,13 +271,43 @@
             <img src="imagens/ilustracoes/xadrez-peca-5.svg">
 
         </div>
+        <div class="ocupa-1-coluna" style="grid-row: 10/ 16;color:white">
+            <img src="imagens/ilustracoes/xadrez-peca-5.svg">
+
+        </div>
 
     </div>
 
     <!-- CONTRACAPA -->
     <div class="ocupa-16-coluna wrapper capa">
 
+
+        <div class="ocupa-5-coluna" style="grid-column:4/ span 5;">
+
+            <div class="textoContraCapa"style="background-color:rgba(253, 249, 234, 1)" >
+                <br><br><br><br><br>
+
+                <a class="negrito">Título</a>: A Brincadeira<br><br>
+                <a class="negrito">Autor</a>: Anton Checkov<br><br>
+                <a class="negrito">Edição Gráfica</a>:
+                <br>Ana Sofia Vicente<br>
+                Madalena Sousa<br>
+                Rita Marques<br><br>
+                    <a class="negrito">Docentes:</a> <br>Pedro Martins<br>
+                Ana Boavida<br>
+                Luís Pereira<br><br>
+                        <a class="negrito">Projeto 3 - Aplicações Multimédia</a><br><br>
+                <a class="negrito"> Faculdade de Ciências e Tecnologias</a><br><br>
+                <a class="negrito">Universidade de Coimbra</a><br><br>
+
+            </div>
+
+        </div>
+
+        <img style="grid-column:9;grid-row: 7/ 16" src="imagens/fotos/logo.png">
     </div>
+
+
 </main>
 
 <footer>
