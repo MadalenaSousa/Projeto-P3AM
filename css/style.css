@@ -3,11 +3,18 @@
 :root {
     --branco: white;
     --preto: black;
+    --bege: #FDF9EA;
 }
 
 body, html {
     padding: 0;
     margin: 0;
+    min-height: 100%;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Scroll Bar */
@@ -53,69 +60,133 @@ body, html {
     text-align: justify;
 }
 
+.sub-wrapper {
+    grid-row: 8 / span 20;
+}
+
 /*Colunas*/
 
-.ocupa-2-coluna { grid-column: span 2; }
+.ocupa-2-coluna {
+    grid-column: span 2;
+}
 
-.ocupa-3-coluna { grid-column: span 3; }
+.ocupa-3-coluna {
+    grid-column: span 3;
+}
 
-.ocupa-4-coluna { grid-column: span 4; }
+.ocupa-4-coluna {
+    grid-column: span 4;
+}
 
-.ocupa-5-coluna { grid-column: span 5; }
+.ocupa-5-coluna {
+    grid-column: span 5;
+}
 
-.ocupa-6-coluna { grid-column: span 6; }
+.ocupa-6-coluna {
+    grid-column: span 6;
+}
 
-.ocupa-7-coluna { grid-column: span 7; }
+.ocupa-7-coluna {
+    grid-column: span 7;
+}
 
-.ocupa-8-coluna { grid-column: span 8; }
+.ocupa-8-coluna {
+    grid-column: span 8;
+}
 
-.ocupa-9-coluna { grid-column: span 9; }
+.ocupa-9-coluna {
+    grid-column: span 9;
+}
 
-.ocupa-10-coluna { grid-column: span 10; }
+.ocupa-10-coluna {
+    grid-column: span 10;
+}
 
-.ocupa-11-coluna { grid-column: span 11; }
+.ocupa-11-coluna {
+    grid-column: span 11;
+}
 
-.ocupa-12-coluna { grid-column: span 12; }
+.ocupa-12-coluna {
+    grid-column: span 12;
+}
 
-.ocupa-13-coluna { grid-column: span 13; }
+.ocupa-13-coluna {
+    grid-column: span 13;
+}
 
-.ocupa-14-coluna { grid-column: span 14; }
+.ocupa-14-coluna {
+    grid-column: span 14;
+}
 
-.ocupa-15-coluna { grid-column: span 15; }
+.ocupa-15-coluna {
+    grid-column: span 15;
+}
 
-.ocupa-16-coluna { grid-column: span 16; }
+.ocupa-16-coluna {
+    grid-column: span 16;
+}
 
 /*Linhas*/
 
-.ocupa-2-linha { grid-row: span 2; }
+.ocupa-2-linha {
+    grid-row: span 2;
+}
 
-.ocupa-3-linha { grid-row: span 3; }
+.ocupa-3-linha {
+    grid-row: span 3;
+}
 
-.ocupa-4-linha { grid-row: span 4; }
+.ocupa-4-linha {
+    grid-row: span 4;
+}
 
-.ocupa-5-linha { grid-row: span 5; }
+.ocupa-5-linha {
+    grid-row: span 5;
+}
 
-.ocupa-6-linha { grid-row: span 6; }
+.ocupa-6-linha {
+    grid-row: span 6;
+}
 
-.ocupa-7-linha { grid-row: span 7; }
+.ocupa-7-linha {
+    grid-row: span 7;
+}
 
-.ocupa-8-linha { grid-row: span 8; }
+.ocupa-8-linha {
+    grid-row: span 8;
+}
 
-.ocupa-9-linha { grid-row: span 9; }
+.ocupa-9-linha {
+    grid-row: span 9;
+}
 
-.ocupa-10-linha { grid-row: span 10; }
+.ocupa-10-linha {
+    grid-row: span 10;
+}
 
-.ocupa-11-linha { grid-row: span 11; }
+.ocupa-11-linha {
+    grid-row: span 11;
+}
 
-.ocupa-12-linha { grid-row: span 12; }
+.ocupa-12-linha {
+    grid-row: span 12;
+}
 
-.ocupa-13-linha { grid-row: span 13; }
+.ocupa-13-linha {
+    grid-row: span 13;
+}
 
-.ocupa-14-linha { grid-row: span 14; }
+.ocupa-14-linha {
+    grid-row: span 14;
+}
 
-.ocupa-15-linha { grid-row: span 15; }
+.ocupa-15-linha {
+    grid-row: span 15;
+}
 
-.ocupa-16-linha { grid-row: span 16; }
+.ocupa-16-linha {
+    grid-row: span 16;
+}
 
 /* NAVEGAÇÃO */
 
@@ -152,12 +223,12 @@ nav .itens.show {
 
 .capa {
     background-color: black;
-    height: 100vh;
+    height: 100%;
 }
 
 .capa h1 {
     font-size: 5vw;
-    margin-top: 45vh;
+    margin-top: 75vh;
     text-align: center;
     margin-left: 50vw;
     transform: translateX(-50%);
@@ -177,7 +248,16 @@ nav .itens.show {
 
 /* PÁGINAS*/
 
+/*Diário*/
+
+.diario {
+    background-color: var(--bege);
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #DataMorte {
+    height: 40vw;
     font-family: "Georgia", serif;
     font-size: 18vw;
     margin-top: 30vw;
@@ -186,19 +266,28 @@ nav .itens.show {
 }
 
 #pensador {
-
     margin-left: 18vw;
 }
 
 #carta {
-    margin-top: -15vw;
-    margin-left: 10vw;
+    margin-top: -10vw;
+    margin-left: -40vw;
 }
-#Aborrecmento{
+
+#Aborrecmento {
     font-size: 180px;
     font-weight: bold;
+}
 
+.textoContraCapa {
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+}
 
+.textoContraCapa>.negrito{
+    font-weight: bold;
 }
 
 
