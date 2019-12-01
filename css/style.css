@@ -67,7 +67,7 @@ body, html {
 
 .ocupa-7-coluna { grid-column: span 7; }
 
-.ocupa-8-coluna { -column: span 8; }
+.ocupa-8-coluna { grid-column: span 8; }
 
 .ocupa-9-coluna { grid-column: span 9; }
 
@@ -95,9 +95,7 @@ body, html {
 
 .ocupa-5-linha { grid-row: span 5; }
 
-.ocupa-6-linha {
-    grid-row: span 6;
-}
+.ocupa-6-linha { grid-row: span 6; }
 
 .ocupa-7-linha { grid-row: span 7; }
 
