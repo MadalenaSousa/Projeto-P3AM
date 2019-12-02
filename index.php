@@ -310,6 +310,10 @@
             vento, alegre, feliz, tão bonita.
             <br><br>
             Eu vou fazer as malas…
+
+        </div>
+        <div style="grid-column: 2 / span 5; grid-row: 18 / span 18">
+            <?php include('imagens/ilustracoes/checkov-pensador.svg'); ?>
         </div>
 
 
@@ -319,9 +323,17 @@
 
         <img style="grid-column:13/ span 4; z-index: -1" src="imagens/fotos/pensador.jpg" alt="">
 
-        <div class="diario" style="grid-column: 8 / span 6; grid-row: 5 / span 4">
+
+        <div class="diario" style="grid-column: 9/ span 6; grid-row: 5 / span 4">
             <?php include('imagens/texto-diario/texto-2-pag-8.svg'); ?>
         </div>
+
+
+        <div class="diario" style="grid-column: 12 / span 6; grid-row: 10 / span 4">
+            <?php include('imagens/texto-diario/texto-1-pag-8.svg'); ?>
+        </div>
+
+
     </div>
 
     <!-- Página 9 -->
@@ -367,15 +379,26 @@
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 10/ 16;color:white">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
-        </div>*"
+        </div>
+
     </div>
 
     <!-- CONTRACAPA -->
-    <div class="ocupa-16-coluna capa" style="grid-row: 1 / span 30">
-        <div class="ocupa-5-coluna" style="grid-column:4 / span 5;">
+    <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1 / span 30 ">
 
-            <div class="textoContraCapa" style="background-color:rgba(253, 249, 234, 1)">
-                <br><br><br><br><br>
+
+        <div class="ocupa-1-coluna" style="grid-row: 11/ 16; stroke: white;">
+            <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
+        </div>
+
+        <div class="ocupa-1-coluna" style="grid-row: 19/ 16;stroke:white">
+            <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
+        </div>
+
+        <div class="ocupa-5-coluna" style="grid-row: 7/30;">
+            <div class="textoContraCapa" style="background-color:black;  ">
+                <img class="ocupa-4-coluna" src="imagens/fotos/chekhovinteiro.jpg" alt="">
+                <br><br>
 
                 <a class="negrito">Título</a>: A Brincadeira<br><br>
                 <a class="negrito">Autor</a>: Anton Checkov<br><br>
@@ -395,11 +418,12 @@
                 <a class="negrito"> Faculdade de Ciências e Tecnologias</a><br><br>
                 <a class="negrito">Universidade de Coimbra</a><br><br>
 
+
             </div>
 
+            <img style="grid-column:span 6;grid-row: 19/30" src="imagens/fotos/logo.png" alt="">
         </div>
 
-        <img style="grid-column:9;grid-row: 7/ 16" src="imagens/fotos/logo.png" alt="">
     </div>
 </main>
 
