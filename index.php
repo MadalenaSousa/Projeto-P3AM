@@ -31,8 +31,20 @@
                 <br><br>
                 Mais tarde, Anton casou com Olga, uma atriz Russa.
                 Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
+            </div>
+            <div class="pagina1_nota1">
+                <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
+            </div>
+            <div class="pagina1_nota2">
+                <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
+            </div>
+            <div class="russia">
+                <?php include('imagens/ilustracoes/russia.svg'); ?>
+            </div>
+            <div class="noticio_dec_80 ocupa-4-coluna">
+                <img src="imagens/jornal/jornal-decadade80.png" height="1324" width="557" alt=""/>
+            </div>
         </div>
-    </div>
 
     <!-- Página 2 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
@@ -47,7 +59,15 @@
             — Suplico-te! — digo eu. — Não tenhas medo! Isso é fraqueza, covardice.
 
             Finalmente a Nadenka concorda, consigo ver na cara dela que quando ela o faz, ela teme pela sua vida. Sento-a no trenó, pálida e trémula, envolvo-a com um braço e lanço-me com ela no abismo.
-
+        </div>
+        <div class="pagina2_nota1">
+            <?php include('imagens/ilustracoes/pagina2_nota1.svg'); ?>
+        </div>
+        <div class="pagina2_nota2">
+            <?php include('imagens/ilustracoes/pagina2_nota2.svg'); ?>
+        </div>
+        <div class="pagina2_nota3">
+            <?php include('imagens/ilustracoes/pagina2_nota3.svg'); ?>
         </div>
     </div>
 
@@ -65,8 +85,17 @@
             Não volto a descer por nada deste mundo. — diz ela, arregalando para mim uns olhos aterrorizados.— Por nada deste mundo. Por pouco não morri!
 
             Pouco depois, recomposta, olha-me nos olhos com dúvida: será que fui eu que disse aquelas palavras ou foi iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar cuidadosamente a minha luva.
-
         </div>
+        <div class="pagina3_nota1">
+            <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
+        </div>
+        <div class="pagina3_nota2_alexandre">
+            <?php include('imagens/ilustracoes/pagina3_nota2_alexandre.svg'); ?>
+        </div>
+        <div class="pagina3_nota3">
+            <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
+        </div>
+        <div class="foto_alexandreIII"></div>
     </div>
 
     <!-- Página 4 -->
