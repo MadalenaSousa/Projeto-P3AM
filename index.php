@@ -116,7 +116,7 @@
         <div style="grid-column: 1 / span 20; grid-row: 11">
             <h1>Eu amo-te Nadenka! </h1>
         </div>
-        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 1 / span 15; z-index: -1; position: relative; top: -250px;">
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; position: relative; top: -250px;">
             <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
@@ -151,7 +151,7 @@
             <div style="grid-column: span 5; grid-row: 6">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
-            <img style="grid-column: 2 / span 4; grid-row: span 5; position: relative; top: -100px;" src="imagens/fotos/checkov-family.jpg" alt="">
+            <img style="grid-column: 1 / span 5; grid-row: span 5; position: relative; top: -200px;" src="imagens/fotos/checkov-family.jpg" alt="">
             <div style="grid-row: 1; grid-column: 6 / span 2">
                 <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
             </div>
@@ -172,13 +172,13 @@
             </div>
             Nadenka rapidamente criou o hábito de ouvir esta frase, como se cria o hábito do álcool ou da morfina. Não pode viver sem ela. É verdade que escorregar pelo monte de gelo continua a meter-lhe medo, mas agora o medo e o perigo dão um fascínio especial a estas palavras de amor, palavras que continuam a ser um mistério e um tormento para a alma. Os suspeitos continuam a ser os mesmos: eu e o vento… Não sabe qual dos dois lhe segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue a ficar embriagada.
         </div>
-        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 12; z-index: -3;">
-            <div style="grid-column: span 3; grid-row: 1">
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 20; z-index: -3;">
+            <div style="grid-column: 1 / span 4; grid-row: 1">
                 <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
             </div>
-            <img style="grid-column: 4 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px" src="imagens/fotos/publicidade-1.jpg" alt="">
+            <img style="grid-column: 6 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px" src="imagens/fotos/publicidade-1.jpg" alt="">
             <img style="grid-column: 5 / span 5; grid-row: 1;" src="imagens/fotos/publicidade-2.jpg" alt="">
-            <div style="grid-column: 4 / span 5; grid-row: 8">
+            <div style="grid-column: 3 / span 6; grid-row: 11">
                 <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
             </div>
         </div>
