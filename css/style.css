@@ -299,6 +299,10 @@ nav .itens.show {
     stroke-dashoffset: 45;
     animation: 1s off-zero infinite linear forwards;
 }
+#fotoSociedadeVpaisagem{
+    margin-top: -20vw;
+    margin-left: -50vw;
+}
 
 @keyframes off-zero {
     to {

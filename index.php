@@ -271,10 +271,16 @@
                 <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
             </div>
         </div>
+        <div class="ocupa-6-coluna">
+            <img src="imagens/fotos/PaisagemVsSociedade2.jpg">
+        </div>
 
         <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
             <img id="carta" src="imagens/fotos/carta.jpg" alt="">
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
+        </div>
+        <div class="ocupa-4-coluna " id="fotoSociedadeVpaisagem" style="grid-row: 1/ 16;z-index: -1">
+            <img src="imagens/fotos/PaisagemVsSociedade3.jpg">
         </div>
 
 
@@ -384,20 +390,21 @@
     </div>
 
     <!-- CONTRACAPA -->
-    <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1 / span 30 ">
+    <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 30 ">
 
 
-        <div class="ocupa-1-coluna" style="grid-row: 11/ 16; stroke: white;">
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16; stroke: white;">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
 
-        <div class="ocupa-1-coluna" style="grid-row: 19/ 16;stroke:white">
+        <div class="ocupa-1-coluna" style="grid-row: 15/ span 16;stroke:white">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
+        <img class="ocupa-5-coluna" src="imagens/fotos/chekhovinteiro.jpg" alt="" style="grid-row: 12/30;">
 
-        <div class="ocupa-5-coluna" style="grid-row: 7/30;">
+        <div class="ocupa-5-coluna" style="grid-row: 8/30;">
             <div class="textoContraCapa" style="background-color:black;  ">
-                <img class="ocupa-4-coluna" src="imagens/fotos/chekhovinteiro.jpg" alt="">
+
                 <br><br>
 
                 <a class="negrito">Título</a>: A Brincadeira<br><br>
@@ -417,11 +424,16 @@
                 <a class="negrito">Projeto 3 - Aplicações Multimédia</a><br><br>
                 <a class="negrito"> Faculdade de Ciências e Tecnologias</a><br><br>
                 <a class="negrito">Universidade de Coimbra</a><br><br>
-
+                <img class="ocupa-3-coluna" style="grid-row: 2/30" src="imagens/fotos/logo.png" alt="">
 
             </div>
 
-            <img style="grid-column:span 6;grid-row: 19/30" src="imagens/fotos/logo.png" alt="">
+        </div>
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16;stroke: white">
+            <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
+        </div>
+        <div class="ocupa-1-coluna" style="grid-row: 16/ span 16;stroke: white">
+            <?php include('imagens/ilustracoes/xadrez-peca-1.svg'); ?>
         </div>
 
     </div>
