@@ -32,17 +32,21 @@
                 Mais tarde, Anton casou com Olga, uma atriz Russa.
                 Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
             </div>
-            <div class="pagina1_nota1">
+            <div class="pagina1_nota1 diario" style=" grid-column:6/ span 5; grid-row:1/span 10; position:relative; top:-20vw;">
                 <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
             </div>
-            <div class="pagina1_nota2">
-                <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
-            </div>
-            <div class="russia">
+
+            <div class="russia diario" style="grid-column:14/ span 5; grid-row:1/ span 5; position:relative; top: -25vw;">
                 <?php include('imagens/ilustracoes/russia.svg'); ?>
             </div>
-            <div class="noticio_dec_80 ocupa-4-coluna">
-                <img src="imagens/jornal/jornal-decadade80.png" height="1324" width="557" alt=""/>
+            <div class="noticio_dec_80" style="grid-column:7/span 4; grid-row:1/ span 8; position:relative; top: 5vw;">
+                <img src="imagens/jornal/jornal-decadade80.png" alt=""/>
+            </div>
+            <div class="pagina1_nota2 diario" style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top: 10vw; z-index: 2">
+                <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
+            </div>
+            <div style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -25vw;">
+                <h1>1860</h1>
             </div>
         </div>
 
@@ -60,14 +64,20 @@
 
             Finalmente a Nadenka concorda, consigo ver na cara dela que quando ela o faz, ela teme pela sua vida. Sento-a no trenó, pálida e trémula, envolvo-a com um braço e lanço-me com ela no abismo.
         </div>
-        <div class="pagina2_nota1">
+        <div class="pagina2_nota1 diario" style="grid-column:9/ span 5; grid-row:1/ span 5; position:relative; top: -15vw;">
             <?php include('imagens/ilustracoes/pagina2_nota1.svg'); ?>
         </div>
-        <div class="pagina2_nota2">
+        <div class="pagina2_nota2 diario" style="grid-column:6/ span 5; grid-row:1/ span 12; position:relative;">
             <?php include('imagens/ilustracoes/pagina2_nota2.svg'); ?>
         </div>
-        <div class="pagina2_nota3">
+        <div class="pagina2_nota3 diario" style="grid-column:9/ span 7; grid-row:1/ span 5; position:relative; top:40vw;">
             <?php include('imagens/ilustracoes/pagina2_nota3.svg'); ?>
+        </div>
+        <div style="grid-column:14/span 3; grid-row:1/ span 8; position:relative; top: -25vw;">
+            <img src="imagens/jornal/jornal-conturbacaopolitica.png" alt=""/>
+        </div>
+        <div style="grid-column:7/ span 6; grid-row:1/ span 5; position:relative; top: 25vw; transform: rotate(90deg);">
+            <h1>1905</h1>
         </div>
     </div>
 
@@ -78,7 +88,7 @@
 
             Os objetos à volta do trenó fundem-se numa faixa comprida, desfocada, a correr loucamente… Mais um minuto e morremos, parece!
 
-            — Amo-te Nádia! — digo a meia voz.
+            <h1>— Amo-te Nádia! — </h1>digo a meia voz.
 
             Agora o trenó já desliza mais devagar, cada vez mais devagar, o rugido do vento e o zumbir dos patins já são menos assustadores, já conseguimos respirar, e finalmente, estamos no fundo. Nadenka está mais morta do que viva. Pálida, quase não respira… Ajudo-a a levantar-se.
 
@@ -86,16 +96,21 @@
 
             Pouco depois, recomposta, olha-me nos olhos com dúvida: será que fui eu que disse aquelas palavras ou foi iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar cuidadosamente a minha luva.
         </div>
-        <div class="pagina3_nota1">
+        <div class="pagina3_nota1 diario" style="grid-column:8/ span 7; grid-row:1/ span 5; position:relative; top: -10vw;" >
             <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
         </div>
-        <div class="pagina3_nota2_alexandre">
+        <div class="pagina3_nota2_alexandre diario" style="grid-column:6/ span 9; grid-row:1/ span 9; position:relative; background:transparent; box-shadow:none;" >
             <?php include('imagens/ilustracoes/pagina3_nota2_alexandre.svg'); ?>
         </div>
-        <div class="pagina3_nota3">
+        <div class="pagina3_nota3 diario" style="grid-column:6/ span 9; grid-row:1/ span 7; position:relative; top: 80vw;" >
             <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
         </div>
-        <div class="foto_alexandreIII"></div>
+        <div style="grid-column:8/ span 3; grid-row:1/ span 5; position:relative; top: 53vw;left:2vw;" >
+            <img src="imagens/jornal/jornal-tuberculose.png" alt=""/>
+        </div>
+        <div style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative;top:0.5vw;left: -3vw; box-shadow: transparent; z-index:-4;" >
+            <img src="imagens/fotos/Alexandre.jpg" alt="" style="box-shadow: none; border-radius: 50%;"/>
+        </div>
     </div>
 
     <!-- Página 4 -->
