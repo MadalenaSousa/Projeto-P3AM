@@ -112,15 +112,17 @@
             — E se fossemos… escorregar mais uma vez?
             <br><br>
             Subimos ao monte de gelo por uma escada. Novamente, sento a pálida e trémula Nadenka no trenó, novamente voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais vertiginoso e atroador da descida, digo a meia voz:
+        </div>
+        <div style="grid-column: 1 / span 20; grid-row: 11">
             <h1>Eu amo-te Nadenka! </h1>
         </div>
-        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: span 15;  position: relative; top: -250px;">
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 1 / span 15; z-index: -1; position: relative; top: -250px;">
             <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
             <img style="grid-column: 5 / span 4; grid-row: 1; position: relative; top: -150px;" src="imagens/fotos/checkov-wife.jpg" alt="">
             <img style="grid-column: 7 / span 3; grid-row: 2; z-index: 3" src="imagens/fotos/checkov-wife-2.jpg" alt="">
-            <div style="grid-column: 1 / span 6; grid-row: 10;">
+            <div style="grid-column: 1 / span 6; grid-row: 9;">
                 <?php include('imagens/texto-diario/texto-1-pag-4.svg'); ?>
             </div>
         </div>

@@ -56,8 +56,8 @@ img {
     grid-auto-rows: calc(100vh / 20);
     grid-gap: calc(100vw / 75);
     font-family: "Georgia", serif;
-    font-size: 14pt;
-    text-align: justify;
+    font-size: 18pt;
+    text-align: left;
 }
 
 .sub-wrapper {
@@ -192,12 +192,18 @@ img {
 
 nav {
     position: fixed;
-    bottom: 5vh;
+    bottom: 3vh;
     margin-left: 50vw;
     transform: translateX(-50%);
     cursor: pointer;
+    font-size: 18pt;
+    opacity: 0;
 
-    color: red;
+    color: grey;
+}
+
+nav:hover {
+    opacity: 1;
 }
 
 nav div {
@@ -256,6 +262,13 @@ nav .itens.show {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*Text Corrido*/
+
+.sub-wrapper div:nth-child(2) h1 {
+    font-size: 100pt;
+    margin: 0;
+}
+
 #DataMorte {
     height: 40vw;
     font-family: "Georgia", serif;
@@ -290,4 +303,14 @@ nav .itens.show {
     font-weight: bold;
 }
 
+#teste {
+    stroke-dasharray: 45;
+    stroke-dashoffset: 45;
+    animation: 1s off-zero infinite linear forwards;
+}
 
+@keyframes off-zero {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
