@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<audio id="playAudio" autoplay loop>
+    <source src="som/bg-music.mp3" type="audio/mp3">
+    <source src="som/bg-music.ogg" type="audio/ogg">
+</audio>
 <main class="wrapper">
     <!-- CAPA -->
     <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 30">
@@ -13,38 +17,38 @@
         <h2> Anton Checkov </h2>
     </div>
 
-        <!-- Página 1 -->
-        <div class="ocupa-16-coluna wrapper sub-wrapper">
-            <div class="ocupa-5-coluna">
-                Anton Chekhov, nasceu em 29 de Janeiro de 1860. Foi o
-                terceiro de seis filhos e teve uma educação rígida e religiosa,
-                que lhe deixou marcas psicológicas até ao resto da sua vida,
-                que por vezes se encontram camufladas nas suas obras.
-                <br><br>
-                Chekhov estudou medicina em Moscovo, cidade para onde se
-                mudou em pequeno devido ao facto de o seu pai ser
-                conflituoso na sua terra natal — este sofria de problemas de
-                alcoolismo. Desde cedo que teve contribuir monetariamente
-                para a sobrevivência dos seus irmãos e da sua mãe, devido a
-                essa necessidade, começou a escrever contos para jornais.
-                que por vezes se encontram camufladas nas suas obras.
-                <br><br>
-                Mais tarde, Anton casou com Olga, uma atriz Russa.
-                Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
-            </div>
-            <div class="pagina1_nota1">
-                <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
-            </div>
-            <div class="pagina1_nota2">
-                <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
-            </div>
-            <div class="russia">
-                <?php include('imagens/ilustracoes/russia.svg'); ?>
-            </div>
-            <div class="noticio_dec_80 ocupa-4-coluna">
-                <img src="imagens/jornal/jornal-decadade80.png" height="1324" width="557" alt=""/>
-            </div>
+    <!-- Página 1 -->
+    <div class="ocupa-16-coluna wrapper sub-wrapper">
+        <div class="ocupa-5-coluna">
+            Anton Chekhov, nasceu em 29 de Janeiro de 1860. Foi o
+            terceiro de seis filhos e teve uma educação rígida e religiosa,
+            que lhe deixou marcas psicológicas até ao resto da sua vida,
+            que por vezes se encontram camufladas nas suas obras.
+            <br><br>
+            Chekhov estudou medicina em Moscovo, cidade para onde se
+            mudou em pequeno devido ao facto de o seu pai ser
+            conflituoso na sua terra natal — este sofria de problemas de
+            alcoolismo. Desde cedo que teve contribuir monetariamente
+            para a sobrevivência dos seus irmãos e da sua mãe, devido a
+            essa necessidade, começou a escrever contos para jornais.
+            que por vezes se encontram camufladas nas suas obras.
+            <br><br>
+            Mais tarde, Anton casou com Olga, uma atriz Russa.
+            Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
         </div>
+        <div class="pagina1_nota1">
+            <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
+        </div>
+        <div class="pagina1_nota2">
+            <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
+        </div>
+        <div class="russia">
+            <?php include('imagens/ilustracoes/russia.svg'); ?>
+        </div>
+        <div class="noticio_dec_80 ocupa-4-coluna">
+            <img src="imagens/jornal/jornal-decadade80.png" height="1324" width="557" alt=""/>
+        </div>
+    </div>
 
     <!-- Página 2 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
@@ -113,9 +117,10 @@
             <br><br>
             Subimos ao monte de gelo por uma escada. Novamente, sento a pálida e trémula Nadenka no trenó, novamente voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais vertiginoso e atroador da descida, digo a meia voz:
         </div>
-        <div style="grid-column: 1 / span 20; grid-row: 11">
+        <div style="grid-column: 1 / span 10; grid-row: 12">
             <h1>Eu amo-te Nadenka! </h1>
         </div>
+        <img width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -500px;" src="imagens/fotos/montanha-neve.jpg" alt="">
         <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; position: relative; top: -250px;">
             <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
@@ -125,6 +130,12 @@
             <div style="grid-column: 1 / span 6; grid-row: 9;">
                 <?php include('imagens/texto-diario/texto-1-pag-4.svg'); ?>
             </div>
+            <div style="grid-column: 6 / span 2; grid-row: 12;)">
+                <?php include('imagens/ilustracoes/seta.svg'); ?>
+            </div>
+            <video style="grid-column: 3 / span 6; grid-row: 17; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
+                <source src="video/dança.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 
