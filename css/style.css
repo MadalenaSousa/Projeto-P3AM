@@ -56,8 +56,8 @@ img {
     grid-auto-rows: calc(100vh / 20);
     grid-gap: calc(100vw / 75);
     font-family: "Georgia", serif;
-    font-size: 14pt;
-    text-align: justify;
+    font-size: 18pt;
+    text-align: left;
 }
 
 .sub-wrapper {
@@ -290,4 +290,14 @@ nav .itens.show {
     font-weight: bold;
 }
 
+#teste {
+    stroke-dasharray: 45;
+    stroke-dashoffset: 45;
+    animation: 1s off-zero infinite linear forwards;
+}
 
+@keyframes off-zero {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
