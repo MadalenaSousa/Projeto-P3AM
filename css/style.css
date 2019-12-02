@@ -192,12 +192,18 @@ img {
 
 nav {
     position: fixed;
-    bottom: 5vh;
+    bottom: 3vh;
     margin-left: 50vw;
     transform: translateX(-50%);
     cursor: pointer;
+    font-size: 18pt;
+    opacity: 0;
 
-    color: red;
+    color: grey;
+}
+
+nav:hover {
+    opacity: 1;
 }
 
 nav div {
@@ -254,6 +260,13 @@ nav .itens.show {
     background-color: var(--bege);
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Text Corrido*/
+
+.sub-wrapper div:nth-child(2) h1 {
+    font-size: 100pt;
+    margin: 0;
 }
 
 #DataMorte {
