@@ -356,7 +356,7 @@
             jogo...
         </div>
 
-        <div class="ocupa-5-coluna" style="grid-row: 11/ span 5">
+        <div class="ocupa-5-coluna" style="grid-row: 11/ span 5;" >
 
             <h1 id="Aborrecmento">Aborrecimento</h1>
         </div>
@@ -383,27 +383,31 @@
         <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 10/ 16">
+        <div class="ocupa-1-coluna" style="grid-row: 10/ 16;">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
 
     </div>
 
     <!-- CONTRACAPA -->
-    <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 30 ">
+    <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 30;z-index: -1">
 
 
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
+        <div class="ocupa-6-coluna" style="grid-row: 11/ span 16;z-index:0">
+            <img src="imagens/fotos/chekhovinteiro.jpg" alt="" style="grid-row: 12/30;position: relative; left: -80px ">
+
+        </div>
+        <div class="ocupa-1-coluna" style="grid-row: 10/30">
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-5.svg'); ?>
+        </div>
+
+        <div class="ocupa-1-coluna" style="grid-row: 15/30">
             <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
 
-        <div class="ocupa-1-coluna" style="grid-row: 15/ span 16">
-            <?php include('imagens/ilustracoes/xadrez-peca-nranca-5.svg'); ?>
-        </div>
-        <img class="ocupa-5-coluna" src="imagens/fotos/chekhovinteiro.jpg" alt="" style="grid-row: 12/30;">
 
-        <div class="ocupa-5-coluna" style="grid-row: 8/30;">
-            <div class="textoContraCapa" style="background-color:black;  ">
+        <div class="ocupa-5-coluna" style="grid-row: 7/30; ">
+            <div class="textoContraCapa " style="background-color:black;  ">
 
                 <br><br>
 
