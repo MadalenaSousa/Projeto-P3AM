@@ -429,7 +429,7 @@
             </div>
 
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16;stroke: white">
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16; fill: white;stroke-width:0">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 16/ span 16;stroke: white">
