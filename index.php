@@ -383,7 +383,7 @@
         <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 10/ 16;color:white">
+        <div class="ocupa-1-coluna" style="grid-row: 10/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
 
@@ -393,12 +393,12 @@
     <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 30 ">
 
 
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16; stroke: white;">
-            <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
 
-        <div class="ocupa-1-coluna" style="grid-row: 15/ span 16;stroke:white">
-            <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
+        <div class="ocupa-1-coluna" style="grid-row: 15/ span 16">
+            <?php include('imagens/ilustracoes/xadrez-peca-nranca-5.svg'); ?>
         </div>
         <img class="ocupa-5-coluna" src="imagens/fotos/chekhovinteiro.jpg" alt="" style="grid-row: 12/30;">
 
@@ -429,11 +429,11 @@
             </div>
 
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16; fill: white;stroke-width:0">
-            <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 16/ span 16;stroke: white">
-            <?php include('imagens/ilustracoes/xadrez-peca-1.svg'); ?>
+        <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
         </div>
 
     </div>
