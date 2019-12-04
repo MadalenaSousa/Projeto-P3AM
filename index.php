@@ -8,9 +8,17 @@
 <body>
 <main class="wrapper">
     <!-- CAPA -->
-    <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 30">
-        <h1> A BRINCADEIRA </h1>
+    <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 30;">
+        <div style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top:-25vw;  z-index: 2">
+        <h1 > A BRINCADEIRA </h1>
         <h2> Anton Checkov </h2>
+        </div>
+        <div style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative; box-shadow: transparent;top:-50vw;" >
+            <img  class="imagemcapa" src="imagens/fotos/Alexandre.jpg" alt="" style="box-shadow: none; border-radius: 50%;"/>
+        </div>
+        <img class="imagemcapa" style="grid-column: 5 / span 4; grid-row: 1; position: relative; top:-50vw;" src="imagens/fotos/checkov-wife.jpg" alt="">
+        <img class="imagemcapa" style="grid-column: 7 / span 3; grid-row: 2; z-index: 3;position: relative; top:-70vw;" src="imagens/fotos/checkov-wife-2.jpg" alt="">
+        <img class="imagemcapa" style="grid-column: 11/ span 4; grid-row: 1 /span 5; position: relative; top: -100vw;left:125vh" src="imagens/fotos/checkov-family.jpg" alt="">
     </div>
 
         <!-- Página 1 -->
@@ -108,7 +116,7 @@
         <div style="grid-column:8/ span 3; grid-row:1/ span 5; position:relative; top: 53vw;left:2vw;" >
             <img src="imagens/jornal/jornal-tuberculose.png" alt=""/>
         </div>
-        <div style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative;top:0.5vw;left: -3vw; box-shadow: transparent; z-index:-4;" >
+        <div  class= "imagemcapa" style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative;top:0.5vw;left: -3vw; box-shadow: transparent; " >
             <img src="imagens/fotos/Alexandre.jpg" alt="" style="box-shadow: none; border-radius: 50%;"/>
         </div>
     </div>
