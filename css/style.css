@@ -269,13 +269,11 @@ nav .itens.show {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: -3;
 }
-h1{
-    font-size:20vw;
-}
+
 /*Text Corrido*/
 
 .sub-wrapper div:nth-child(2) h1 {
-    font-size: 4em;
+    font-size: 4rem;
     margin: 0;
 }
 
@@ -323,4 +321,9 @@ h1{
     to {
         stroke-dashoffset: 0;
     }
+}
+
+.data h1 {
+    font-size: 20vw;
+    margin: 0;
 }

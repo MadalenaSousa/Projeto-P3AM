@@ -13,7 +13,7 @@
 <main class="wrapper">
     <!-- CAPA -->
     <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 30;">
-        <div style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top:-25vw;  z-index: 2">
+        <div style=" grid-column:11/ span 5; grid-row: 10/ span 3;  z-index: 2">
         <h1 > A BRINCADEIRA </h1>
         <h2> Anton Checkov </h2>
         </div>
@@ -57,22 +57,19 @@
             <div class="pagina1_nota2 diario" style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top: 10vw; z-index: 2">
                 <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
             </div>
-            <div style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -25vw;">
+            <div class="data" style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -25vw;">
                 <h1>1860</h1>
             </div>
  
-        <div class="pagina1_nota1">
-            <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
-        </div>
-        <div class="pagina1_nota2">
-            <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
-        </div>
-        <div class="russia">
-            <?php include('imagens/ilustracoes/russia.svg'); ?>
-        </div>
-        <div class="noticio_dec_80 ocupa-4-coluna">
-            <img src="imagens/jornal/jornal-decadade80.png" height="1324" width="557" alt=""/>
-        </div>
+            <div class="pagina1_nota1">
+                <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
+            </div>
+            <div class="pagina1_nota2">
+                <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
+            </div>
+            <div class="russia">
+                <?php include('imagens/ilustracoes/russia.svg'); ?>
+            </div>
     </div>
 
     <!-- Página 2 -->
@@ -101,7 +98,7 @@
         <div style="grid-column:14/span 3; grid-row:1/ span 8; position:relative; top: -25vw;">
             <img src="imagens/jornal/jornal-conturbacaopolitica.png" alt=""/>
         </div>
-        <div style="grid-column:7/ span 6; grid-row:1/ span 5; position:relative; top: 25vw; transform: rotate(90deg);">
+        <div class="data" style="grid-column:7/ span 6; grid-row:1/ span 5; position:relative; top: 25vw; transform: rotate(90deg);">
             <h1>1905</h1>
         </div>
     </div>
@@ -113,7 +110,7 @@
 
             Os objetos à volta do trenó fundem-se numa faixa comprida, desfocada, a correr loucamente… Mais um minuto e morremos, parece!
 
-            <h1>— Amo-te Nádia! — </h1>digo a meia voz.
+            <h1>— Amo-te Nádia! — </h1> digo a meia voz.
 
             Agora o trenó já desliza mais devagar, cada vez mais devagar, o rugido do vento e o zumbir dos patins já são menos assustadores, já conseguimos respirar, e finalmente, estamos no fundo. Nadenka está mais morta do que viva. Pálida, quase não respira… Ajudo-a a levantar-se.
 
