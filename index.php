@@ -310,7 +310,7 @@
                 <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
             </div>
         </div>
-        <div class="ocupa-6-coluna">
+        <div class="ocupa-4-coluna">
             <img src="imagens/fotos/PaisagemVsSociedade2.jpg" alt="">
         </div>
 
@@ -346,7 +346,7 @@
             Então,
             fico a espera que o vento sopre para dizer a meia voz:
             <br><br>
-            — Amo-te Nadia!
+           <h1>— Amo-te Nadia!</h1>
             <br><br>
             O que acontece com Nadenka, meu Deus! Solta um grito, abre-se num sorriso amplo e estende as mãos ao
             encontro do
@@ -355,7 +355,7 @@
             Eu vou fazer as malas…
 
         </div>
-        <div style="grid-column: 2 / span 5; grid-row: 14 / span 7; width: 100%;">
+        <div style="grid-column: 4 / span 5; grid-row: 14 / span 10; width: 100%;">
             <?php include('imagens/ilustracoes/checkov-pensador.svg'); ?>
         </div>
 
@@ -367,12 +367,12 @@
         <img style="grid-column:13/ span 4; z-index: -1" src="imagens/fotos/pensador.jpg" alt="">
 
 
-        <div class="diario" style="grid-column: 9/ span 6; grid-row: 5 / span 4">
+        <div class="diario" style="grid-column: 9/ span 6;z-index: 1; grid-row: 5 / span 4">
             <?php include('imagens/texto-diario/texto-2-pag-8.svg'); ?>
         </div>
 
 
-        <div class="diario" style="grid-column: 12 / span 6; grid-row: 10 / span 4">
+        <div class="diario" style="grid-column: 11 / span 6; grid-row: 10 / span 4;z-index: 1">
             <?php include('imagens/texto-diario/texto-1-pag-8.svg'); ?>
         </div>
 
