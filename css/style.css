@@ -63,7 +63,7 @@ img {
     grid-auto-rows: calc(100vh / 20);
     grid-gap: calc(100vw / 75);
     font-family: "Georgia", serif;
-    font-size: 18pt;
+    font-size: 1.5rem;
     text-align: left;
 }
 
@@ -275,7 +275,7 @@ h1{
 /*Text Corrido*/
 
 .sub-wrapper div:nth-child(2) h1 {
-    font-size: 100pt;
+    font-size: 4em;
     margin: 0;
 }
 
@@ -313,10 +313,10 @@ h1{
     font-weight: bold;
 }
 
-#teste {
+#texto path {
     stroke-dasharray: 45;
     stroke-dashoffset: 45;
-    animation: 1s off-zero infinite linear forwards;
+    animation: 5s off-zero infinite linear forwards;
 }
 
 @keyframes off-zero {
@@ -324,4 +324,3 @@ h1{
         stroke-dashoffset: 0;
     }
 }
-

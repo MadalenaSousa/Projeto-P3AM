@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<audio id="playAudio" autoplay loop>
+    <source src="som/bg-music.mp3" type="audio/mp3">
+    <source src="som/bg-music.ogg" type="audio/ogg">
+</audio>
 <main class="wrapper">
     <!-- CAPA -->
     <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 30;">
@@ -56,7 +60,20 @@
             <div style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -25vw;">
                 <h1>1860</h1>
             </div>
+ 
+        <div class="pagina1_nota1">
+            <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
         </div>
+        <div class="pagina1_nota2">
+            <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
+        </div>
+        <div class="russia">
+            <?php include('imagens/ilustracoes/russia.svg'); ?>
+        </div>
+        <div class="noticio_dec_80 ocupa-4-coluna">
+            <img src="imagens/jornal/jornal-decadade80.png" height="1324" width="557" alt=""/>
+        </div>
+    </div>
 
     <!-- Página 2 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
@@ -136,10 +153,11 @@
             <br><br>
             Subimos ao monte de gelo por uma escada. Novamente, sento a pálida e trémula Nadenka no trenó, novamente voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais vertiginoso e atroador da descida, digo a meia voz:
         </div>
-        <div style="grid-column: 1 / span 20; grid-row: 11">
+        <div style="grid-column: 1 / span 10; grid-row: 12">
             <h1>Eu amo-te Nadenka! </h1>
         </div>
-        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 1 / span 15; z-index: -1; position: relative; top: -250px;">
+        <img width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -500px;" src="imagens/fotos/montanha-neve.jpg" alt="">
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; position: relative; top: -250px;">
             <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
@@ -148,6 +166,12 @@
             <div style="grid-column: 1 / span 6; grid-row: 9;">
                 <?php include('imagens/texto-diario/texto-1-pag-4.svg'); ?>
             </div>
+            <div style="grid-column: 6 / span 2; grid-row: 12;)">
+                <?php include('imagens/ilustracoes/seta.svg'); ?>
+            </div>
+            <video style="grid-column: 3 / span 6; grid-row: 17; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
+                <source src="video/dança.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 
@@ -174,7 +198,7 @@
             <div style="grid-column: span 5; grid-row: 6">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
-            <img style="grid-column: 2 / span 4; grid-row: span 5; position: relative; top: -100px;" src="imagens/fotos/checkov-family.jpg" alt="">
+            <img style="grid-column: 1 / span 5; grid-row: span 5; position: relative; top: -200px;" src="imagens/fotos/checkov-family.jpg" alt="">
             <div style="grid-row: 1; grid-column: 6 / span 2">
                 <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
             </div>
@@ -195,13 +219,13 @@
             </div>
             Nadenka rapidamente criou o hábito de ouvir esta frase, como se cria o hábito do álcool ou da morfina. Não pode viver sem ela. É verdade que escorregar pelo monte de gelo continua a meter-lhe medo, mas agora o medo e o perigo dão um fascínio especial a estas palavras de amor, palavras que continuam a ser um mistério e um tormento para a alma. Os suspeitos continuam a ser os mesmos: eu e o vento… Não sabe qual dos dois lhe segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue a ficar embriagada.
         </div>
-        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 12; z-index: -3;">
-            <div style="grid-column: span 3; grid-row: 1">
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
+            <div style="grid-column: 1 / span 4; grid-row: 1">
                 <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
             </div>
-            <img style="grid-column: 4 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px" src="imagens/fotos/publicidade-1.jpg" alt="">
+            <img style="grid-column: 6 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px" src="imagens/fotos/publicidade-1.jpg" alt="">
             <img style="grid-column: 5 / span 5; grid-row: 1;" src="imagens/fotos/publicidade-2.jpg" alt="">
-            <div style="grid-column: 4 / span 5; grid-row: 8">
+            <div style="grid-column: 3 / span 6; grid-row: 9">
                 <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
             </div>
         </div>
@@ -244,16 +268,15 @@
             <div style="grid-row: 10/ 13">
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
             </div>
-            <div class="diario" style="13 / 16">
-                <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
-            </div>
+        </div>
+        <div class="diario ocupa-3-coluna" style="grid-row: 13 / span 2">
+            <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
         </div>
         <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
             <img id="carta" src="imagens/fotos/carta.jpg" alt="">
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
     </div>
-
 
     <!-- Página 8 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
@@ -287,7 +310,7 @@
         </div>
 
 
-        <div class="ocupa-7-coluna" style="grid-column:6">
+        <div style="grid-column: 6 / span 5;">
             <?php include('imagens/fotos/1904.svg'); ?>
         </div>
 
