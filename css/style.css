@@ -71,7 +71,7 @@ img {
     grid-auto-rows: calc(100vh / 20);
     grid-gap: calc(100vw / 75);
     font-family: "Georgia", serif;
-    font-size: 18pt;
+    font-size: 1.5rem;
     text-align: left;
 }
 
@@ -277,23 +277,12 @@ nav .itens.show {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: -3;
 }
-h1{
-    font-size:20vw;
-}
+
 /*Text Corrido*/
 
 .sub-wrapper div:nth-child(2) h1 {
-    font-size: 100pt;
+    font-size: 4rem;
     margin: 0;
-}
-
-#DataMorte {
-    height: 40vw;
-    font-family: "Georgia", serif;
-    font-size: 18vw;
-    margin-top: 30vw;
-    margin-left: 3vw;
-    -webkit-transform: rotate(-90deg);
 }
 
 #pensador {
@@ -313,7 +302,7 @@ h1{
 .textoContraCapa {
     font-family: "Georgia", serif;
     font-size: 20px;
-    color: black;
+    color: white;
     padding: 30px;
 }
 
@@ -321,10 +310,14 @@ h1{
     font-weight: bold;
 }
 
-#teste {
+#texto path {
     stroke-dasharray: 45;
     stroke-dashoffset: 45;
-    animation: 1s off-zero infinite linear forwards;
+    animation: 5s off-zero infinite linear forwards;
+}
+#fotoSociedadeVpaisagem{
+    margin-top: -20vw;
+    margin-left: -50vw;
 }
 
 @keyframes off-zero {
@@ -333,3 +326,7 @@ h1{
     }
 }
 
+.data h1 {
+    font-size: 20vw;
+    margin: 0;
+}
