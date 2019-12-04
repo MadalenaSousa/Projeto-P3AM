@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"> </script>
-
 </head>
 <body>
 <audio id="playAudio" autoplay loop>
@@ -30,7 +29,7 @@
 
         <!-- Página 1 -->
         <div class="ocupa-16-coluna wrapper sub-wrapper">
-            <div class="ocupa-5-coluna">
+            <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
                 Anton Chekhov, nasceu em 29 de Janeiro de 1860. Foi o
                 terceiro de seis filhos e teve uma educação rígida e religiosa,
                 que lhe deixou marcas psicológicas até ao resto da sua vida,
@@ -77,7 +76,7 @@
 
     <!-- Página 2 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
-        <div class="ocupa-5-coluna">
+        <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
             Um meio-dia luminoso de Inverno… Um frio, de rachar, e a Nadenka, de braço dado comigo, cobrem-se-lhe os
             caracolinhos das têmporas e a penugem do buço com uma
             geada de prata. Estamos numa colina alta. Dos nossos pés até lá baixo estende-se um declive liso em que o
@@ -115,7 +114,7 @@
 
     <!-- Página 3 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
-        <div class="ocupa-5-coluna">
+        <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
             O trenó voa como uma bala. O ar que cortamos chicoteia-nos o rosto, rosna, assobia aos ouvidos, belisca de
             raiva, quer-nos arrancar a cabeça dos ombros. A força do vento não nos deixa respirar. Parece que o próprio
             diabo nos abraça com as suas garras e, com um rugido, nos arrasta para o inferno.
@@ -136,20 +135,20 @@
             iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar
             cuidadosamente a minha luva.
         </div>
-        <div class="pagina3_nota1 diario" style="grid-column:8/ span 7; grid-row:1/ span 5; position:relative; top: -10vw;" >
+        <div class="diario" style="grid-column:8/ span 7; grid-row: 1 / span 5; position:relative; top: -10vw;" >
             <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
         </div>
-        <div class="pagina3_nota2_alexandre diario" style="grid-column:6/ span 9; grid-row:1/ span 9; position:relative; background:transparent; box-shadow:none;" >
+        <div class="diario" style="grid-column:6/ span 9; grid-row: 1 / span 9; position:relative; background:transparent; box-shadow:none;" >
             <?php include('imagens/ilustracoes/pagina3_nota2_alexandre.svg'); ?>
         </div>
-        <div class="pagina3_nota3 diario" style="grid-column:6/ span 9; grid-row:1/ span 7; position:relative; top: 80vw;" >
+        <div class="diario" style="grid-column: 6 / span 7; grid-row: 12 / span 5;" >
             <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
         </div>
-        <div style="grid-column:8/ span 3; grid-row:1/ span 5; position:relative; top: 53vw;left:2vw;" >
+        <div style="grid-column:8/ span 3; grid-row: 1/ span 5; position:relative; top: 53vw;left:2vw;" >
             <img src="imagens/jornal/jornal-tuberculose.png" alt=""/>
         </div>
         <div  class= "imagemcapa" style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative;top:0.5vw;left: -3vw; box-shadow: transparent; " >
-            <img src="imagens/fotos/Alexandre.jpg" alt="" style="box-shadow: none; border-radius: 50%;"/>
+            <img src="imagens/fotos/Alexandre.jpg" alt="" style="border-radius: 50%;"/>
         </div>
     </div>
 
@@ -302,6 +301,7 @@
             <div style="grid-row: 1/ 16">
                 <img src="imagens/fotos/PaisagenVsPessoas.jpg" alt="">
             </div>
+            <canvas id="defaultCanvas0" class="p5Canvas" style="width: 400px; height: 400px;" width="400" height="400"></canvas>
             <div style="grid-row: 10/ 13">
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
             </div>
@@ -312,7 +312,7 @@
             </div>
         </div>
         <div class="ocupa-6-coluna">
-            <img src="imagens/fotos/PaisagemVsSociedade2.jpg">
+            <img src="imagens/fotos/PaisagemVsSociedade2.jpg" alt="">
         </div>
 
         <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
@@ -320,7 +320,7 @@
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
         <div class="ocupa-4-coluna " id="fotoSociedadeVpaisagem" style="grid-row: 1/ 16;z-index: -1">
-            <img src="imagens/fotos/PaisagemVsSociedade3.jpg">
+            <img src="imagens/fotos/PaisagemVsSociedade3.jpg" alt="">
         </div>
 
 
@@ -443,8 +443,7 @@
         <div class="ocupa-1-coluna" style="grid-row: 15/30">
             <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
-
-
+        
         <div class="ocupa-5-coluna" style="grid-row: 7/30; ">
             <div class="textoContraCapa " style="background-color:black;  ">
 
