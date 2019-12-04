@@ -303,22 +303,14 @@ nav .itens.show {
     font-weight: bold;
 }
 
-#fumo path {
+#texto path {
     stroke-dasharray: 45;
     stroke-dashoffset: 45;
-    animation-name: moveup;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
+    animation: 5s off-zero infinite linear forwards;
 }
 
-@keyframes moveup {
-    from {
-        opacity: 0;
-    }
+@keyframes off-zero {
     to {
-        opacity: 1;
+        stroke-dashoffset: 0;
     }
 }
