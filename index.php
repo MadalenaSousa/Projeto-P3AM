@@ -183,13 +183,13 @@
             </div>
             Nadenka rapidamente criou o hábito de ouvir esta frase, como se cria o hábito do álcool ou da morfina. Não pode viver sem ela. É verdade que escorregar pelo monte de gelo continua a meter-lhe medo, mas agora o medo e o perigo dão um fascínio especial a estas palavras de amor, palavras que continuam a ser um mistério e um tormento para a alma. Os suspeitos continuam a ser os mesmos: eu e o vento… Não sabe qual dos dois lhe segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue a ficar embriagada.
         </div>
-        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 20; z-index: -3;">
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
             <div style="grid-column: 1 / span 4; grid-row: 1">
                 <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
             </div>
             <img style="grid-column: 6 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px" src="imagens/fotos/publicidade-1.jpg" alt="">
             <img style="grid-column: 5 / span 5; grid-row: 1;" src="imagens/fotos/publicidade-2.jpg" alt="">
-            <div style="grid-column: 3 / span 6; grid-row: 11">
+            <div style="grid-column: 3 / span 6; grid-row: 9">
                 <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
             </div>
         </div>
@@ -232,16 +232,15 @@
             <div style="grid-row: 10/ 13">
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
             </div>
-            <div class="diario" style="13 / 16">
-                <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
-            </div>
+        </div>
+        <div class="diario ocupa-3-coluna" style="grid-row: 13 / span 2">
+            <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
         </div>
         <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
             <img id="carta" src="imagens/fotos/carta.jpg" alt="">
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
     </div>
-
 
     <!-- Página 8 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
@@ -275,7 +274,7 @@
         </div>
 
 
-        <div class="ocupa-7-coluna" style="grid-column:6">
+        <div style="grid-column: 6 / span 5;">
             <?php include('imagens/fotos/1904.svg'); ?>
         </div>
 
