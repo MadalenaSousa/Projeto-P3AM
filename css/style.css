@@ -310,20 +310,21 @@ nav .itens.show {
     font-weight: bold;
 }
 
-#texto path {
-    stroke-dasharray: 45;
-    stroke-dashoffset: 45;
-    animation: 5s off-zero infinite linear forwards;
-}
-#fotoSociedadeVpaisagem{
-    margin-top: -20vw;
-    margin-left: -50vw;
+#fumo path {
+    stroke-dasharray: 70;
+    stroke-dashoffset: 70;
+    animation: 2s off-zero infinite linear reverse;
 }
 
 @keyframes off-zero {
     to {
         stroke-dashoffset: 0;
     }
+}
+
+#fotoSociedadeVpaisagem{
+    margin-top: -20vw;
+    margin-left: -50vw;
 }
 
 .data h1 {
