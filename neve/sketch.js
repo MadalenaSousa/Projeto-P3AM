@@ -6,15 +6,17 @@ var direcao = [];
 
 
 function setup() {
-  createCanvas(400, 400);
-  frameRate(30);
+    canvas = createCanvas(400, 400);
+    canvas.position(width * 7, 0);
+    canvas.style('z-index', '-5');
+    frameRate(30);
 
-  for(var i = 0; i < quantidade; i++) {
-  raio[i] = round(random(5, 1));
-    Xpos[i] = random(0, width);
-    Ypos[i] = random(0, height);
-    direcao[i] = round(random(0, 1));
-  }
+    for(var i = 0; i < quantidade; i++) {
+        raio[i] = round(random(5, 1));
+        Xpos[i] = random(0, width);
+        Ypos[i] = random(0, height);
+        direcao[i] = round(random(0, 1));
+    }
 }
 
 function draw() {

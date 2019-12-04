@@ -14,7 +14,7 @@
 </audio>
 <main class="wrapper">
     <!-- CAPA -->
-    <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 30;">
+    <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 31;">
         <div style=" grid-column:11/ span 5; grid-row: 10/ span 3;  z-index: 2">
         <h1 > A BRINCADEIRA </h1>
         <h2> Anton Checkov </h2>
@@ -301,7 +301,6 @@
             <div style="grid-row: 1/ 16">
                 <img src="imagens/fotos/PaisagenVsPessoas.jpg" alt="">
             </div>
-            <canvas id="defaultCanvas0" class="p5Canvas" style="width: 400px; height: 400px;" width="400" height="400"></canvas>
             <div style="grid-row: 10/ 13">
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
             </div>
@@ -322,7 +321,6 @@
         <div class="ocupa-4-coluna " id="fotoSociedadeVpaisagem" style="grid-row: 1/ 16;z-index: -1">
             <img src="imagens/fotos/PaisagemVsSociedade3.jpg" alt="">
         </div>
-
 
     </div>
 
@@ -357,7 +355,7 @@
             Eu vou fazer as malas…
 
         </div>
-        <div style="grid-column: 2 / span 5; grid-row: 18 / span 18">
+        <div style="grid-column: 2 / span 5; grid-row: 14 / span 7; width: 100%;">
             <?php include('imagens/ilustracoes/checkov-pensador.svg'); ?>
         </div>
 
@@ -429,7 +427,7 @@
     </div>
 
     <!-- CONTRACAPA -->
-    <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 30;z-index: -1">
+    <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 31;z-index: -1">
 
 
         <div class="ocupa-6-coluna" style="grid-row: 11/ span 16;z-index:0">
@@ -443,7 +441,7 @@
         <div class="ocupa-1-coluna" style="grid-row: 15/30">
             <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
-        
+
         <div class="ocupa-5-coluna" style="grid-row: 7/30; ">
             <div class="textoContraCapa " style="background-color:black;  ">
 
@@ -527,7 +525,6 @@
     </nav>
 </footer>
 <script src="javascript/geral.js"></script>
-<script src="neve/sketch.js"></script>
 </body>
 
 </html>
