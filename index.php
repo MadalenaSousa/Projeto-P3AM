@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>A Brincadeira | Anton Checkov</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"> </script>
+
 </head>
 <body>
 <audio id="playAudio" autoplay loop>
@@ -75,16 +78,23 @@
     <!-- Página 2 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
         <div class="ocupa-5-coluna">
-            Um meio-dia luminoso de Inverno… Um frio, de rachar, e a Nadenka, de braço dado comigo, cobrem-se-lhe os caracolinhos das têmporas e a penugem do buço com uma
-            geada de prata. Estamos numa colina alta. Dos nossos pés até lá baixo estende-se um declive liso em que o sol se reflete como num espelho. Junto a nós está um trenó coberto com um pano vermelho.
+            Um meio-dia luminoso de Inverno… Um frio, de rachar, e a Nadenka, de braço dado comigo, cobrem-se-lhe os
+            caracolinhos das têmporas e a penugem do buço com uma
+            geada de prata. Estamos numa colina alta. Dos nossos pés até lá baixo estende-se um declive liso em que o
+            sol se reflete como num espelho. Junto a nós está um trenó coberto com um pano vermelho.
 
-            — Vamos escorregar Nadenka Petrovna! — imploro-lhe eu. — Só uma vez! Garanto-te que chegamos lá abaixo sãos e salvos.
+            — Vamos escorregar Nadenka Petrovna! — imploro-lhe eu. — Só uma vez! Garanto-te que chegamos lá abaixo sãos
+            e salvos.
 
-            Mas Nadenka tem medo. A distância que vai desde as suas pequeninas galochas ao fundo da colina parece-lhe assustadora, como um abismo desmedidamente fundo. Ela congela e fica sem respiração só de olhar para baixo, só de a convidar a sentar-se no trenó; o que acontecerá se se arriscar a lançar-se pelo abismo? Ela morre, enlouquece.
+            Mas Nadenka tem medo. A distância que vai desde as suas pequeninas galochas ao fundo da colina parece-lhe
+            assustadora, como um abismo desmedidamente fundo. Ela congela e fica sem respiração só de olhar para baixo,
+            só de a convidar a sentar-se no trenó; o que acontecerá se se arriscar a lançar-se pelo abismo? Ela morre,
+            enlouquece.
 
             — Suplico-te! — digo eu. — Não tenhas medo! Isso é fraqueza, covardice.
 
-            Finalmente a Nadenka concorda, consigo ver na cara dela que quando ela o faz, ela teme pela sua vida. Sento-a no trenó, pálida e trémula, envolvo-a com um braço e lanço-me com ela no abismo.
+            Finalmente a Nadenka concorda, consigo ver na cara dela que quando ela o faz, ela teme pela sua vida.
+            Sento-a no trenó, pálida e trémula, envolvo-a com um braço e lanço-me com ela no abismo.
         </div>
         <div class="pagina2_nota1 diario" style="grid-column:9/ span 5; grid-row:1/ span 5; position:relative; top: -15vw;">
             <?php include('imagens/ilustracoes/pagina2_nota1.svg'); ?>
@@ -106,17 +116,25 @@
     <!-- Página 3 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
         <div class="ocupa-5-coluna">
-            O trenó voa como uma bala. O ar que cortamos chicoteia-nos o rosto, rosna, assobia aos ouvidos, belisca de raiva, quer-nos arrancar a cabeça dos ombros. A força do vento não nos deixa respirar. Parece que o próprio diabo nos abraça com as suas garras e, com um rugido, nos arrasta para o inferno.
+            O trenó voa como uma bala. O ar que cortamos chicoteia-nos o rosto, rosna, assobia aos ouvidos, belisca de
+            raiva, quer-nos arrancar a cabeça dos ombros. A força do vento não nos deixa respirar. Parece que o próprio
+            diabo nos abraça com as suas garras e, com um rugido, nos arrasta para o inferno.
 
-            Os objetos à volta do trenó fundem-se numa faixa comprida, desfocada, a correr loucamente… Mais um minuto e morremos, parece!
+            Os objetos à volta do trenó fundem-se numa faixa comprida, desfocada, a correr loucamente… Mais um minuto e
+            morremos, parece!
 
             <h1>— Amo-te Nádia! — </h1> digo a meia voz.
 
-            Agora o trenó já desliza mais devagar, cada vez mais devagar, o rugido do vento e o zumbir dos patins já são menos assustadores, já conseguimos respirar, e finalmente, estamos no fundo. Nadenka está mais morta do que viva. Pálida, quase não respira… Ajudo-a a levantar-se.
+            Agora o trenó já desliza mais devagar, cada vez mais devagar, o rugido do vento e o zumbir dos patins já são
+            menos assustadores, já conseguimos respirar, e finalmente, estamos no fundo. Nadenka está mais morta do que
+            viva. Pálida, quase não respira… Ajudo-a a levantar-se.
 
-            Não volto a descer por nada deste mundo. — diz ela, arregalando para mim uns olhos aterrorizados.— Por nada deste mundo. Por pouco não morri!
+            Não volto a descer por nada deste mundo. — diz ela, arregalando para mim uns olhos aterrorizados.— Por nada
+            deste mundo. Por pouco não morri!
 
-            Pouco depois, recomposta, olha-me nos olhos com dúvida: será que fui eu que disse aquelas palavras ou foi iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar cuidadosamente a minha luva.
+            Pouco depois, recomposta, olha-me nos olhos com dúvida: será que fui eu que disse aquelas palavras ou foi
+            iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar
+            cuidadosamente a minha luva.
         </div>
         <div class="pagina3_nota1 diario" style="grid-column:8/ span 7; grid-row:1/ span 5; position:relative; top: -10vw;" >
             <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
@@ -138,9 +156,14 @@
     <!-- Página 4 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
         <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
-            Ela pega-me pelo braço e passeamos demoradamente pelo sopé do monte. O mistério, aparentemente, não a deixa em paz. Foram ou não proferidas aquelas palavras? Sim ou não? Sim ou não? É uma questão de orgulho, honra, vida, felicidade, uma questão muito importante,- a questão mais importante do mundo.
+            Ela pega-me pelo braço e passeamos demoradamente pelo sopé do monte. O mistério, aparentemente, não a deixa
+            em paz. Foram ou não proferidas aquelas palavras? Sim ou não? Sim ou não? É uma questão de orgulho, honra,
+            vida, felicidade, uma questão muito importante,- a questão mais importante do mundo.
             <br><br>
-            Nadenka olha para mim de um modo penetrante, impaciente, responde a despropósito, está à espera que eu fale. Oh, que jogo de emoções naquela doce cara, que jogo! Vejo que luta consigo própria, que tem necessidade de falar, de dizer alguma coisa, de perguntar, mas não encontra as palavras, sente-se envergonhada, aterrorizada, bloqueada pela felicidade…
+            Nadenka olha para mim de um modo penetrante, impaciente, responde a despropósito, está à espera que eu fale.
+            Oh, que jogo de emoções naquela doce cara, que jogo! Vejo que luta consigo própria, que tem necessidade de
+            falar, de dizer alguma coisa, de perguntar, mas não encontra as palavras, sente-se envergonhada,
+            aterrorizada, bloqueada pela felicidade…
             <br><br>
             — Sabes uma coisa? — diz ela sem olhar para mim.
             <br><br>
@@ -148,7 +171,9 @@
             <br><br>
             — E se fossemos… escorregar mais uma vez?
             <br><br>
-            Subimos ao monte de gelo por uma escada. Novamente, sento a pálida e trémula Nadenka no trenó, novamente voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais vertiginoso e atroador da descida, digo a meia voz:
+            Subimos ao monte de gelo por uma escada. Novamente, sento a pálida e trémula Nadenka no trenó, novamente
+            voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais
+            vertiginoso e atroador da descida, digo a meia voz:
         </div>
         <div style="grid-column: 1 / span 10; grid-row: 12">
             <h1>Eu amo-te Nadenka! </h1>
@@ -158,7 +183,8 @@
             <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
-            <img style="grid-column: 5 / span 4; grid-row: 1; position: relative; top: -150px;" src="imagens/fotos/checkov-wife.jpg" alt="">
+            <img style="grid-column: 5 / span 4; grid-row: 1; position: relative; top: -150px;"
+                 src="imagens/fotos/checkov-wife.jpg" alt="">
             <img style="grid-column: 7 / span 3; grid-row: 2; z-index: 3" src="imagens/fotos/checkov-wife-2.jpg" alt="">
             <div style="grid-column: 1 / span 6; grid-row: 9;">
                 <?php include('imagens/texto-diario/texto-1-pag-4.svg'); ?>
@@ -175,7 +201,10 @@
     <!-- Página 5 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
         <div style="grid-row: 1 / span 10; grid-column: 1 / span 5">
-            Quando o trenó parou, Nadenka olhou para o monte que acabou de descer, depois examina a minha cara demoradamente, escuta a minha voz indiferente e impassível, e toda ela, todinha, até ao regalo e ao capucho, exprimem uma perplexidade extrema. Está-lhe escrito no rosto: “O que se está a passar? Quem disse disse aquelas palavras? Foi mesmo ele ou pareceu-me?” Esta incerteza enerva-a, faz com que ela perca a paciência.
+            Quando o trenó parou, Nadenka olhou para o monte que acabou de descer, depois examina a minha cara
+            demoradamente, escuta a minha voz indiferente e impassível, e toda ela, todinha, até ao regalo e ao capucho,
+            exprimem uma perplexidade extrema. Está-lhe escrito no rosto: “O que se está a passar? Quem disse disse
+            aquelas palavras? Foi mesmo ele ou pareceu-me?” Esta incerteza enerva-a, faz com que ela perca a paciência.
             <br><br>
             A pobre rapariga não responde às minhas questões, com o sobrolho carregado, prestes a chorar.
             <br><br>
@@ -185,9 +214,11 @@
             <br><br>
             — E se fossemos mais uma vez?
             <br><br>
-            “Gosta” de escorregar mas, ao sentar-se no trenó, está como das outras vezes, pálida, quase não respira de medo, treme.
+            “Gosta” de escorregar mas, ao sentar-se no trenó, está como das outras vezes, pálida, quase não respira de
+            medo, treme.
             <br><br>
-            Descemos pela terceira vez, e vejo como ela olha para a minha cara, estuda o movimento dos meus lábios. Mas eu aperto um lenço contra os meus lábios, tusso e, chegados a meio do monte, acabo por dizer:
+            Descemos pela terceira vez, e vejo como ela olha para a minha cara, estuda o movimento dos meus lábios. Mas
+            eu aperto um lenço contra os meus lábios, tusso e, chegados a meio do monte, acabo por dizer:
             <br><br>
             <h1>Eu amo-te Nadia!</h1>
         </div>
@@ -208,13 +239,22 @@
             E o mistério continua um mistério!
             <br><br>
             Nadenka está calada, pensativa… Acompanho-a a casa,
-            ela tenta ir mais devagar, abranda o passo, sempre à espera que eu diga aquelas palavras. E vejo como a alma dela sofre, o esforço que faz para não dizer: “Não é possível que tenha sido o vento! Também não quero que tenha sido o vento!”
+            ela tenta ir mais devagar, abranda o passo, sempre à espera que eu diga aquelas palavras. E vejo como a alma
+            dela sofre, o esforço que faz para não dizer: “Não é possível que tenha sido o vento! Também não quero que
+            tenha sido o vento!”
             <br><br>
-            No dia seguinte, de manhã, recebo um bilhete: “Se hoje fores ao monte de gelo, vem buscar-me. N.” Desde então, vou todos os dias com a Nadenka ao monte de gelo e ao voarmos a pique de trenó, digo sempre, a meia voz, as mesmas palavras:
+            No dia seguinte, de manhã, recebo um bilhete: “Se hoje fores ao monte de gelo, vem buscar-me. N.” Desde
+            então, vou todos os dias com a Nadenka ao monte de gelo e ao voarmos a pique de trenó, digo sempre, a meia
+            voz, as mesmas palavras:
             <div>
                 <h1>Amo-te Nadia!</h1>
             </div>
-            Nadenka rapidamente criou o hábito de ouvir esta frase, como se cria o hábito do álcool ou da morfina. Não pode viver sem ela. É verdade que escorregar pelo monte de gelo continua a meter-lhe medo, mas agora o medo e o perigo dão um fascínio especial a estas palavras de amor, palavras que continuam a ser um mistério e um tormento para a alma. Os suspeitos continuam a ser os mesmos: eu e o vento… Não sabe qual dos dois lhe segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue a ficar embriagada.
+            Nadenka rapidamente criou o hábito de ouvir esta frase, como se cria o hábito do álcool ou da morfina. Não
+            pode viver sem ela. É verdade que escorregar pelo monte de gelo continua a meter-lhe medo, mas agora o medo
+            e o perigo dão um fascínio especial a estas palavras de amor, palavras que continuam a ser um mistério e um
+            tormento para a alma. Os suspeitos continuam a ser os mesmos: eu e o vento… Não sabe qual dos dois lhe
+            segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue
+            a ficar embriagada.
         </div>
         <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
             <div style="grid-column: 1 / span 4; grid-row: 1">
@@ -266,13 +306,24 @@
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
             </div>
         </div>
-        <div class="diario ocupa-3-coluna" style="grid-row: 13 / span 2">
-            <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
+        <div class="ocupa-7-coluna" style=" grid-row: 16">
+            <div class="diario">
+                <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
+            </div>
         </div>
+        <div class="ocupa-6-coluna">
+            <img src="imagens/fotos/PaisagemVsSociedade2.jpg">
+        </div>
+
         <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
             <img id="carta" src="imagens/fotos/carta.jpg" alt="">
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
+        <div class="ocupa-4-coluna " id="fotoSociedadeVpaisagem" style="grid-row: 1/ 16;z-index: -1">
+            <img src="imagens/fotos/PaisagemVsSociedade3.jpg">
+        </div>
+
+
     </div>
 
     <!-- Página 8 -->
@@ -304,6 +355,10 @@
             vento, alegre, feliz, tão bonita.
             <br><br>
             Eu vou fazer as malas…
+
+        </div>
+        <div style="grid-column: 2 / span 5; grid-row: 18 / span 18">
+            <?php include('imagens/ilustracoes/checkov-pensador.svg'); ?>
         </div>
 
 
@@ -311,11 +366,19 @@
             <?php include('imagens/fotos/1904.svg'); ?>
         </div>
 
-        <img style="grid-column:11/ span 4; z-index: -1" src="imagens/fotos/pensador.jpg" alt="">
+        <img style="grid-column:13/ span 4; z-index: -1" src="imagens/fotos/pensador.jpg" alt="">
 
-        <div class="diario" style="grid-column: 8 / span 6; grid-row: 4 / span 4">
+
+        <div class="diario" style="grid-column: 9/ span 6; grid-row: 5 / span 4">
             <?php include('imagens/texto-diario/texto-2-pag-8.svg'); ?>
         </div>
+
+
+        <div class="diario" style="grid-column: 12 / span 6; grid-row: 10 / span 4">
+            <?php include('imagens/texto-diario/texto-1-pag-8.svg'); ?>
+        </div>
+
+
     </div>
 
     <!-- Página 9 -->
@@ -332,7 +395,7 @@
             jogo...
         </div>
 
-        <div class="ocupa-5-coluna" style="grid-row: 9/ span 5">
+        <div class="ocupa-5-coluna" style="grid-row: 11/ span 5;" >
 
             <h1 id="Aborrecmento">Aborrecimento</h1>
         </div>
@@ -359,17 +422,33 @@
         <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 10/ 16;color:white">
+        <div class="ocupa-1-coluna" style="grid-row: 10/ 16;">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
+
     </div>
 
     <!-- CONTRACAPA -->
-    <div class="ocupa-16-coluna capa" style="grid-row: 1 / span 30">
-        <div class="ocupa-5-coluna" style="grid-column:4 / span 5;">
+    <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 30;z-index: -1">
 
-            <div class="textoContraCapa" style="background-color:rgba(253, 249, 234, 1)" >
-                <br><br><br><br><br>
+
+        <div class="ocupa-6-coluna" style="grid-row: 11/ span 16;z-index:0">
+            <img src="imagens/fotos/chekhovinteiro.jpg" alt="" style="grid-row: 12/30;position: relative; left: -80px ">
+
+        </div>
+        <div class="ocupa-1-coluna" style="grid-row: 10/30">
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-5.svg'); ?>
+        </div>
+
+        <div class="ocupa-1-coluna" style="grid-row: 15/30">
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
+        </div>
+
+
+        <div class="ocupa-5-coluna" style="grid-row: 7/30; ">
+            <div class="textoContraCapa " style="background-color:black;  ">
+
+                <br><br>
 
                 <a class="negrito">Título</a>: A Brincadeira<br><br>
                 <a class="negrito">Autor</a>: Anton Checkov<br><br>
@@ -388,12 +467,19 @@
                 <a class="negrito">Projeto 3 - Aplicações Multimédia</a><br><br>
                 <a class="negrito"> Faculdade de Ciências e Tecnologias</a><br><br>
                 <a class="negrito">Universidade de Coimbra</a><br><br>
+                <img class="ocupa-3-coluna" style="grid-row: 2/30" src="imagens/fotos/logo.png" alt="">
 
             </div>
 
         </div>
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16" >
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
+        </div>
+        <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
+        </div>
 
-        <img style="grid-column:9;grid-row: 7/ 16" src="imagens/fotos/logo.png" alt="">
+
     </div>
 </main>
 
@@ -442,5 +528,7 @@
     </nav>
 </footer>
 <script src="javascript/geral.js"></script>
+<script src="neve/sketch.js"></script>
 </body>
+
 </html>

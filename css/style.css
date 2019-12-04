@@ -277,15 +277,6 @@ nav .itens.show {
     margin: 0;
 }
 
-#DataMorte {
-    height: 40vw;
-    font-family: "Georgia", serif;
-    font-size: 18vw;
-    margin-top: 30vw;
-    margin-left: 3vw;
-    -webkit-transform: rotate(-90deg);
-}
-
 #pensador {
     margin-left: 18vw;
 }
@@ -303,7 +294,7 @@ nav .itens.show {
 .textoContraCapa {
     font-family: "Georgia", serif;
     font-size: 20px;
-    color: black;
+    color: white;
     padding: 30px;
 }
 
@@ -315,6 +306,10 @@ nav .itens.show {
     stroke-dasharray: 45;
     stroke-dashoffset: 45;
     animation: 5s off-zero infinite linear forwards;
+}
+#fotoSociedadeVpaisagem{
+    margin-top: -20vw;
+    margin-left: -50vw;
 }
 
 @keyframes off-zero {
