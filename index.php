@@ -5,6 +5,8 @@
     <title>A Brincadeira | Anton Checkov</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"> </script>
+
 </head>
 <body>
 <main class="wrapper">
@@ -433,12 +435,13 @@
             </div>
 
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16" >
             <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
             <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
         </div>
+
 
     </div>
 </main>
@@ -488,5 +491,7 @@
     </nav>
 </footer>
 <script src="javascript/geral.js"></script>
+<script src="neve/sketch.js"></script>
 </body>
+
 </html>
