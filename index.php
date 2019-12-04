@@ -51,7 +51,12 @@
             </div>
 
             <div class="russia diario" style="grid-column:14/ span 5; grid-row:1/ span 5; position:relative; top: -25vw;">
+                <div class="russia">
                 <?php include('imagens/ilustracoes/russia.svg'); ?>
+                </div>
+                <div class="russia_moscovo">
+                <?php include('imagens/ilustracoes/russia_moscovo.svg')?>
+                </div>
             </div>
             <div class="noticio_dec_80" style="grid-column:7/span 4; grid-row:1/ span 8; position:relative; top: 5vw;">
                 <img src="imagens/jornal/jornal-decadade80.png" alt=""/>

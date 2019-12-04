@@ -16,12 +16,20 @@ img {
     max-width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+
+}
 .imagemcapa{
     opacity:0;
     transition: 0.5s;
 }
 .imagemcapa:hover{
     opacity:1;
+}
+.russia_moscovo{
+    opacity:0;
 }
 
 /* Scroll Bar */
