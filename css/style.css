@@ -16,6 +16,13 @@ img {
     max-width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.imagemcapa{
+    opacity:0;
+    transition: 0.5s;
+}
+.imagemcapa:hover{
+    opacity:1;
+}
 
 /* Scroll Bar */
 
@@ -260,8 +267,11 @@ nav .itens.show {
     background-color: var(--bege);
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: -3;
 }
-
+h1{
+    font-size:20vw;
+}
 /*Text Corrido*/
 
 .sub-wrapper div:nth-child(2) h1 {
