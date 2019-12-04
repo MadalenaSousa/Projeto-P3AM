@@ -53,10 +53,10 @@ img {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: calc(100vw / 20);
-    grid-auto-rows: calc(100vh / 30);
+    grid-auto-rows: calc(100vh / 20);
     grid-gap: calc(100vw / 75);
     font-family: "Georgia", serif;
-    font-size: 18pt;
+    font-size: 1.5rem;
     text-align: left;
 }
 
