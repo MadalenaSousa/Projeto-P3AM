@@ -16,6 +16,13 @@ img {
     max-width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.imagemcapa{
+    opacity:0;
+    transition: 0.5s;
+}
+.imagemcapa:hover{
+    opacity:1;
+}
 
 /* Scroll Bar */
 
@@ -56,7 +63,7 @@ img {
     grid-auto-rows: calc(100vh / 20);
     grid-gap: calc(100vw / 75);
     font-family: "Georgia", serif;
-    font-size: 18pt;
+    font-size: 1.5rem;
     text-align: left;
 }
 
@@ -260,12 +267,13 @@ nav .itens.show {
     background-color: var(--bege);
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: -3;
 }
 
 /*Text Corrido*/
 
 .sub-wrapper div:nth-child(2) h1 {
-    font-size: 100pt;
+    font-size: 4rem;
     margin: 0;
 }
 
@@ -294,10 +302,10 @@ nav .itens.show {
     font-weight: bold;
 }
 
-#teste {
+#texto path {
     stroke-dasharray: 45;
     stroke-dashoffset: 45;
-    animation: 1s off-zero infinite linear forwards;
+    animation: 5s off-zero infinite linear forwards;
 }
 #fotoSociedadeVpaisagem{
     margin-top: -20vw;
@@ -308,4 +316,9 @@ nav .itens.show {
     to {
         stroke-dashoffset: 0;
     }
+}
+
+.data h1 {
+    font-size: 20vw;
+    margin: 0;
 }

@@ -9,44 +9,70 @@
 
 </head>
 <body>
+<audio id="playAudio" autoplay loop>
+    <source src="som/bg-music.mp3" type="audio/mp3">
+    <source src="som/bg-music.ogg" type="audio/ogg">
+</audio>
 <main class="wrapper">
     <!-- CAPA -->
-    <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 30">
-        <h1> A BRINCADEIRA </h1>
+    <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 30;">
+        <div style=" grid-column:11/ span 5; grid-row: 10/ span 3;  z-index: 2">
+        <h1 > A BRINCADEIRA </h1>
         <h2> Anton Checkov </h2>
+        </div>
+        <div style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative; box-shadow: transparent;top:-50vw;" >
+            <img  class="imagemcapa" src="imagens/fotos/Alexandre.jpg" alt="" style="box-shadow: none; border-radius: 50%;"/>
+        </div>
+        <img class="imagemcapa" style="grid-column: 5 / span 4; grid-row: 1; position: relative; top:-50vw;" src="imagens/fotos/checkov-wife.jpg" alt="">
+        <img class="imagemcapa" style="grid-column: 7 / span 3; grid-row: 2; z-index: 3;position: relative; top:-70vw;" src="imagens/fotos/checkov-wife-2.jpg" alt="">
+        <img class="imagemcapa" style="grid-column: 11/ span 4; grid-row: 1 /span 5; position: relative; top: -100vw;left:125vh" src="imagens/fotos/checkov-family.jpg" alt="">
     </div>
 
-    <!-- Página 1 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
-        <div class="ocupa-5-coluna">
-            Anton Chekhov, nasceu em 29 de Janeiro de 1860. Foi o
-            terceiro de seis filhos e teve uma educação rígida e religiosa,
-            que lhe deixou marcas psicológicas até ao resto da sua vida,
-            que por vezes se encontram camufladas nas suas obras.
-            <br><br>
-            Chekhov estudou medicina em Moscovo, cidade para onde se
-            mudou em pequeno devido ao facto de o seu pai ser
-            conflituoso na sua terra natal — este sofria de problemas de
-            alcoolismo. Desde cedo que teve contribuir monetariamente
-            para a sobrevivência dos seus irmãos e da sua mãe, devido a
-            essa necessidade, começou a escrever contos para jornais.
-            que por vezes se encontram camufladas nas suas obras.
-            <br><br>
-            Mais tarde, Anton casou com Olga, uma atriz Russa.
-            Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
-        </div>
-        <div class="pagina1_nota1">
-            <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
-        </div>
-        <div class="pagina1_nota2">
-            <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
-        </div>
-        <div class="russia">
-            <?php include('imagens/ilustracoes/russia.svg'); ?>
-        </div>
-        <div class="noticio_dec_80 ocupa-4-coluna">
-            <img src="imagens/jornal/jornal-decadade80.png" height="1324" width="557" alt=""/>
-        </div>
+        <!-- Página 1 -->
+        <div class="ocupa-16-coluna wrapper sub-wrapper">
+            <div class="ocupa-5-coluna">
+                Anton Chekhov, nasceu em 29 de Janeiro de 1860. Foi o
+                terceiro de seis filhos e teve uma educação rígida e religiosa,
+                que lhe deixou marcas psicológicas até ao resto da sua vida,
+                que por vezes se encontram camufladas nas suas obras.
+                <br><br>
+                Chekhov estudou medicina em Moscovo, cidade para onde se
+                mudou em pequeno devido ao facto de o seu pai ser
+                conflituoso na sua terra natal — este sofria de problemas de
+                alcoolismo. Desde cedo que teve contribuir monetariamente
+                para a sobrevivência dos seus irmãos e da sua mãe, devido a
+                essa necessidade, começou a escrever contos para jornais.
+                que por vezes se encontram camufladas nas suas obras.
+                <br><br>
+                Mais tarde, Anton casou com Olga, uma atriz Russa.
+                Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
+            </div>
+            <div class="pagina1_nota1 diario" style=" grid-column:6/ span 5; grid-row:1/span 10; position:relative; top:-20vw;">
+                <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
+            </div>
+
+            <div class="russia diario" style="grid-column:14/ span 5; grid-row:1/ span 5; position:relative; top: -25vw;">
+                <?php include('imagens/ilustracoes/russia.svg'); ?>
+            </div>
+            <div class="noticio_dec_80" style="grid-column:7/span 4; grid-row:1/ span 8; position:relative; top: 5vw;">
+                <img src="imagens/jornal/jornal-decadade80.png" alt=""/>
+            </div>
+            <div class="pagina1_nota2 diario" style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top: 10vw; z-index: 2">
+                <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
+            </div>
+            <div class="data" style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -25vw;">
+                <h1>1860</h1>
+            </div>
+ 
+            <div class="pagina1_nota1">
+                <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
+            </div>
+            <div class="pagina1_nota2">
+                <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
+            </div>
+            <div class="russia">
+                <?php include('imagens/ilustracoes/russia.svg'); ?>
+            </div>
     </div>
 
     <!-- Página 2 -->
@@ -70,14 +96,20 @@
             Finalmente a Nadenka concorda, consigo ver na cara dela que quando ela o faz, ela teme pela sua vida.
             Sento-a no trenó, pálida e trémula, envolvo-a com um braço e lanço-me com ela no abismo.
         </div>
-        <div class="pagina2_nota1">
+        <div class="pagina2_nota1 diario" style="grid-column:9/ span 5; grid-row:1/ span 5; position:relative; top: -15vw;">
             <?php include('imagens/ilustracoes/pagina2_nota1.svg'); ?>
         </div>
-        <div class="pagina2_nota2">
+        <div class="pagina2_nota2 diario" style="grid-column:6/ span 5; grid-row:1/ span 12; position:relative;">
             <?php include('imagens/ilustracoes/pagina2_nota2.svg'); ?>
         </div>
-        <div class="pagina2_nota3">
+        <div class="pagina2_nota3 diario" style="grid-column:9/ span 7; grid-row:1/ span 5; position:relative; top:40vw;">
             <?php include('imagens/ilustracoes/pagina2_nota3.svg'); ?>
+        </div>
+        <div style="grid-column:14/span 3; grid-row:1/ span 8; position:relative; top: -25vw;">
+            <img src="imagens/jornal/jornal-conturbacaopolitica.png" alt=""/>
+        </div>
+        <div class="data" style="grid-column:7/ span 6; grid-row:1/ span 5; position:relative; top: 25vw; transform: rotate(90deg);">
+            <h1>1905</h1>
         </div>
     </div>
 
@@ -91,7 +123,7 @@
             Os objetos à volta do trenó fundem-se numa faixa comprida, desfocada, a correr loucamente… Mais um minuto e
             morremos, parece!
 
-            — Amo-te Nádia! — digo a meia voz.
+            <h1>— Amo-te Nádia! — </h1> digo a meia voz.
 
             Agora o trenó já desliza mais devagar, cada vez mais devagar, o rugido do vento e o zumbir dos patins já são
             menos assustadores, já conseguimos respirar, e finalmente, estamos no fundo. Nadenka está mais morta do que
@@ -104,16 +136,21 @@
             iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar
             cuidadosamente a minha luva.
         </div>
-        <div class="pagina3_nota1">
+        <div class="pagina3_nota1 diario" style="grid-column:8/ span 7; grid-row:1/ span 5; position:relative; top: -10vw;" >
             <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
         </div>
-        <div class="pagina3_nota2_alexandre">
+        <div class="pagina3_nota2_alexandre diario" style="grid-column:6/ span 9; grid-row:1/ span 9; position:relative; background:transparent; box-shadow:none;" >
             <?php include('imagens/ilustracoes/pagina3_nota2_alexandre.svg'); ?>
         </div>
-        <div class="pagina3_nota3">
+        <div class="pagina3_nota3 diario" style="grid-column:6/ span 9; grid-row:1/ span 7; position:relative; top: 80vw;" >
             <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
         </div>
-        <div class="foto_alexandreIII"></div>
+        <div style="grid-column:8/ span 3; grid-row:1/ span 5; position:relative; top: 53vw;left:2vw;" >
+            <img src="imagens/jornal/jornal-tuberculose.png" alt=""/>
+        </div>
+        <div  class= "imagemcapa" style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative;top:0.5vw;left: -3vw; box-shadow: transparent; " >
+            <img src="imagens/fotos/Alexandre.jpg" alt="" style="box-shadow: none; border-radius: 50%;"/>
+        </div>
     </div>
 
     <!-- Página 4 -->
@@ -138,11 +175,11 @@
             voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais
             vertiginoso e atroador da descida, digo a meia voz:
         </div>
-        <div style="grid-column: 1 / span 20; grid-row: 11">
+        <div style="grid-column: 1 / span 10; grid-row: 12">
             <h1>Eu amo-te Nadenka! </h1>
         </div>
-        <div class="diario wrapper"
-             style="grid-column: 7 / span 9; grid-row: 1 / span 15; z-index: -1; position: relative; top: -250px;">
+        <img width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -500px;" src="imagens/fotos/montanha-neve.jpg" alt="">
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; position: relative; top: -250px;">
             <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
@@ -152,6 +189,12 @@
             <div style="grid-column: 1 / span 6; grid-row: 9;">
                 <?php include('imagens/texto-diario/texto-1-pag-4.svg'); ?>
             </div>
+            <div style="grid-column: 6 / span 2; grid-row: 12;)">
+                <?php include('imagens/ilustracoes/seta.svg'); ?>
+            </div>
+            <video style="grid-column: 3 / span 6; grid-row: 17; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
+                <source src="video/dança.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 
@@ -183,8 +226,7 @@
             <div style="grid-column: span 5; grid-row: 6">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
-            <img style="grid-column: 2 / span 4; grid-row: span 5; position: relative; top: -100px;"
-                 src="imagens/fotos/checkov-family.jpg" alt="">
+            <img style="grid-column: 1 / span 5; grid-row: span 5; position: relative; top: -200px;" src="imagens/fotos/checkov-family.jpg" alt="">
             <div style="grid-row: 1; grid-column: 6 / span 2">
                 <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
             </div>
@@ -214,14 +256,13 @@
             segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue
             a ficar embriagada.
         </div>
-        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 12; z-index: -3;">
-            <div style="grid-column: span 3; grid-row: 1">
+        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
+            <div style="grid-column: 1 / span 4; grid-row: 1">
                 <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
             </div>
-            <img style="grid-column: 4 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px"
-                 src="imagens/fotos/publicidade-1.jpg" alt="">
+            <img style="grid-column: 6 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px" src="imagens/fotos/publicidade-1.jpg" alt="">
             <img style="grid-column: 5 / span 5; grid-row: 1;" src="imagens/fotos/publicidade-2.jpg" alt="">
-            <div style="grid-column: 4 / span 5; grid-row: 8">
+            <div style="grid-column: 3 / span 6; grid-row: 9">
                 <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
             </div>
         </div>
@@ -264,12 +305,9 @@
             <div style="grid-row: 10/ 13">
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
             </div>
-
         </div>
         <div class="ocupa-7-coluna" style=" grid-row: 16">
-
             <div class="diario">
-
                 <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
             </div>
         </div>
@@ -287,7 +325,6 @@
 
 
     </div>
-
 
     <!-- Página 8 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
@@ -325,7 +362,7 @@
         </div>
 
 
-        <div class="ocupa-7-coluna" style="grid-column:6">
+        <div style="grid-column: 6 / span 5;">
             <?php include('imagens/fotos/1904.svg'); ?>
         </div>
 
