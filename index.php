@@ -5,7 +5,7 @@
     <title>A Brincadeira | Anton Checkov</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
     <script src="javascript/parallax.js"></script>
 </head>
 <body>
@@ -21,7 +21,7 @@
         <h2> Anton Checkov </h2>
         </div>
         <div style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative; box-shadow: transparent;top:-50vw;" >
-            <img  class="imagemcapa" src="imagens/fotos/Alexandre.jpg" alt="" style="box-shadow: none; border-radius: 50%;"/>
+            <img  class="imagemcapa" src="imagens/fotos/alexandre.jpg" alt="" style="box-shadow: none; border-radius: 50%;"/>
         </div>
         <img class="imagemcapa" style="grid-column: 5 / span 4; grid-row: 1; position: relative; top:-50vw;" src="imagens/fotos/checkov-wife.jpg" alt="">
         <img class="imagemcapa" style="grid-column: 7 / span 3; grid-row: 2; z-index: 3;position: relative; top:-70vw;" src="imagens/fotos/checkov-wife-2.jpg" alt="">
@@ -154,12 +154,12 @@
             <img src="imagens/jornal/jornal-tuberculose.png" alt=""/>
         </div>
         <div  class= "imagemcapa" style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative;top:0.5vw;left: -3vw; box-shadow: transparent; " >
-            <img src="imagens/fotos/Alexandre.jpg" alt="" style="border-radius: 50%;"/>
+            <img src="imagens/fotos/alexandre.jpg" alt="" style="border-radius: 50%;"/>
         </div>
     </div>
 
     <!-- Página 4 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper" id="scene">
+    <div class="ocupa-16-coluna wrapper sub-wrapper scene">
         <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
             Ela pega-me pelo braço e passeamos demoradamente pelo sopé do monte. O mistério, aparentemente, não a deixa
             em paz. Foram ou não proferidas aquelas palavras? Sim ou não? Sim ou não? É uma questão de orgulho, honra,
@@ -185,9 +185,9 @@
             <h1>Eu amo-te Nadenka! </h1>
         </div>
 
-        <img class="layer" data-depth=".2" width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; top: -50vh" src="imagens/fotos/montanha-neve.jpg" alt="">
+        <img class="layer" data-depth=".05" width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -50vh" src="imagens/fotos/montanha-neve.jpg" alt="">
 
-        <div class="diario wrapper layer" data-depth=".1" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
+        <div class="diario wrapper layer" data-depth=".05" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
             <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
@@ -201,17 +201,17 @@
             </div>
         </div>
 
-        <img class="layer" data-depth=".2" style="grid-area: 1 / 10 / auto / span 3 ; top: -150px;" src="imagens/fotos/checkov-wife.jpg" alt="">
+        <img class="layer" data-depth=".15" style="grid-area: 1 / 10 / auto / span 4 ;position: relative; top: -200px;" src="imagens/fotos/checkov-wife.jpg" alt="">
 
-        <img class="layer" data-depth=".1" style="grid-area: 2 / 12 / auto / span 3; z-index: 3" src="imagens/fotos/checkov-wife-2.jpg" alt="">
+        <img class="layer" data-depth=".2" style="grid-area: 2 / 12 / auto / span 3; z-index: 3" src="imagens/fotos/checkov-wife-2.jpg" alt="">
 
-        <video class="layer" data-depth=".1" style="grid-area: 25 / 3 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
+        <video class="layer" data-depth=".15" style="grid-area: 16 / 6 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
             <source src="video/dança.mp4" type="video/mp4">
         </video>
     </div>
 
     <!-- Página 5 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
+    <div class="ocupa-16-coluna wrapper sub-wrapper scene">
         <div style="grid-row: 1 / span 10; grid-column: 1 / span 5">
             Quando o trenó parou, Nadenka olhou para o monte que acabou de descer, depois examina a minha cara
             demoradamente, escuta a minha voz indiferente e impassível, e toda ela, todinha, até ao regalo e ao capucho,
@@ -234,7 +234,7 @@
             <br><br>
             <h1>Eu amo-te Nadia!</h1>
         </div>
-        <div class="diario wrapper" style="grid-row: span 10; grid-column: 7 / span 9">
+        <div class="diario wrapper layer" data-depth=".05" style="grid-row: span 10; grid-column: 7 / span 9">
             <div style="grid-column: span 5; grid-row: 6">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
@@ -246,7 +246,7 @@
     </div>
 
     <!-- Página 6 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
+    <div class="ocupa-16-coluna wrapper sub-wrapper scene">
         <div style="grid-row: span 15; grid-column: 1 / span 5;">
             E o mistério continua um mistério!
             <br><br>
@@ -268,7 +268,7 @@
             segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue
             a ficar embriagada.
         </div>
-        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
+        <div class="diario wrapper layer" data-depth=".05" style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
             <div style="grid-column: 1 / span 4; grid-row: 1">
                 <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
             </div>
@@ -312,7 +312,7 @@
 
         <div class="ocupa-11-coluna" style="grid-row: 1/ 16">
             <div style="grid-row: 1/ 16">
-                <img src="imagens/fotos/PaisagenVsPessoas.jpg" alt="">
+                <img src="imagens/fotos/paisagem-pessoas.jpg" alt="">
             </div>
             <div style="grid-row: 10/ 13"  id="defaultCanvas0">
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
@@ -324,7 +324,7 @@
             </div>
         </div>
         <div class="ocupa-4-coluna canvas">
-            <img src="imagens/fotos/PaisagemVsSociedade2.jpg" alt="">
+            <img src="imagens/fotos/paisagem-sociedade-2.jpg" alt="">
         </div>
 
         <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
@@ -332,7 +332,7 @@
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
         <div class="ocupa-4-coluna " id="fotoSociedadeVpaisagem" style="grid-row: 1/ 16;z-index: -1">
-            <img src="imagens/fotos/PaisagemVsSociedade3.jpg" alt="">
+            <img src="imagens/fotos/paisagem-sociedade-3.jpg" alt="">
         </div>
 
     </div>
@@ -444,7 +444,7 @@
 
 
         <div class="ocupa-6-coluna" style="grid-row: 11/ span 16;z-index:0">
-            <img src="imagens/fotos/chekhovinteiro.jpg" alt="" style="grid-row: 12/30;position: relative; left: -80px ">
+            <img src="imagens/fotos/chekhov-inteiro.jpg" alt="" style="grid-row: 12/30;position: relative; left: -80px ">
 
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 10/30">
@@ -477,7 +477,7 @@
                 <a class="negrito">Projeto 3 - Aplicações Multimédia</a><br><br>
                 <a class="negrito"> Faculdade de Ciências e Tecnologias</a><br><br>
                 <a class="negrito">Universidade de Coimbra</a><br><br>
-                <img class="ocupa-3-coluna" style="grid-row: 2/30" src="imagens/fotos/logo.png" alt="">
+                <img class="ocupa-3-coluna" style="grid-row: 2/30" src="imagens/fotos/logo-uc.png" alt="">
 
             </div>
 
@@ -537,10 +537,12 @@
 </footer>
 <script src="javascript/geral.js"></script>
 <script>
-    var scene = document.getElementById('scene');
-    var parallax = new Parallax(scene);
-</script>
-<script src="neve/sketch.js"></script>
-</body>
+    var scene = document.getElementsByClassName('scene');
 
+    for(var i = 0; i < scene.length; i++){
+        var parallax = new Parallax(scene[i]);
+    }
+</script>
+<script src="javascript/sketch.js"></script>
+</body>
 </html>

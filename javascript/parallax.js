@@ -258,9 +258,6 @@
     // Configure Layer Styles
     for (var i = 0, l = this.layers.length; i < l; i++) {
       var layer = this.layers[i];
-      if (this.transform3DSupport) this.accelerate(layer);
-      layer.style.position = i ? 'absolute' : 'relative';
-      layer.style.display = 'block';
 
       // Cache Layer Depth
       //Graceful fallback on depth if depth-x or depth-y is absent
