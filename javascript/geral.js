@@ -7,6 +7,10 @@ window.addEventListener("load", function () {
     });
 });
 
+window.scroll(function () {
+    var wScroll = window.scrollLeft();
+    console.log(wScroll);
+});
 
 /* NAVEGAÇÃO */
 
