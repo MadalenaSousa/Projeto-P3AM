@@ -330,3 +330,6 @@ nav .itens.show {
     font-size: 20vw;
     margin: 0;
 }
+canvas #defaultCanvas0{
+    margin-top: 20vw;
+}
