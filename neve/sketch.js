@@ -6,8 +6,8 @@ var direcao = [];
 
 
 function setup() {
-    canvas = createCanvas(400, 400);
-    canvas.position(width * 7, 0);
+    canvas = createCanvas(900,1100);
+    canvas.position(width * 12, 0);
     canvas.style('z-index', '-5');
     frameRate(30);
 

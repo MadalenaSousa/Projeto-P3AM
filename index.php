@@ -306,7 +306,7 @@
             <div style="grid-row: 1/ 16">
                 <img src="imagens/fotos/PaisagenVsPessoas.jpg" alt="">
             </div>
-            <div style="grid-row: 10/ 13">
+            <div style="grid-row: 10/ 13"  id="defaultCanvas0">
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
             </div>
         </div>
@@ -315,7 +315,7 @@
                 <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
             </div>
         </div>
-        <div class="ocupa-4-coluna">
+        <div class="ocupa-4-coluna canvas">
             <img src="imagens/fotos/PaisagemVsSociedade2.jpg" alt="">
         </div>
 
@@ -530,6 +530,8 @@
     </nav>
 </footer>
 <script src="javascript/geral.js"></script>
+
+<script src="neve/sketch.js"></script>
 </body>
 
 </html>
