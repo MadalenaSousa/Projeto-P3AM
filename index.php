@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"> </script>
+    <script src="javascript/parallax.js"></script>
 </head>
 <body>
 <audio id="playAudio" autoplay loop>
     <source src="som/bg-music.mp3" type="audio/mp3">
     <source src="som/bg-music.ogg" type="audio/ogg">
 </audio>
-<main class="wrapper">
+<main class="wrapper container">
     <!-- CAPA -->
     <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 31;">
         <div style=" grid-column:11/ span 5; grid-row: 10/ span 3;  z-index: 2">
@@ -158,7 +159,7 @@
     </div>
 
     <!-- Página 4 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
+    <div class="ocupa-16-coluna wrapper sub-wrapper" id="scene">
         <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
             Ela pega-me pelo braço e passeamos demoradamente pelo sopé do monte. O mistério, aparentemente, não a deixa
             em paz. Foram ou não proferidas aquelas palavras? Sim ou não? Sim ou não? É uma questão de orgulho, honra,
@@ -179,27 +180,34 @@
             voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais
             vertiginoso e atroador da descida, digo a meia voz:
         </div>
+
         <div style="grid-column: 1 / span 10; grid-row: 12">
             <h1>Eu amo-te Nadenka! </h1>
         </div>
-        <img width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -500px;" src="imagens/fotos/montanha-neve.jpg" alt="">
-        <div class="diario wrapper" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; position: relative; top: -250px;">
+
+        <img class="layer" data-depth=".2" width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; top: -50vh" src="imagens/fotos/montanha-neve.jpg" alt="">
+
+        <div class="diario wrapper layer" data-depth=".1" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
             <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
-            <img style="grid-column: 5 / span 4; grid-row: 1; position: relative; top: -150px;"
-                 src="imagens/fotos/checkov-wife.jpg" alt="">
-            <img style="grid-column: 7 / span 3; grid-row: 2; z-index: 3" src="imagens/fotos/checkov-wife-2.jpg" alt="">
+
             <div style="grid-column: 1 / span 6; grid-row: 9;">
                 <?php include('imagens/texto-diario/texto-1-pag-4.svg'); ?>
             </div>
+
             <div style="grid-column: 6 / span 2; grid-row: 12;)">
                 <?php include('imagens/ilustracoes/seta.svg'); ?>
             </div>
-            <video style="grid-column: 3 / span 6; grid-row: 17; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
-                <source src="video/dança.mp4" type="video/mp4">
-            </video>
         </div>
+
+        <img class="layer" data-depth=".2" style="grid-area: 1 / 10 / auto / span 3 ; top: -150px;" src="imagens/fotos/checkov-wife.jpg" alt="">
+
+        <img class="layer" data-depth=".1" style="grid-area: 2 / 12 / auto / span 3; z-index: 3" src="imagens/fotos/checkov-wife-2.jpg" alt="">
+
+        <video class="layer" data-depth=".1" style="grid-area: 25 / 3 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
+            <source src="video/dança.mp4" type="video/mp4">
+        </video>
     </div>
 
     <!-- Página 5 -->
@@ -480,8 +488,6 @@
         <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
             <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
         </div>
-
-
     </div>
 </main>
 
@@ -530,6 +536,10 @@
     </nav>
 </footer>
 <script src="javascript/geral.js"></script>
+<script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+</script>
 </body>
 
 </html>
