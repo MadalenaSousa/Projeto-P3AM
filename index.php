@@ -411,16 +411,17 @@
             <h1 id="Aborrecmento">Aborrecimento</h1>
         </div>
 
-        <div class="ocupa-5-coluna" style="grid-row: 2/ 16">
+        <div class="ocupa-5-coluna " style="grid-row: 2/ 16">
             <?php include('imagens/ilustracoes/tabuleiro-xadrez.svg'); ?>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
+
+        <div class="ocupa-1-coluna rodar" style="grid-row: 2/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-2.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 6/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 9/ 16">
+        <div class="ocupa-1-coluna rodar" style="grid-row: 9/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-1.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 3/ 16">
@@ -447,10 +448,11 @@
             <img src="imagens/fotos/chekhov-inteiro.jpg" alt="" style="grid-row: 12/30;position: relative; left: -80px ">
 
         </div>
+
         <div class="ocupa-1-coluna" style="grid-row: 10/30">
             <?php include('imagens/ilustracoes/xadrez-peca-branca-5.svg'); ?>
-        </div>
 
+        </div>
         <div class="ocupa-1-coluna" style="grid-row: 15/30">
             <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>

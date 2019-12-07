@@ -334,3 +334,13 @@ nav .itens.show {
 canvas #defaultCanvas0{
     margin-top: 20vw;
 }
+
+.rodar:hover{
+
+    transform:translate3d(30px,30px,50px);
+    /*transform: perspective(100px);*/
+
+/*transform: rotate3d(30,40,300,-90deg)*/
+
+    
+}
