@@ -102,3 +102,22 @@ document.getElementById("creditos").addEventListener("click", function () {
         behavior: "smooth"});
 });
 
+
+
+
+/*var alterapos=document.getElementById("move");
+alterapos.addEventListener("mouseenter",AlterarFunction);
+alterapos.addEventListener("mouseover", AlterarFunction1);
+
+function AlterarFunction() {
+    alterapos.style.cssText="   transform: rotate3d(30, 40, 300, -90deg)";
+
+}
+function AlterarFunction1() {
+    alterapos.style.cssText="   transform: translateY(0px)";
+
+}*/
+
+
+
+
