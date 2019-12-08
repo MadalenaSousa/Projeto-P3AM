@@ -188,7 +188,7 @@
         <img class="layer" data-depth=".05" width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -50vh" src="imagens/fotos/montanha-neve.jpg" alt="">
 
         <div class="diario wrapper layer" data-depth=".05" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
-            <div style="grid-column: 1 / span 4; grid-row: 1 / 6">
+            <div id="olhos" style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
 

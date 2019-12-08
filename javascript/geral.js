@@ -7,10 +7,9 @@ window.addEventListener("load", function () {
     });
 });
 
-window.scroll(function () {
-    var wScroll = window.scrollLeft();
-    console.log(wScroll);
-});
+window.onscroll = function () {
+    console.log(window.scrollX);
+};
 
 /* NAVEGAÇÃO */
 
@@ -102,3 +101,23 @@ document.getElementById("creditos").addEventListener("click", function () {
         behavior: "smooth"});
 });
 
+/* Página 4 */
+
+var eyeBall = document.querySelectorAll("#olhos svg circle");
+var eyes = document.getElementsByClassName('eye');
+
+function moveEyeX(eye, ball) {
+    var rightLimit = eye.getTotalLength();
+    var leftLimit = eye.getPointAtLength(rightLimit / 1.4).x;
+
+    var espacoX = rightLimit - leftLimit;
+
+    document.addEventListener('mousemove', function () {
+
+        var x = espacoX * event.clientX / window.innerWidth;
+
+        ball.setAttribute("cx", leftLimit + x);
+    });
+}
+
+moveEyeX(eyes[1], eyeBall[1]);
