@@ -106,8 +106,11 @@ document.getElementById("creditos").addEventListener("click", function () {
 var eyeBall = document.querySelectorAll("#olhos svg circle");
 var eyes = document.getElementsByClassName('eye');
 
-var rightLimitLeftEye = eyes[1].getTotalLength();
+var rightLimitLeftEye = eyes[1].getPointAtLength(eyes[1].getTotalLength()).x;
 var leftLimitLeftEye = eyes[1].getPointAtLength(rightLimitLeftEye / 1.4).x;
+
+var rightLimitRightEye = eyes[0].getPointAtLength(eyes[0].getTotalLength()).x;
+var leftLimitRightEye = eyes[0].getPointAtLength(rightLimitRightEye / 10).x;
 
 function moveEyeX(eye, ball, rightLimit, leftLimit) {
 
@@ -122,3 +125,4 @@ function moveEyeX(eye, ball, rightLimit, leftLimit) {
 }
 
 moveEyeX(eyes[1], eyeBall[1], rightLimitLeftEye, leftLimitLeftEye);
+moveEyeX(eyes[0], eyeBall[0], rightLimitRightEye, leftLimitRightEye);
