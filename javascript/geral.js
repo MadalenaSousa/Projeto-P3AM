@@ -126,3 +126,19 @@ function moveEyeX(eye, ball, rightLimit, leftLimit) {
 
 moveEyeX(eyes[1], eyeBall[1], rightLimitLeftEye, leftLimitLeftEye);
 moveEyeX(eyes[0], eyeBall[0], rightLimitRightEye, leftLimitRightEye);
+
+/* Página 5 */
+
+document.querySelector(".familia img").addEventListener('mouseover', function () {
+    this.style.cssText = 'animation-name: grow;\n' +
+                        'animation-duration: 2s;\n' +
+                        'animation-fill-mode: forwards;';
+});
+
+document.querySelector(".familia img").addEventListener('mouseout', function () {
+    this.style.cssText = 'animation-name: shrink;\n' +
+                        'animation-duration: 2s;\n' +
+                        'animation-fill-mode: forwards;';
+});
+
+

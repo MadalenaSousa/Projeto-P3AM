@@ -234,12 +234,14 @@
             <br><br>
             <h1>Eu amo-te Nadia!</h1>
         </div>
+        <div class="familia">
+            <img src="imagens/fotos/checkov-family.jpg" alt="">
+        </div>
         <div class="diario wrapper layer" data-depth=".05" style="grid-row: span 10; grid-column: 7 / span 9">
             <div style="grid-column: span 5; grid-row: 6">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
-            <img style="grid-column: 1 / span 5; grid-row: span 5; position: relative; top: -200px;" src="imagens/fotos/checkov-family.jpg" alt="">
-            <div style="grid-row: 1; grid-column: 6 / span 2">
+            <div style="grid-row: 1; grid-column: 7 / span 2">
                 <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
             </div>
         </div>
@@ -269,7 +271,7 @@
             a ficar embriagada.
         </div>
         <div class="diario wrapper layer" data-depth=".05" style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
-            <div style="grid-column: 1 / span 4; grid-row: 1">
+            <div style="grid-column: 1 / span 4; grid-row: 1; position: relative; top: -810px">
                 <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
             </div>
             <img style="grid-column: 6 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px" src="imagens/fotos/publicidade-1.jpg" alt="">
@@ -283,7 +285,7 @@
     <!-- Página 7 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper">
 
-        <div class="ocupa-5-coluna">
+        <div style="grid-row: span 15; grid-column: 1 / span 5;">
             Sucedeu que, ao meio dia, fui sozinho ao monte; escondido entre a multidão, vejo Nadenka a aproximar-se do
             monte, a procurar-me com os olhos… Depois, sobe timidamente as escadas… Ela está aterrorizada por ir
             sozinha,
