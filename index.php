@@ -446,7 +446,7 @@
         </div>
         <div class="ocupa-1-coluna " style="grid-row: 6/ 16">
             <div id="move">
-            <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
+                <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
             </div>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 9/ 16">
@@ -488,40 +488,22 @@
             <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
 
-        <div class="ocupa-5-coluna" style="grid-row: 7/30; ">
+        <div class="ocupa-5-coluna" style="grid-row: 8/30; ">
             <div class="textoContraCapa " style="background-color:black;  ">
 
-                <br><br>
 
-                <a class="negrito">Título</a>: A Brincadeira<br><br>
-                <a class="negrito">Autor</a>: Anton Checkov<br><br>
-                <a class="negrito">Edição Gráfica</a>:
-                <br>
-                Ana Sofia Vicente<br>
-                Madalena Sousa<br>
-                Rita Marques<br>
-                <br>
-                <a class="negrito">Docentes:</a>
-                <br>
-                Pedro Martins<br>
-                Ana Boavida<br>
-                Luís Pereira<br>
-                <br>
-                <a class="negrito">Projeto 3 - Aplicações Multimédia</a><br><br>
-                <a class="negrito"> Faculdade de Ciências e Tecnologias</a><br><br>
-                <a class="negrito">Universidade de Coimbra</a><br><br>
-                <img class="ocupa-3-coluna" style="grid-row: 2/30" src="imagens/fotos/logo-uc.png" alt="">
+                <img src="imagens/fotos/creditos.svg">
+
 
             </div>
-
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
+            <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
+                <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
+            </div>
+            <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
+                <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
+            </div>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
-        </div>
-    </div>
 </main>
 
 <footer>
