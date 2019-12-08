@@ -8,7 +8,19 @@ window.addEventListener("load", function () {
 });
 
 window.onscroll = function () {
-    console.log(window.scrollX);
+
+    var distancia = [];
+    var cenas = document.getElementsByClassName("scene");
+    
+    for (let i = 0; i < cenas.length; i++) {
+        distancia[i] = cenas[i].offsetLeft;
+
+        console.log(distancia[i]);
+
+        if(window.scrollX > distancia[i]){
+            console.log('oi')
+        }
+    }
 };
 
 /* NAVEGAÇÃO */
