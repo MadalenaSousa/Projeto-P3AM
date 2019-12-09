@@ -474,7 +474,7 @@
     <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 31;z-index: -1">
 
 
-        <div class="ocupa-6-coluna " style="grid-row: 11/ span 16;z-index:0">
+        <div class="ocupa-4-coluna " style="grid-row: 11/ span 16;z-index:0;position: relative;">
             <img src="imagens/fotos/chekhov-inteiro.jpg" alt=""
                  style="grid-row: 12/30;position: relative; left: -80px ">
 
@@ -488,22 +488,26 @@
             <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
 
-        <div class="ocupa-5-coluna" style="grid-row: 8/30; ">
-            <div class="textoContraCapa " style="background-color:black;  ">
+        <div class="ocupa-4-coluna" style="grid-row: 8/30; ">
+            <div class="textoContraCapa " style="stroke-width:3px;">
 
-
-                <img src="imagens/fotos/creditos.svg">
-
+                <?php include('imagens/fotos/creditos.svg'); ?>
 
             </div>
         </div>
-            <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
-                <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
-            </div>
-            <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
-                <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
-            </div>
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
+        <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
+            <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
+        </div>
+
+        <div class="ocupa-4-coluna" style="grid-row: 5/ span 16;position:relative" >
+        <img src="imagens/fotos/Caezinhos.jpg">
+        </div>
+    </div>
+
+
 </main>
 
 <footer>
