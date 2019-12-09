@@ -9,17 +9,15 @@ window.addEventListener("load", function () {
 
 var cenas = document.getElementsByClassName("scene");
 
-for (let i = 0; i < cenas.length; i++) {
-    window.addEventListener("scroll", detectIn(cenas[i]));
-}
+window.onscroll = function () {
+    for (let i = 0; i < cenas.length; i++) {
+        console.log(cenas[i].offsetLeft);
 
-function detectIn(cena) {
-    console.log(cena.offsetLeft);
-
-    if(window.scrollX >= cena.offsetLeft){
-        //console.log('oi')
+        if (window.scrollX >= cenas[i].offsetLeft) {
+            //console.log('oi')
+        }
     }
-}
+};
 
 /* NAVEGAÇÃO */
 
