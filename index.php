@@ -149,13 +149,13 @@
         <div style="grid-column:10/ span 3; grid-row: 17/ span 5; position:relative;left:2vw;" >
             <img src="imagens/jornal/jornal-tuberculose.png" alt=""/>
         </div>
-<<<<<<< HEAD
+
         <div  class= "imagemcapa" style="grid-column:9/ span 3; grid-row:3/ span 6; position:relative;  box-shadow: transparent; " >
             <img src="imagens/fotos/Alexandre.jpg" alt="" style="border-radius: 50%; "/>
-=======
+
         <div  class= "imagemcapa" style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative;top:0.5vw;left: -3vw; box-shadow: transparent; " >
             <img src="imagens/fotos/alexandre.jpg" alt="" style="border-radius: 50%;"/>
->>>>>>> 48117cd9577f0933392e4a46abc0112cdbc37f5e
+
         </div>
     </div>
 
