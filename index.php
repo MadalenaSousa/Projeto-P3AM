@@ -199,7 +199,8 @@
              style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -50vh"
              src="imagens/fotos/montanha-neve.jpg" alt="">
 
-        <div class="diario wrapper layer" data-depth=".05" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
+        <div class="diario wrapper layer" data-depth=".05"
+             style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
             <div id="olhos" style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
@@ -287,7 +288,8 @@
             segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue
             a ficar embriagada.
         </div>
-        <div class="diario wrapper layer" data-depth=".05" style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
+        <div class="diario wrapper layer" data-depth=".05"
+             style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
             <div style="grid-column: 1 / span 4; grid-row: 1; position: relative; top: -810px">
                 <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
             </div>
@@ -472,37 +474,41 @@
     <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 31;z-index: -1">
 
 
-        <div class="ocupa-4-coluna " style="grid-row: 11/ span 16;z-index:0;position: relative;">
+        <div style="grid-row: 11/ span 16;z-index:0;position: relative; grid-column:1/span 4">
             <img src="imagens/fotos/chekhov-inteiro.jpg" alt=""
                  style="grid-row: 12/30;position: relative; left: -80px ">
 
         </div>
 
-        <div class="ocupa-1-coluna" style="grid-row: 10/30">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-5.svg'); ?>
+        <div style="grid-row: 8/30;grid-column:4/span 1;">
+
 
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 15/30">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
+        <div style="grid-row: 15/30;grid-column:5/span 1;">
+
         </div>
 
-        <div class="ocupa-4-coluna" style="grid-row: 8/30; ">
+        <div style="grid-row: 8/30; grid-column:6 /span 5;left: -100px;">
             <div class="textoContraCapa " style="stroke-width:3px;">
 
                 <?php include('imagens/fotos/creditos.svg'); ?>
 
             </div>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
-        </div>
-        <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
+
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16;z-index:2;position:relative;grid-column:11/span 1;">
+
         </div>
 
-        <div class="ocupa-4-coluna " id="caezinhos" style="grid-row: 5/ span 16;position:relative" >
-        <img src="imagens/fotos/Caezinhos.jpg">
+
+        <div id="caezinhos" style="grid-row: 5/ span 16;position:relative; z-index: 0;grid-column:12/span 3;">
+            <img src="imagens/fotos/Caezinhos.jpg">
         </div>
+
+        <div id="BabyChekhov" style="grid-row: 19/ span 16;position:relative; z-index: 0;grid-column:12/span 4;">
+            <img src="imagens/fotos/ChekhovPequeno.jpg">
+        </div>
+
     </div>
 
 

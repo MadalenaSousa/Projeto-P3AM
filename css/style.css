@@ -454,8 +454,6 @@ canvas #defaultCanvas0 {
 
 #caezinhos {
 
-
-
     animation-duration: 3s;
     animation-delay: 4s;
     animation-iteration-count: 1;
@@ -464,14 +462,57 @@ canvas #defaultCanvas0 {
 }
 
 
-@keyframes descer{
+@keyframes descer {
 
-   /* from {
-        transform: translate3d(40px, 200px, 100px)
-
-    } */
     to {
         transform: translate3d(-40px, 200px, -100px)
+    }
+
+
+}
+
+@keyframes subir {
+    from {
+
+        transform: translate3d(-40px, 200px, -100px)
+    }
+
+    to {
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+
+}
+
+
+#BabyChekhov{
+
+
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes subirbaby {
+
+  to {
+        transform: translate3d(-40px, -400px, 100px)
+    }
+
+
+}
+
+@keyframes descerbaby {
+    from {
+
+        transform: translate3d(-40px, -400px,100px);
+    }
+
+    to {
+        transform: translate3d(0px, 0px, 0px);
     }
 
 
