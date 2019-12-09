@@ -7,21 +7,19 @@ window.addEventListener("load", function () {
     });
 });
 
-window.onscroll = function () {
+var cenas = document.getElementsByClassName("scene");
 
-    var distancia = [];
-    var cenas = document.getElementsByClassName("scene");
-    
-    for (let i = 0; i < cenas.length; i++) {
-        distancia[i] = cenas[i].offsetLeft;
+for (let i = 0; i < cenas.length; i++) {
+    window.addEventListener("scroll", detectIn(cenas[i]));
+}
 
-        console.log(distancia[i]);
+function detectIn(cena) {
+    console.log(cena.offsetLeft);
 
-        if(window.scrollX >= distancia[i]){
-            //console.log('oi')
-        }
+    if(window.scrollX >= cena.offsetLeft){
+        //console.log('oi')
     }
-};
+}
 
 /* NAVEGAÇÃO */
 
