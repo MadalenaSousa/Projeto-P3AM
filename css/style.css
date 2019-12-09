@@ -17,20 +17,23 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.sticky{
+.sticky {
     position: -webkit-sticky;
     position: sticky;
 
 }
-.imagemcapa{
-    opacity:0;
+
+.imagemcapa {
+    opacity: 0;
     transition: 0.5s;
 }
-.imagemcapa:hover{
-    opacity:1;
+
+.imagemcapa:hover {
+    opacity: 1;
 }
-.russia_moscovo{
-    opacity:0;
+
+.russia_moscovo {
+    opacity: 0;
 }
 
 /* Scroll Bar */
@@ -307,7 +310,7 @@ nav .itens.show {
     padding: 30px;
 }
 
-.textoContraCapa>.negrito{
+.textoContraCapa > .negrito {
     font-weight: bold;
 }
 
@@ -435,7 +438,7 @@ nav .itens.show {
     }
 }
 
-#fotoSociedadeVpaisagem{
+#fotoSociedadeVpaisagem {
     margin-top: -20vw;
     margin-left: -50vw;
 }
@@ -444,9 +447,36 @@ nav .itens.show {
     font-size: 20vw;
     margin: 0;
 }
-canvas #defaultCanvas0{
+
+canvas #defaultCanvas0 {
     margin-top: 20vw;
 }
+
+#caezinhos {
+
+
+
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes descer{
+
+   /* from {
+        transform: translate3d(40px, 200px, 100px)
+
+    } */
+    to {
+        transform: translate3d(-40px, 200px, -100px)
+    }
+
+
+}
+
 
 
 

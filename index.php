@@ -500,7 +500,7 @@
             <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
         </div>
 
-        <div class="ocupa-4-coluna" style="grid-row: 5/ span 16;position:relative" >
+        <div class="ocupa-4-coluna " id="caezinhos" style="grid-row: 5/ span 16;position:relative" >
         <img src="imagens/fotos/Caezinhos.jpg">
         </div>
     </div>
