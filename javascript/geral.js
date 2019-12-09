@@ -98,3 +98,4 @@ document.getElementById("creditos").addEventListener("click", function () {
         behavior: "smooth"});
 });
 
+
