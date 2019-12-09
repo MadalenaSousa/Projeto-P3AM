@@ -17,8 +17,8 @@ window.onscroll = function () {
 
         console.log(distancia[i]);
 
-        if(window.scrollX > distancia[i]){
-            console.log('oi')
+        if(window.scrollX >= distancia[i]){
+            //console.log('oi')
         }
     }
 };

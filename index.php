@@ -160,7 +160,7 @@
 
     <!-- Página 4 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper scene">
-        <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
+        <div style="grid-column: 1 / span 5; grid-row: 1 / span 15">
             Ela pega-me pelo braço e passeamos demoradamente pelo sopé do monte. O mistério, aparentemente, não a deixa
             em paz. Foram ou não proferidas aquelas palavras? Sim ou não? Sim ou não? É uma questão de orgulho, honra,
             vida, felicidade, uma questão muito importante,- a questão mais importante do mundo.
@@ -179,9 +179,7 @@
             Subimos ao monte de gelo por uma escada. Novamente, sento a pálida e trémula Nadenka no trenó, novamente
             voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais
             vertiginoso e atroador da descida, digo a meia voz:
-        </div>
 
-        <div style="grid-column: 1 / span 10; grid-row: 12">
             <h1>Eu amo-te Nadenka! </h1>
         </div>
 
