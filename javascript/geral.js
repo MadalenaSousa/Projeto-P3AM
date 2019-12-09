@@ -11,10 +11,18 @@ var cenas = document.getElementsByClassName("scene");
 
 window.onscroll = function () {
     for (let i = 0; i < cenas.length; i++) {
-        console.log(cenas[i].offsetLeft);
 
-        if (window.scrollX >= cenas[i].offsetLeft) {
-            //console.log('oi')
+        var fotos = cenas[i].querySelectorAll("img");
+
+        if (window.scrollX + (innerWidth/4) >= cenas[i].offsetLeft) {
+            for(let z=0; z<fotos.length; z++){
+
+                setTimeout(addClass(fotos[z]), 150);
+
+                function addClass (fotos) {
+                    fotos.classList.add("is-showing");
+                }
+            }
         }
     }
 };
