@@ -332,30 +332,30 @@
         </div>
 
 
-        <div class="ocupa-11-coluna" style="grid-row: 1/ 16">
-            <div style="grid-row: 1/ 16">
-                <img src="imagens/fotos/paisagem-pessoas.jpg" alt="">
-            </div>
-            <div style="grid-row: 10/ 13" id="defaultCanvas0">
-                <?php include('imagens/ilustracoes/montanhas.svg'); ?>
-            </div>
+        <img src="imagens/fotos/paisagem-pessoas.jpg" alt="" style="grid-row: 1/ 30;grid-column:6/span 5;">
+
+        <div style="grid-row: 8/ 30;grid-column:6/span 11;" id="defaultCanvas0">
+            <?php include('imagens/ilustracoes/montanhas.svg'); ?>
         </div>
-        <div class="ocupa-7-coluna" style=" grid-row: 16">
+
+
+        <div style=" grid-row: 16;grid-column:6/span 7;">
             <div class="diario">
                 <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
             </div>
         </div>
-        <div class="ocupa-4-coluna canvas">
-            <img src="imagens/fotos/paisagem-sociedade-2.jpg" alt="">
-        </div>
 
-        <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
-            <img id="carta" src="imagens/fotos/carta.jpg" alt="">
+        <img src="imagens/fotos/paisagem-sociedade-2.jpg" alt="" style="grid-row: 16/30;grid-column:13/span 4;">
+
+        <img id="carta" src="imagens/fotos/carta.jpg" alt="" style="grid-row: 1/30;grid-column:10/span 3;margin-top:-100px">
+
+        <div style="grid-row: 5/16;grid-column:13/span 3;">
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
-        <div class="ocupa-4-coluna " id="fotoSociedadeVpaisagem" style="grid-row: 1/ 16;z-index: -1">
-            <img src="imagens/fotos/paisagem-sociedade-3.jpg" alt="">
-        </div>
+
+        <img src="imagens/fotos/paisagem-sociedade-3.jpg" alt=""
+             style="grid-row: 1/ 16;z-index:-1;grid-column:13/span 4;margin-top:-200px">
+
 
     </div>
 
@@ -428,43 +428,41 @@
             jogo...
         </div>
 
-        <div class="ocupa-5-coluna" style="grid-row: 11/ span 5;">
 
-            <h1 id="Aborrecmento">Aborrecimento</h1>
-        </div>
+        <h1 id="aborrecimento" style="grid-row:9; grid-column:1/span 30;">Aborrecimento</h1>
 
-        <div class="ocupa-5-coluna " style="grid-row: 2/ 16">
+        <div style="grid-row: 2/ 16;grid-column:6/span 4;">
 
             <?php include('imagens/ilustracoes/tabuleiro-xadrez.svg'); ?>
 
         </div>
 
-        <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
+        <div style="grid-row: 2/ 16;grid-column:10/span 1; width: 50px">
 
             <?php include('imagens/ilustracoes/xadrez-peca-2.svg'); ?>
 
         </div>
-        <div class="ocupa-1-coluna " style="grid-row: 6/ 16">
-            <div id="move">
-                <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
-            </div>
+        <div style="grid-row: 4/ 16;grid-column:12/span 1;width: 50px">
+
+            <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
+
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 9/ 16">
+        <div style="grid-row: 4/ 16;grid-column:15/span 1;width: 50px">
 
             <?php include('imagens/ilustracoes/xadrez-peca-1.svg'); ?>
 
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 3/ 16">
+        <div style="grid-row: 2/ 16;grid-column:14/span 1;width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-3.svg'); ?>
         </div>
 
-        <div class="ocupa-1-coluna" style="grid-row: 7/ 16">
+        <div style="grid-row: 7/ 16;grid-column:16/span 1;width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
+        <div style="grid-row: 1/ 16;grid-column:12/span 1;width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 10/ 16;">
+        <div style="grid-row: 1/ 16;grid-column:16/span 1;width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
     </div>
@@ -474,44 +472,23 @@
     <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 31;z-index: -1">
 
 
-        <div style="grid-row: 11/ span 16;z-index:0;position: relative; grid-column:1/span 4">
-            <img src="imagens/fotos/chekhov-inteiro.jpg" alt=""
-                 style="grid-row: 12/30;position: relative; left: -80px ">
-
+        <div style="grid-row: 11/ span 16;z-index:0;position: relative; grid-column:1/span 4;left:-60px;">
+            <img src="imagens/fotos/chekhov-inteiro.jpg" alt="">
         </div>
 
-        <div style="grid-row: 8/30;grid-column:4/span 1;">
+        <div class="textoContraCapa " style="stroke-width:3px; grid-column:7 /span 4 ;grid-row:9;">
 
-
-        </div>
-        <div style="grid-row: 15/30;grid-column:5/span 1;">
-
-        </div>
-
-        <div style="grid-row: 8/30; grid-column:6 /span 5;left: -100px;">
-            <div class="textoContraCapa " style="stroke-width:3px;">
-
-                <?php include('imagens/fotos/creditos.svg'); ?>
-
-            </div>
-        </div>
-
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16;z-index:2;position:relative;grid-column:11/span 1;">
+            <?php include('imagens/fotos/creditos.svg'); ?>
 
         </div>
 
 
-        <div id="caezinhos" style="grid-row: 5/ span 16;position:relative; z-index: 0;grid-column:12/span 3;">
-            <img src="imagens/fotos/Caezinhos.jpg">
-        </div>
+        <img src="imagens/fotos/Caezinhos.jpg" style="grid-row: 5;grid-column:13/span 3;">
 
-        <div id="BabyChekhov" style="grid-row: 19/ span 16;position:relative; z-index: 0;grid-column:12/span 4;">
-            <img src="imagens/fotos/ChekhovPequeno.jpg">
-        </div>
+        <img src="imagens/fotos/ChekhovPequeno.jpg" style="grid-row: 18; z-index: 0;grid-column:12/span 3;">
+
 
     </div>
-
-
 </main>
 
 <footer>

@@ -162,31 +162,6 @@ document.querySelector(".familia img").addEventListener('mouseout', function () 
         'animation-fill-mode: forwards;';
 });
 
-document.querySelector("#caezinhos img").addEventListener('mouseover', function () {
-    this.style.cssText = 'animation-name:descer\n;' + 'animation-duration: 1s;\n' +
-        'animation-fill-mode: forwards;'
-
-});
-document.querySelector("#caezinhos img").addEventListener('mouseout', function () {
-    this.style.cssText = 'animation-name: subir;\n' +
-        'animation-duration: 1s;\n' +
-        'animation-fill-mode: forwards;';
-});
-
-
-
-
-
-document.querySelector("#BabyChekhov img").addEventListener('mouseover', function () {
-    this.style.cssText = 'animation-name:subirbaby\n;' + 'animation-duration: 1s;\n' +
-        'animation-fill-mode: forwards;'
-
-});
-document.querySelector("#BabyChekhov img").addEventListener('mouseout', function () {
-    this.style.cssText = 'animation-name: descerbaby;\n' +
-        'animation-duration: 1s;\n' +
-        'animation-fill-mode: forwards;';
-});
 
 
 
