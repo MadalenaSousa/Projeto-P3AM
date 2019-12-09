@@ -258,9 +258,6 @@
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
 
-            <img style="grid-column: 1 / span 5; grid-row: span 5; position: relative; top: -200px;"
-                 src="imagens/fotos/checkov-family.jpg" alt="">
-
             <div style="grid-row: 1; grid-column: 7 / span 2">
                 <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
             </div>
