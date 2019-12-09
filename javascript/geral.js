@@ -3,7 +3,7 @@
 window.addEventListener("load", function () {
     window.scroll({
         left: 0,
-        top: innerHeight/2
+        top: innerHeight / 2
     });
 });
 
@@ -34,8 +34,9 @@ var w = window.innerWidth;
 document.getElementById("home").addEventListener("click", function () {
     window.scroll({
         left: 0,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.querySelector(".botao-mostrar").addEventListener("click", function () {
@@ -46,75 +47,85 @@ document.getElementById("1").addEventListener("click", function () {
 
     window.scroll({
         left: w,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("2").addEventListener("click", function () {
 
     window.scroll({
         left: w * 2,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("3").addEventListener("click", function () {
     console.log(w);
-    console.log(w*3);
+    console.log(w * 3);
 
     window.scroll({
         left: w * 3,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("4").addEventListener("click", function () {
     window.scroll({
         left: w * 4,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("5").addEventListener("click", function () {
     window.scroll({
         left: w * 5,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("6").addEventListener("click", function () {
     window.scroll({
         left: w * 6,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("7").addEventListener("click", function () {
     window.scroll({
         left: w * 7,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("8").addEventListener("click", function () {
     window.scroll({
         left: w * 8,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("9").addEventListener("click", function () {
     window.scroll({
         left: w * 9,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("creditos").addEventListener("click", function () {
     window.scroll({
         left: w * 10,
-        top: innerHeight/2,
-        behavior: "smooth"});
+        top: innerHeight / 2,
+        behavior: "smooth"
+    });
 });
 
 /* Página 4 */
@@ -122,10 +133,10 @@ document.getElementById("creditos").addEventListener("click", function () {
 var eyeBall = document.querySelectorAll("#olhos svg circle");
 var eyes = document.getElementsByClassName('eye');
 
-var rightLimitLeftEye = eyes[1].getPointAtLength(eyes[1].getTotalLength()-10).x;
+var rightLimitLeftEye = eyes[1].getPointAtLength(eyes[1].getTotalLength() - 10).x;
 var leftLimitLeftEye = eyes[1].getPointAtLength(rightLimitLeftEye / 8).x;
 
-var rightLimitRightEye = eyes[0].getPointAtLength(eyes[0].getTotalLength()-5).x;
+var rightLimitRightEye = eyes[0].getPointAtLength(eyes[0].getTotalLength() - 5).x;
 var leftLimitRightEye = eyes[0].getPointAtLength(rightLimitRightEye / 30).x;
 
 function moveEyeX(eye, ball, rightLimit, leftLimit) {
@@ -147,14 +158,43 @@ moveEyeX(eyes[0], eyeBall[0], rightLimitRightEye, leftLimitRightEye);
 
 document.querySelector(".familia img").addEventListener('mouseover', function () {
     this.style.cssText = 'animation-name: grow;\n' +
-                        'animation-duration: 2s;\n' +
-                        'animation-fill-mode: forwards;';
+        'animation-duration: 2s;\n' +
+        'animation-fill-mode: forwards;';
 });
 
 document.querySelector(".familia img").addEventListener('mouseout', function () {
     this.style.cssText = 'animation-name: shrink;\n' +
-                        'animation-duration: 2s;\n' +
-                        'animation-fill-mode: forwards;';
+        'animation-duration: 2s;\n' +
+        'animation-fill-mode: forwards;';
 });
+
+document.querySelector("#caezinhos img").addEventListener('mouseover', function () {
+    this.style.cssText = 'animation-name:descer\n;' + 'animation-duration: 1s;\n' +
+        'animation-fill-mode: forwards;'
+
+});
+document.querySelector("#caezinhos img").addEventListener('mouseout', function () {
+    this.style.cssText = 'animation-name: subir;\n' +
+        'animation-duration: 1s;\n' +
+        'animation-fill-mode: forwards;';
+});
+
+
+
+
+
+document.querySelector("#BabyChekhov img").addEventListener('mouseover', function () {
+    this.style.cssText = 'animation-name:subirbaby\n;' + 'animation-duration: 1s;\n' +
+        'animation-fill-mode: forwards;'
+
+});
+document.querySelector("#BabyChekhov img").addEventListener('mouseout', function () {
+    this.style.cssText = 'animation-name: descerbaby;\n' +
+        'animation-duration: 1s;\n' +
+        'animation-fill-mode: forwards;';
+});
+
+
+
 
 
