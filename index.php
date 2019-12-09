@@ -490,9 +490,7 @@
 
         <div style="grid-row: 8/30; grid-column:6 /span 5;left: -100px;">
             <div class="textoContraCapa " style="stroke-width:3px;">
-
                 <?php include('imagens/fotos/creditos.svg'); ?>
-
             </div>
         </div>
 

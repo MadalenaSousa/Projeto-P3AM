@@ -437,7 +437,7 @@ nav .itens.show {
 #fumo path:last-child {
     stroke-dasharray: 300;
     stroke-dashoffset: 300;
-    animation: 20s off-zero infinite linear reverse;
+    animation: 10s off-zero infinite linear reverse;
 }
 
 
@@ -462,7 +462,6 @@ canvas #defaultCanvas0 {
 }
 
 #caezinhos {
-
     animation-duration: 3s;
     animation-delay: 4s;
     animation-iteration-count: 1;
@@ -476,8 +475,6 @@ canvas #defaultCanvas0 {
     to {
         transform: translate3d(-40px, 200px, -100px)
     }
-
-
 }
 
 @keyframes subir {
@@ -489,14 +486,10 @@ canvas #defaultCanvas0 {
     to {
         transform: translate3d(0px, 0px, 0px);
     }
-
-
 }
 
 
 #BabyChekhov{
-
-
     animation-duration: 3s;
     animation-delay: 4s;
     animation-iteration-count: 1;
