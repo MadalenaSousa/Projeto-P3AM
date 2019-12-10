@@ -153,6 +153,40 @@
         document.getElementById("cls-74").classList.replace("cls-0", "cls-2");
         document.getElementById("cls-75").classList.replace("cls-0", "cls-2");
         }
+        else if(distanceToLeft
+        >=
+        -910){
+
+
+        document.getElementById("cls-48").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-49").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-50").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-51").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-52").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-53").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-54").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-55").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-56").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-57").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-58").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-59").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-60").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-61").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-62").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-63").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-64").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-65").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-66").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-67").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-68").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-69").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-70").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-71").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-72").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-73").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-74").classList.replace("cls-2", "cls-0");
+        document.getElementById("cls-75").classList.replace("cls-2", "cls-0");
+        }
         });
     </script>
 </svg>

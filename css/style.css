@@ -77,19 +77,21 @@ video::-webkit-media-controls {
 /* Scroll Bar */
 
 ::-webkit-scrollbar {
-    width: 5px;
+
 }
 
 ::-webkit-scrollbar-track {
     background: black;
     margin-top: 0;
     width: 5px;
+    height:5px;
 }
 
 ::-webkit-scrollbar-track-piece {
     background: white;
     margin-right: 5px;
     width: 2px;
+    height:2px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -437,11 +439,12 @@ transition:transform 1s;
 
 }
 .video video:hover{
-    transform: translateX(-50%) scale(2);
+    transform: translateX(50%) scale(2);
 
 }
 .familia img {
     width: 50%;
+
 }
 
 

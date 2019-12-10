@@ -136,10 +136,10 @@
         <div class="rev_russa" style="grid-column:10/span 3; grid-row:1/ span 8; position:relative;top:-2vh;">
             <img src="imagens/fotos/russia-3.jpeg" alt=""/>
         </div>
-        <div class="video" style="grid-column:9/span 2; grid-row:6/ span 8; position:relative; ">
-            <video style="width: 18vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+        <div class="video" style="grid-column:7/span 2; grid-row:6/ span 8; position:relative; ">
+            <video style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
             " id="Video1" playsinline muted controls autoplay loop>
-            <source src="video/revolução.mp4" type="video/mp4"/>
+            <source src="video/Revoluçao.m4v" type="video/mp4"/>
             </video>
 
 
@@ -180,19 +180,19 @@
             <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
         </div>
 
-        <div class="video2" style="grid-column:10/span 8; grid-row:1/ span 8; position:relative;top:-20vh; ">
+        <div class="video2" style="grid-column:8/span 8; grid-row:1/ span 8; position:relative;top:-20vh; ">
             <video class="layer" data-depth=".15"
-                   style="width: 18vw; z-index:5;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                   style="width: 30vw; z-index:5;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
             " id="Video1" playsinline muted controls autoplay loop>
-            <source src="video/gunshots-screams.mp4" type="video/mp4"/>
+            <source src="video/Gunshots-Screams.m4v" type="video/mp4"/>
             </video>
         </div>
 
         <div class="video1" style="grid-column:12/span 2; grid-row:17/ span 8; position:relative; ">
             <video class="layer" data-depth=".15"
-                   style="width: 18vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                   style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
             " id="Video1" playsinline muted controls autoplay loop>
-            <source src="video/consequences.mp4" type="video/mp4"/>
+            <source src="video/Consequences.mp4" type="video/mp4"/>
             </video>
         </div>
         <div class="tub" style="grid-column:13/ span 3; grid-row: 1/ span 5; position:relative;top:-10vh">
