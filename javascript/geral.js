@@ -9,17 +9,23 @@ window.addEventListener("load", function () {
 
 var cenas = document.getElementsByClassName("scene");
 
-for (let i = 0; i < cenas.length; i++) {
-    window.addEventListener("scroll", detectIn(cenas[i]));
-}
+window.onscroll = function () {
+    for (let i = 0; i < cenas.length; i++) {
 
-function detectIn(cena) {
-    console.log(cena.offsetLeft);
+        var fotos = cenas[i].querySelectorAll("img");
 
-    if (window.scrollX >= cena.offsetLeft) {
-        //console.log('oi')
+        if (window.scrollX + (innerWidth/4) >= cenas[i].offsetLeft) {
+            for(let z=0; z<fotos.length; z++){
+
+                setTimeout(addClass(fotos[z]), 150);
+
+                function addClass (fotos) {
+                    fotos.classList.add("is-showing");
+                }
+            }
+        }
     }
-}
+};
 
 /* NAVEGAÇÃO */
 

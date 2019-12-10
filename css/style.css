@@ -17,7 +17,16 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.sticky {
+.scene img {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.scene img.is-showing {
+    opacity: 1;
+}
+
+.sticky{
     position: -webkit-sticky;
     position: sticky;
 
@@ -428,7 +437,7 @@ nav .itens.show {
 #fumo path:last-child {
     stroke-dasharray: 300;
     stroke-dashoffset: 300;
-    animation: 20s off-zero infinite linear reverse;
+    animation: 10s off-zero infinite linear reverse;
 }
 
 
@@ -453,7 +462,6 @@ canvas #defaultCanvas0 {
 }
 
 #caezinhos {
-
     animation-duration: 3s;
     animation-delay: 4s;
     animation-iteration-count: 1;
@@ -467,8 +475,6 @@ canvas #defaultCanvas0 {
     to {
         transform: translate3d(-40px, 200px, -100px)
     }
-
-
 }
 
 @keyframes subir {
@@ -480,14 +486,10 @@ canvas #defaultCanvas0 {
     to {
         transform: translate3d(0px, 0px, 0px);
     }
-
-
 }
 
 
 #BabyChekhov{
-
-
     animation-duration: 3s;
     animation-delay: 4s;
     animation-iteration-count: 1;
