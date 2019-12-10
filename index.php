@@ -31,15 +31,15 @@
             </div>
 
             <div class="layer" data-depth=".08" style="grid-column: 2 / span 2; grid-row: 5 / span 5;">
-                <img class="imagemcapa" src="imagens/fotos/irmão.jpg" alt="">
+                <img src="imagens/fotos/irmão.jpg" alt="">
             </div>
 
             <div class="layer" data-depth=".1" style="grid-column: 15 / span 3; grid-row: 8;">
-                <img class="imagemcapa" src="imagens/fotos/familia-1.jpg" alt="">
+                <img src="imagens/fotos/familia-1.jpg" alt="">
             </div>
 
             <div class="layer" data-depth=".12" style="grid-column: 7/ span 5; grid-row:18 ;">
-                <img class="imagemcapa" src="imagens/fotos/russia-1.jpeg" alt="">
+                <img src="imagens/fotos/russia-1.jpeg" alt="">
             </div>
         </div>
     </div>

@@ -162,6 +162,7 @@ video::-webkit-media-controls {
 .ocupa-16-coluna {
     grid-column: span 16;
 }
+
 .ocupa-18-coluna {
     grid-column: span 18;
 }
