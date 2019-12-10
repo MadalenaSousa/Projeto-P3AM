@@ -168,11 +168,6 @@ document.querySelector(".familia img").addEventListener('mouseout', function () 
         'animation-fill-mode: forwards;';
 });
 
-/* Primeiras Pág. */
-
-document.getElementById("Video1").load();
-document.getElementById("Video1").play();
-
 /* Contracapa */
 
 document.querySelector("#caezinhos img").addEventListener('mouseover', function () {

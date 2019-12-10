@@ -27,29 +27,25 @@
             </div>
             <div style=" grid-column:4/ span 10; grid-row:13; position:relative; ">
                 <h1 class="h1"> A BRINCADEIRA </h1>
-                <h2 class="h2"  > Anton Checkov </h2>
+                <h2 class="h2"> Anton Checkov </h2>
             </div>
-            <div style="display:none;grid-column:14/ span 4; grid-row:1/ span 10; position:relative; box-shadow: transparent;top:-50vw;">
-                <img class="imagemcapa" src="imagens/fotos/alexandre.jpg" alt=""
-                     style="box-shadow: none; border-radius: 50%;"/>
+
+            <div class="layer" data-depth=".08" style="grid-column: 2 / span 2; grid-row: 5 / span 5;">
+                <img class="imagemcapa" src="imagens/fotos/irmão.jpg" alt="">
             </div>
-            <div  style="grid-column: 5 / span 3; grid-row: 2/span 5; position: relative; ">
-                <img class="imagemcapa"
-                     src="imagens/fotos/irmão.jpg" alt="">
+
+            <div class="layer" data-depth=".1" style="grid-column: 15 / span 3; grid-row: 8;">
+                <img class="imagemcapa" src="imagens/fotos/familia-1.jpg" alt="">
             </div>
-            <div  style="grid-column: 15 / span 4; grid-row: 8; position: relative;">
-                <img class="imagemcapa"
-                     src="imagens/fotos/familia-1.jpg" alt="">
-            </div>
-            <div   style="grid-column: 7/ span 7; grid-row:18 ; position: relative;">
-                <img class="imagemcapa"
-                     src="imagens/fotos/russia-1.jpeg" alt="">
+
+            <div class="layer" data-depth=".12" style="grid-column: 7/ span 5; grid-row:18 ;">
+                <img class="imagemcapa" src="imagens/fotos/russia-1.jpeg" alt="">
             </div>
         </div>
     </div>
 
     <!-- Página 1 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
+    <div class="ocupa-16-coluna wrapper sub-wrapper scene">
         <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
             Anton Chekhov, nasceu em 29 de Janeiro de 1860. Foi o
             terceiro de seis filhos e teve uma educação rígida e religiosa,
@@ -68,24 +64,24 @@
             Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
         </div>
 
-        <div class="pagina1_nota1 diario" style=" grid-column:6/ span 5; grid-row:1/span 5; position:relative; top:-20vw;">
+        <div class="pagina1_nota1 diario layer" data-depth=".1" style="grid-column:6/ span 5; grid-row:1/span 5; position:relative; top:-20vw;">
             <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
         </div>
 
-        <div class="russia" style="grid-column:10/ span 7; grid-row:15/ span 5; position:relative; top: -25vw;">
-                <?php include('imagens/ilustracoes/russia_moscovo.svg'); ?>
+        <div class="russia" data-depth=".15" style="grid-column:10/ span 7; grid-row:15/ span 5; position:relative; top: -25vw;">
+            <?php include('imagens/ilustracoes/russia_moscovo.svg'); ?>
         </div>
       
-        <div class="noticio_dec_80" style="grid-column:7/span 3; grid-row:1/ span 8; position:relative;">
+        <div class="noticio_dec_80 layer" data-depth=".2" style="grid-column:7/span 3; grid-row:1/ span 8; position:relative;">
             <img src="imagens/jornal/jornal-decadade80.png" alt=""/>
         </div>
 
 
-        <div class="pagina1_nota2 diario" id="aumentar1" style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top: 10vw; z-index: 2">
+        <div class="pagina1_nota2 diario layer" data-depth=".15" id="aumentar1" style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top: 10vw; z-index: 2">
             <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
         </div>
 
-        <div class="data" style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -15vw;">
+        <div class="data layer" data-depth=".2" style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -15vw;">
             <h1>1860</h1>
         </div>
     </div>
@@ -112,15 +108,15 @@
             Sento-a no trenó, pálida e trémula, envolvo-a com um braço e lanço-me com ela no abismo.
         </div>
         
-        <div class="pagina2_nota1 diario" style="grid-column:9/ span 4; grid-row:11/ span 4; position:relative; ">
+        <div class="pagina2_nota1 diario layer" data-depth=".1" style="grid-column:9/ span 4; grid-row:11/ span 4; position:relative; ">
             <?php include('imagens/ilustracoes/pagina2_nota1.svg'); ?>
         </div>
         
-        <div class="pagina2_nota2 diario" style="grid-column:6/ span 5; grid-row:1/ span 5;">
+        <div class="pagina2_nota2 diario layer" data-depth=".05" style="grid-column:6/ span 5; grid-row:1/ span 5;">
             <?php include('imagens/ilustracoes/pagina2_nota2.svg'); ?>
         </div>
         
-        <div class="pagina2_nota3 diario" style="grid-column:6/ span 4; grid-row:9/ span 3; position:relative;">
+        <div class="pagina2_nota3 diario layer" data-depth=".1" style="grid-column:6/ span 4; grid-row:9/ span 3; position:relative;">
             <?php include('imagens/ilustracoes/pagina2_nota3.svg'); ?>
         </div>
         
@@ -128,21 +124,21 @@
             <img src="imagens/jornal/jornal-conturbacaopolitica.png" alt=""/>
         </div>
       
-        <div class="data" style="grid-column:6/ span 6; grid-row:2/ span 5; position:relative;z-index:5; top: -50vh;">
+        <div class="data layer" data-depth=".2" style="grid-column:6/ span 6; grid-row:2/ span 5; position:relative;z-index:5; top: -50vh;">
             <h1>1905</h1>
         </div>
         
-        <div class="rev_russa" style="grid-column:3/span 5; grid-row:1/ span 8; position:relative; top: -53vh;">
+        <div class="rev_russa layer" data-depth=".2" style="grid-column:3/span 5; grid-row:1/ span 8; position:relative; top: -53vh;">
             <img src="imagens/fotos/russia-2.jpeg" alt=""/>
         </div>
         
-        <div class="rev_russa" style="grid-column:10/span 3; grid-row:1/ span 8; position:relative;top:-2vh;">
+        <div class=" layer" data-depth=".2" style="grid-column:10/span 3; grid-row:1/ span 8; position:relative;top:-2vh;">
             <img src="imagens/fotos/russia-3.jpeg" alt=""/>
         </div>
         
-        <div class="video" style="grid-column:7/span 2; grid-row:6/ span 8; position:relative; ">
-            <video style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" "id="Video1" playsinline muted controls autoplay loop>
-            <source src="video/Revoluçao.m4v" type="video/mp4"/>
+        <div class="video layer" data-depth=".15" style="grid-column:7/span 2; grid-row:6/ span 8; position:relative; ">
+            <video style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" playsinline muted controls autoplay loop>
+                <source src="video/Revoluçao.m4v" type="video/mp4"/>
             </video>
         </div>
     </div>
@@ -171,31 +167,31 @@
             cuidadosamente a minha luva.
         </div>
                                      
-        <div class="diario" id="aumentar2" style="grid-column:6/ span 4; grid-row: 1 / span 3; position:relative; ">
+        <div class="diario layer" data-depth=".1" id="aumentar2" style="grid-column:6/ span 4; grid-row: 1 / span 3; position:relative; ">
             <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
         </div>
                                                                                                                    
-        <div class="diario" style="grid-column:6/ span 9; grid-row: 7 / span 14; position:relative; ">
+        <div class="diario layer" data-depth=".05" style="grid-column:6/ span 9; grid-row: 7 / span 14; position:relative; ">
             <?php include('imagens/ilustracoes/pagina3_nota2_alexandre.svg'); ?>
         </div>
                                                                                                      
-        <div class="diario" style="grid-column: 7 / span 5; grid-row: 8 / span 5; background:transparent; box-shadow: none;">
+        <div class="diario layer" data-depth=".1" style="grid-column: 7 / span 5; grid-row: 8 / span 5; background:transparent; box-shadow: none;">
             <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
         </div>
 
-        <div class="video2" style="grid-column:8/span 8; grid-row:1/ span 8; position:relative;top:-20vh; ">
-            <video class="layer" data-depth=".15" style="width: 30vw; z-index:5;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" "id="Video1" playsinline muted controls autoplay loop>
+        <div class="video2 layer" data-depth=".15" style="grid-column:8/span 8; grid-row:1/ span 8; position:relative;top:-20vh; ">
+            <video style="width: 30vw; z-index:5; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" playsinline muted controls autoplay loop>
                 <source src="video/Gunshots-Screams.m4v" type="video/mp4"/>
             </video>
         </div>
 
         <div class="video1" style="grid-column:12/span 2; grid-row:17/ span 8; position:relative; ">
-            <video class="layer" data-depth=".15" style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" "id="Video1" playsinline muted controls autoplay loop>
-                <source src="video/Consequences.mp4" type="video/mp4"/>
+            <video class="layer" data-depth=".15" style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" playsinline muted controls autoplay loop>
+                <source src="video/consequences.mp4" type="video/mp4"/>
             </video>
         </div>
                                                                      
-        <div class="tub" style="grid-column:13/ span 3; grid-row: 1/ span 5; position:relative;top:-10vh">
+        <div class="tub layer" data-depth=".25" style="grid-column:13/ span 3; grid-row: 1/ span 5; position:relative;top:-10vh">
             <img src="imagens/jornal/jornal-tuberculose.png" alt=""/>
         </div>
 
@@ -275,11 +271,13 @@
             <br><br>
             <h1>Eu amo-te Nadia!</h1>
         </div>
-        <div class="familia">
+
+        <div class="familia" style="grid-area: 1 / 8 / span 5 /span 5">
             <img src="imagens/fotos/checkov-family.jpg" alt="">
         </div>
-        <div class="diario wrapper layer" data-depth=".05" style="grid-row: span 10; grid-column: 7 / span 9">
-            <div style="grid-column: span 5; grid-row: 6">
+
+        <div class="diario wrapper layer" data-depth=".05" style="grid-area: 1 / 7 / span 12 / span 9">
+            <div style="grid-column: span 5; grid-row: 8">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
 
@@ -355,21 +353,19 @@
             muito tempo, talvez para sempre.
         </div>
 
-        <img src="imagens/fotos/paisagem-pessoas.jpg" alt="" style="grid-row: 1/ 30;grid-column:6/span 5;">
+        <img class="layer" data-depth=".2" src="imagens/fotos/paisagem-pessoas.jpg" alt="" style="grid-row: 1/ 30;grid-column:6/span 5;">
 
-        <div style="grid-row: 8/ 30;grid-column:6/span 11;" id="defaultCanvas0">
+        <div style="grid-row: 8/ 20;grid-column:6/span 11;" id="defaultCanvas0">
             <?php include('imagens/ilustracoes/montanhas.svg'); ?>
         </div>
 
-        <div style=" grid-row: 16;grid-column:6/span 7;">
-            <div class="diario">
-                <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
-            </div>
+        <div class="diario layer" data-depth=".1" style=" grid-row: 16 / span 5; grid-column:6/span 7;">
+            <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
         </div>
 
-        <img src="imagens/fotos/paisagem-sociedade-2.jpg" alt="" style="grid-row: 16/30;grid-column:13/span 4;">
+        <img class="layer" data-depth=".2" src="imagens/fotos/paisagem-sociedade-2.jpg" alt="" style="grid-row: 16/30;grid-column:13/span 4;">
 
-        <img id="carta" src="imagens/fotos/carta.jpg" alt="" style="grid-row: 1/30;grid-column:10/span 3;margin-top:-100px">
+        <img class="layer" data-depth=".25" id="carta" src="imagens/fotos/carta.jpg" alt="" style="grid-row: 1/30;grid-column:10/span 3;margin-top:-100px">
 
         <div style="grid-row: 5/16;grid-column:13/span 3;">
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
@@ -379,7 +375,7 @@
     </div>
 
     <!-- Página 8 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
+    <div class="ocupa-16-coluna wrapper sub-wrapper scene">
         <div class="ocupa-5-coluna">
             Uma vez, antes da minha partida, uns dois dias antes, estava eu sentado ao crepúsculo num jardinzinho,
             separado
@@ -400,7 +396,7 @@
             Então,
             fico a espera que o vento sopre para dizer a meia voz:
             <br><br>
-            <h1>— Amo-te Nadia!</h1>
+            <h1>Amo-te Nadia!</h1>
             <br><br>
             O que acontece com Nadenka, meu Deus! Solta um grito, abre-se num sorriso amplo e estende as mãos ao
             encontro do
@@ -413,25 +409,24 @@
             <?php include('imagens/ilustracoes/checkov-pensador.svg'); ?>
         </div>
 
-        <div style="grid-column: 6 / span 5;">
+        <div class="layer" data-depth=".2" style="grid-column: 6 / span 5;">
             <?php include('imagens/fotos/1904.svg'); ?>
         </div>
 
-        <img style="grid-column:13/ span 4; z-index: -1" src="imagens/fotos/pensador.jpg" alt="">
+        <img class="layer" data-depth=".25" style="grid-column:13/ span 4; z-index: -1" src="imagens/fotos/pensador.jpg" alt="">
 
-        <div class="diario" style="grid-column: 9/ span 6;z-index: 1; grid-row: 5 / span 4">
+        <div class="diario layer" data-depth=".1" style="grid-column: 9/ span 6;z-index: 1; grid-row: 5 / span 4">
             <?php include('imagens/texto-diario/texto-2-pag-8.svg'); ?>
         </div>
 
-        <div class="diario" style="grid-column: 11 / span 6; grid-row: 10 / span 4;z-index: 1">
+        <div class="diario layer" data-depth=".15" style="grid-column: 11 / span 6; grid-row: 10 / span 4;z-index: 1">
             <?php include('imagens/texto-diario/texto-1-pag-8.svg'); ?>
         </div>
-
 
     </div>
 
     <!-- Página 9 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
+    <div class="ocupa-16-coluna wrapper sub-wrapper scene">
         <div class="ocupa-5-coluna">
             Isto foi há muito tempo. Nadenka já está casada, casaram-na ou casou de livre vontade — tanto faz — com
             o
@@ -444,55 +439,55 @@
             jogo...
         </div>
 
-        <h1 id="aborrecimento" style="grid-row:9; grid-column:1/span 30;">Aborrecimento</h1>
+        <h1 class="layer" data-depth=".1" id="aborrecimento" style="grid-row:9; grid-column:1/span 30;">Aborrecimento</h1>
 
-        <div style="grid-row: 2/ 16;grid-column:6/span 4;">
+        <div class="layer" data-depth=".08" style="grid-row: 2/ 16;grid-column:6/span 4;">
             <?php include('imagens/ilustracoes/tabuleiro-xadrez.svg'); ?>
         </div>
                                                           
-        <div style="grid-row: 2/ 16;grid-column:10/span 1; width: 50px">
+        <div class="layer" data-depth=".2" style="grid-row: 2/ 16;grid-column:10/span 1; width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-2.svg'); ?>
         </div>
 
-        <div style="grid-row: 4/ 16;grid-column:12/span 1;width: 50px">
+        <div class="layer" data-depth=".21" style="grid-row: 4/ 16;grid-column:12/span 1;width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>                                                               
 
-        <div class="ocupa-1-coluna" style="grid-row: 9/ 16">
+        <div class="layer" data-depth=".19" style="grid-row: 9/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-1.svg'); ?>
         </div>
                                                            
-        <div style="grid-row: 2/ 16;grid-column:14/span 1;width: 50px">
+        <div class="layer" data-depth=".18" style="grid-row: 2/ 16;grid-column:14/span 1;width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-3.svg'); ?>
         </div>
 
-        <div style="grid-row: 7/ 16;grid-column:16/span 1;width: 50px">
+        <div class="layer" data-depth=".22" style="grid-row: 7/ 16;grid-column:16/span 1;width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
 
-        <div style="grid-row: 1/ 16;grid-column:12/span 1;width: 50px">
+        <div class="layer" data-depth=".17" style="grid-row: 1/ 16;grid-column:12/span 1;width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
                                                                       
-        <div style="grid-row: 1/ 16;grid-column:16/span 1;width: 50px">
+        <div class="layer" data-depth=".23" style="grid-row: 1/ 16;grid-column:16/span 1;width: 50px">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
     </div>
 
 
     <!-- CONTRACAPA -->
-    <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 31;z-index: -1">
-        <div style="grid-row: 11/ span 16;z-index:0;position: relative; grid-column:1/span 4;left:-60px;">
+    <div class="ocupa-16-coluna capa wrapper scene" style="grid-row: 1/ span 31; z-index: -1">
+        <div class="layer" data-depth=".15" style="grid-row: 11/ span 10;z-index:0;position: relative; grid-column:1/span 4;left:-60px;">
             <img src="imagens/fotos/chekhov-inteiro.jpg" alt="">
         </div>
 
-        <div class="textoContraCapa " style="stroke-width:3px; grid-column:7 /span 4 ;grid-row:9;">
+        <div class="textoContraCapa layer" data-depth=".05"  style="stroke-width:3px; grid-column:7 /span 4 ;grid-row:9;">
             <?php include('imagens/fotos/creditos.svg'); ?>
         </div>
                                                                                                   
-        <img src="imagens/fotos/Caezinhos.jpg" style="grid-row: 5;grid-column:13/span 3;">
+        <img class="layer" data-depth=".08" src="imagens/fotos/Caezinhos.jpg" style="grid-row: 5;grid-column:13/span 3;" alt="">
 
-        <img src="imagens/fotos/ChekhovPequeno.jpg" style="grid-row: 18; z-index: 0;grid-column:12/span 3;">
+        <img class="layer" data-depth=".05"  src="imagens/fotos/ChekhovPequeno.jpg" style="grid-row: 18; z-index: 0;grid-column:12/span 3;" alt="">
     </div>
 </main>
 

@@ -14,6 +14,7 @@ body, html {
 
 img {
     max-width: 100%;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -26,19 +27,21 @@ img {
     opacity: 1;
 }
 
-.sticky{
+.sticky {
     position: -webkit-sticky;
     position: sticky;
-
 }
 
 .cls-0{
     fill:none;
 }
+
 video::-webkit-media-controls {
     display: none;
 }
-/*txto aumentar`*/
+
+/* texto aumentar */
+
 .cls-2{
     fill:none;
     stroke: #000;
@@ -159,8 +162,8 @@ video::-webkit-media-controls {
 .ocupa-16-coluna {
     grid-column: span 16;
 }
-.ocupa-19-coluna {
-    grid-column: span 19;
+.ocupa-18-coluna {
+    grid-column: span 18;
 }
 
 
@@ -269,7 +272,6 @@ nav .itens.show {
     background-color: black;
 height:100%;
     width:100%;
-
 }
 
 .h1{
@@ -306,15 +308,10 @@ height:100%;
     margin: 0;
 }
 
-
-
 #aborrecimento {
     font-size: 180px;
     font-weight: bold;
 }
-
-
-
 
 /* Página 5 */
 
@@ -411,32 +408,12 @@ height:100%;
 }
 
 .familia img {
-    width: 50%;
+    transition: transform 1s;
 }
 
-@keyframes grow {
-    from {
-        width: 50%;
-    }
-
-    to {
-        width: 100%;
-        transform: translateX(-50%);
-    }
+.familia img:hover {
+    transform: translateX(-50%) scale(2);
 }
-
-@keyframes shrink {
-    from {
-        width: 100%;
-        transform: translateX(-50%);
-    }
-
-    to {
-        transform: translateX(0);
-        width: 50%;
-    }
-}
-
 
 /* Página 6 */
 
@@ -473,57 +450,6 @@ height:100%;
 
 canvas #defaultCanvas0 {
     margin-top: 20vw;
-}
-
-#caezinhos {
-    animation-duration: 3s;
-    animation-delay: 4s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-
-@keyframes descer {
-
-    to {
-        transform: translate3d(-40px, 200px, -100px)
-    }
-}
-
-@keyframes subir {
-    from {
-        transform: translate3d(-40px, 200px, -100px)
-    }
-
-    to {
-        transform: translate3d(0px, 0px, 0px);
-    }
-}
-
-
-#BabyChekhov{
-    animation-duration: 3s;
-    animation-delay: 4s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-@keyframes subirbaby {
-  to {
-        transform: translate3d(-40px, -400px, 100px)
-    }
-}
-
-@keyframes descerbaby {
-    from {
-        transform: translate3d(-40px, -400px,100px);
-    }
-
-    to {
-        transform: translate3d(0px, 0px, 0px);
-    }
 }
 
 
