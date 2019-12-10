@@ -22,16 +22,57 @@ img {
     position: sticky;
 
 }
+.cls-0{
+    fill:none;
+}
+video::-webkit-media-controls {
+    display: none;
+}
+/*txto aumentar`*/
+.cls-2{
+    fill:none;
+    stroke: #000;
+    stroke-width: 0.5;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: draw 2s linear forwards;
+}
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+/*
+.imagemcapa1{
+    transition: transform 1s;
+}
+.imagemcapa1:hover{
+    transform:translateY(100%);
+}
+.imagemcapa2{
+    transition: transform 1s;
+
+}
+.imagemcapa2:hover{
+    transform:translateX(-100%);
+}
+.imagemcapa3{
+    transition: transform 1s;
+
+}
+.imagemcapa3:hover{
+    transform:translateY(-100%);
+}
+
 .imagemcapa{
-    opacity:0;
-    transition: 0.5s;
+    transition: transform 1s;
+
 }
 .imagemcapa:hover{
-    opacity:1;
+    transform:translateX(100%);
 }
-.russia_moscovo{
-    opacity:0;
-}
+*/
+
 
 /* Scroll Bar */
 
@@ -141,6 +182,10 @@ img {
 .ocupa-16-coluna {
     grid-column: span 16;
 }
+.ocupa-19-coluna {
+    grid-column: span 19;
+}
+
 
 /*Linhas*/
 
@@ -245,25 +290,23 @@ nav .itens.show {
 
 .capa {
     background-color: black;
-    height: 100%;
+height:100%;
+    width:100%;
+
 }
 
-.capa h1 {
+.h1{
     font-size: 5vw;
-    margin-top: 75vh;
     text-align: center;
-    margin-left: 50vw;
-    transform: translateX(-50%);
     color: white;
     font-family: "Georgia", serif;
+    letter-spacing: 0.5vh;
 }
 
-.capa h2 {
-    position: sticky;
+.h2 {
+
     left: 0;
     text-align: center;
-    margin-left: 50vw;
-    transform: translateX(-50%);
     color: white;
     font-family: "Georgia", serif;
 }
@@ -371,14 +414,37 @@ nav .itens.show {
         opacity: 1;
     }
 }
+.video1 video, .video2 video{
+    width:50%;
+    transition:transform 1s;
+}
+.video2 video:hover{
+    transform:translateX(50%) translateY(50%) scale(2) ;
+z-index:100;
+}
+.video2:hover{
+    z-index:100;
+}
+.video1 video:hover{
+    transform:translateX(50%) translateY(50%) scale(2);
+}
+.video video {
+    width: 50%;
+transition:transform 1s;
+}
+.video{
+    grid-column: 8 / span 10;
 
+}
+.video video:hover{
+    transform: translateX(-50%) scale(2);
+
+}
 .familia img {
     width: 50%;
 }
 
-.familia {
-    grid-column: 8 / span 10;
-}
+
 
 .familia img:hover {
 

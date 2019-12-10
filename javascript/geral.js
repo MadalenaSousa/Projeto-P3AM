@@ -151,3 +151,5 @@ document.querySelector(".familia img").addEventListener('mouseout', function () 
                         'animation-fill-mode: forwards;';
 });
 
+document.getElementById("Video1").load();
+ document.getElementById("Video1").play();

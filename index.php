@@ -5,13 +5,13 @@
     <title>A Brincadeira | Anton Checkov</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-<<<<<<< HEAD
-    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"> </script>
 
-=======
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+
+
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
     <script src="javascript/parallax.js"></script>
->>>>>>> 48117cd9577f0933392e4a46abc0112cdbc37f5e
+
 </head>
 <body>
 <audio id="playAudio" autoplay loop>
@@ -20,59 +20,77 @@
 </audio>
 <main class="wrapper container">
     <!-- CAPA -->
-    <div class="capa ocupa-16-coluna" style="grid-row: 1 / span 31;">
-        <div style=" grid-column:11/ span 5; grid-row: 10/ span 3;  z-index: 2">
-        <h1 > A BRINCADEIRA </h1>
-        <h2> Anton Checkov </h2>
+    <div class="ocupa-19-coluna" style="grid-row: 1 / span 50;">
+        <div class=" ocupa-16-coluna wrapper sub-wrapper">
+            <div class="capa wrapper sub-wrapper" style="grid-column:1/span 16; grid-row: 1/ span 50">
+
+            </div>
+            <div style=" grid-column:4/ span 10; grid-row:13; position:relative; ">
+                <h1 class="h1"> A BRINCADEIRA </h1>
+                <h2 class="h2"  > Anton Checkov </h2>
+            </div>
+            <div style="display:none;grid-column:14/ span 4; grid-row:1/ span 10; position:relative; box-shadow: transparent;top:-50vw;">
+                <img class="imagemcapa" src="imagens/fotos/alexandre.jpg" alt=""
+                     style="box-shadow: none; border-radius: 50%;"/>
+            </div>
+            <div  style="grid-column: 5 / span 3; grid-row: 2/span 5; position: relative; ">
+                <img class="imagemcapa"
+                     src="imagens/fotos/irmão.jpg" alt="">
+            </div>
+            <div  style="grid-column: 15 / span 4; grid-row: 8; position: relative;">
+                <img class="imagemcapa"
+                     src="imagens/fotos/familia-1.jpg" alt="">
+            </div>
+            <div   style="grid-column: 7/ span 7; grid-row:18 ; position: relative;">
+                <img class="imagemcapa"
+                     src="imagens/fotos/russia-1.jpeg" alt="">
+            </div>
         </div>
-        <div style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative; box-shadow: transparent;top:-50vw;" >
-            <img  class="imagemcapa" src="imagens/fotos/alexandre.jpg" alt="" style="box-shadow: none; border-radius: 50%;"/>
-        </div>
-        <img class="imagemcapa" style="grid-column: 5 / span 4; grid-row: 1; position: relative; top:-50vw;" src="imagens/fotos/checkov-wife.jpg" alt="">
-        <img class="imagemcapa" style="grid-column: 7 / span 3; grid-row: 2; z-index: 3;position: relative; top:-70vw;" src="imagens/fotos/checkov-wife-2.jpg" alt="">
-        <img class="imagemcapa" style="grid-column: 11/ span 4; grid-row: 1 /span 5; position: relative; top: -100vw;left:125vh" src="imagens/fotos/checkov-family.jpg" alt="">
     </div>
 
-        <!-- Página 1 -->
-        <div class="ocupa-16-coluna wrapper sub-wrapper">
-            <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
-                Anton Chekhov, nasceu em 29 de Janeiro de 1860. Foi o
-                terceiro de seis filhos e teve uma educação rígida e religiosa,
-                que lhe deixou marcas psicológicas até ao resto da sua vida,
-                que por vezes se encontram camufladas nas suas obras.
-                <br><br>
-                Chekhov estudou medicina em Moscovo, cidade para onde se
-                mudou em pequeno devido ao facto de o seu pai ser
-                conflituoso na sua terra natal — este sofria de problemas de
-                alcoolismo. Desde cedo que teve contribuir monetariamente
-                para a sobrevivência dos seus irmãos e da sua mãe, devido a
-                essa necessidade, começou a escrever contos para jornais.
-                que por vezes se encontram camufladas nas suas obras.
-                <br><br>
-                Mais tarde, Anton casou com Olga, uma atriz Russa.
-                Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
-            </div>
-            <div class="pagina1_nota1 diario" style=" grid-column:6/ span 5; grid-row:1/span 5; position:relative; top:-20vw;">
-                <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
+    <!-- Página 1 -->
+    <div class="ocupa-16-coluna wrapper sub-wrapper">
+        <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
+            Anton Chekhov, nasceu em 29 de Janeiro de 1860. Foi o
+            terceiro de seis filhos e teve uma educação rígida e religiosa,
+            que lhe deixou marcas psicológicas até ao resto da sua vida,
+            que por vezes se encontram camufladas nas suas obras.
+            <br><br>
+            Chekhov estudou medicina em Moscovo, cidade para onde se
+            mudou em pequeno devido ao facto de o seu pai ser
+            conflituoso na sua terra natal — este sofria de problemas de
+            alcoolismo. Desde cedo que teve contribuir monetariamente
+            para a sobrevivência dos seus irmãos e da sua mãe, devido a
+            essa necessidade, começou a escrever contos para jornais.
+            que por vezes se encontram camufladas nas suas obras.
+            <br><br>
+            Mais tarde, Anton casou com Olga, uma atriz Russa.
+            Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
+        </div>
+        <div class="pagina1_nota1 diario"
+             style=" grid-column:6/ span 5; grid-row:1/span 5; position:relative; top:-20vw;">
+            <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
+        </div>
+
+        <div class="russia" style="grid-column:10/ span 7; grid-row:15/ span 5; position:relative; top: -25vw;">
+            <div class="russia">
+                <?php include('imagens/ilustracoes/russia_moscovo.svg'); ?>
             </div>
 
-            <div class="russia diario" style="grid-column:14/ span 5; grid-row:1/ span 5; position:relative; top: -25vw;">
-                <div class="russia">
-                <?php include('imagens/ilustracoes/russia.svg'); ?>
-                </div>
-                <div class="russia_moscovo">
-                <?php include('imagens/ilustracoes/russia_moscovo.svg')?>
-                </div>
-            </div>
-            <div class="noticio_dec_80" style="grid-column:8/span 3; grid-row:1/ span 8; position:relative; top: 7vw;">
-                <img src="imagens/jornal/jornal-decadade80.png" alt=""/>
-            </div>
-            <div class="pagina1_nota2 diario" style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top: 10vw; z-index: 2">
-                <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
-            </div>
-            <div class="data" style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -25vw;">
-                <h1>1860</h1>
-            </div>
+        </div>
+        <div class="noticio_dec_80" style="grid-column:7/span 3; grid-row:1/ span 8; position:relative;">
+            <img src="imagens/jornal/jornal-decadade80.png" alt=""/>
+        </div>
+
+
+        <div class="pagina1_nota2 diario" id="aumentar1"
+             style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top: 10vw; z-index: 2">
+            <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
+        </div>
+
+        <div class="data" style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -15vw;">
+            <h1>1860</h1>
+        </div>
 
     </div>
 
@@ -97,20 +115,34 @@
             Finalmente a Nadenka concorda, consigo ver na cara dela que quando ela o faz, ela teme pela sua vida.
             Sento-a no trenó, pálida e trémula, envolvo-a com um braço e lanço-me com ela no abismo.
         </div>
-        <div class="pagina2_nota1 diario" style="grid-column:9/ span 5; grid-row:1/ span 5; position:relative; top: -15vw;">
+        <div class="pagina2_nota1 diario" style="grid-column:9/ span 4; grid-row:11/ span 4; position:relative; ">
             <?php include('imagens/ilustracoes/pagina2_nota1.svg'); ?>
         </div>
         <div class="pagina2_nota2 diario" style="grid-column:6/ span 5; grid-row:1/ span 5;">
             <?php include('imagens/ilustracoes/pagina2_nota2.svg'); ?>
         </div>
-        <div class="pagina2_nota3 diario" style="grid-column:9/ span 5; grid-row:1/ span 4; position:relative; top:40vw;">
+        <div class="pagina2_nota3 diario" style="grid-column:6/ span 4; grid-row:9/ span 3; position:relative;">
             <?php include('imagens/ilustracoes/pagina2_nota3.svg'); ?>
         </div>
         <div style="grid-column:14/span 3; grid-row:1/ span 8; position:relative; top: -25vw;">
             <img src="imagens/jornal/jornal-conturbacaopolitica.png" alt=""/>
         </div>
-        <div class="data" style="grid-column:7/ span 6; grid-row:2/ span 5; position:relative; top: 25vw; transform: rotate(90deg);">
+        <div class="data" style="grid-column:6/ span 6; grid-row:2/ span 5; position:relative;z-index:5; top: -50vh;">
             <h1>1905</h1>
+        </div>
+        <div class="rev_russa" style="grid-column:3/span 5; grid-row:1/ span 8; position:relative; top: -53vh;">
+            <img src="imagens/fotos/russia-2.jpeg" alt=""/>
+        </div>
+        <div class="rev_russa" style="grid-column:10/span 3; grid-row:1/ span 8; position:relative;top:-2vh;">
+            <img src="imagens/fotos/russia-3.jpeg" alt=""/>
+        </div>
+        <div class="video" style="grid-column:9/span 2; grid-row:6/ span 8; position:relative; ">
+            <video style="width: 18vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+            " id="Video1" playsinline muted controls autoplay loop>
+            <source src="video/revolução.mp4" type="video/mp4"/>
+            </video>
+
+
         </div>
     </div>
 
@@ -124,7 +156,7 @@
             Os objetos à volta do trenó fundem-se numa faixa comprida, desfocada, a correr loucamente… Mais um minuto e
             morremos, parece!
 
-            <h1 style="font-size:20vh">— Amo-te Nádia! — </h1> digo a meia voz.
+            <h1 style="font-size:6vh">—<br> Amo-te Nádia!<br> — </h1> digo a meia voz.
 
             Agora o trenó já desliza mais devagar, cada vez mais devagar, o rugido do vento e o zumbir dos patins já são
             menos assustadores, já conseguimos respirar, e finalmente, estamos no fundo. Nadenka está mais morta do que
@@ -137,26 +169,36 @@
             iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar
             cuidadosamente a minha luva.
         </div>
-        <div class="diario" style="grid-column:8/ span 7; grid-row: -1 / span 4; position:relative; top: -10vw;" >
+        <div class="diario" id="aumentar2" style="grid-column:6/ span 4; grid-row: 1 / span 3; position:relative; ">
             <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
         </div>
-        <div class="diario" style="grid-column:6/ span 7; grid-row: 3 / span 9; position:relative; background:transparent; box-shadow:none;" >
+        <div class="diario" style="grid-column:6/ span 9; grid-row: 7 / span 14; position:relative; ">
             <?php include('imagens/ilustracoes/pagina3_nota2_alexandre.svg'); ?>
         </div>
-        <div class="diario" style="grid-column: 6 / span 7; grid-row: 12 / span 5;" >
+        <div class="diario"
+             style="grid-column: 7 / span 5; grid-row: 8 / span 5; background:transparent; box-shadow: none;">
             <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
         </div>
-        <div style="grid-column:10/ span 3; grid-row: 17/ span 5; position:relative;left:2vw;" >
+
+        <div class="video2" style="grid-column:10/span 8; grid-row:1/ span 8; position:relative;top:-20vh; ">
+            <video class="layer" data-depth=".15"
+                   style="width: 18vw; z-index:5;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+            " id="Video1" playsinline muted controls autoplay loop>
+            <source src="video/gunshots-screams.mp4" type="video/mp4"/>
+            </video>
+        </div>
+
+        <div class="video1" style="grid-column:12/span 2; grid-row:17/ span 8; position:relative; ">
+            <video class="layer" data-depth=".15"
+                   style="width: 18vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+            " id="Video1" playsinline muted controls autoplay loop>
+            <source src="video/consequences.mp4" type="video/mp4"/>
+            </video>
+        </div>
+        <div class="tub" style="grid-column:13/ span 3; grid-row: 1/ span 5; position:relative;top:-10vh">
             <img src="imagens/jornal/jornal-tuberculose.png" alt=""/>
         </div>
 
-        <div  class= "imagemcapa" style="grid-column:9/ span 3; grid-row:3/ span 6; position:relative;  box-shadow: transparent; " >
-            <img src="imagens/fotos/Alexandre.jpg" alt="" style="border-radius: 50%; "/>
-
-        <div  class= "imagemcapa" style="grid-column:11/ span 4; grid-row:1/ span 10; position:relative;top:0.5vw;left: -3vw; box-shadow: transparent; " >
-            <img src="imagens/fotos/alexandre.jpg" alt="" style="border-radius: 50%;"/>
-
-        </div>
     </div>
 
     <!-- Página 4 -->
@@ -184,9 +226,12 @@
             <h1>Eu amo-te Nadenka! </h1>
         </div>
 
-        <img class="layer" data-depth=".05" width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -50vh" src="imagens/fotos/montanha-neve.jpg" alt="">
+        <img class="layer" data-depth=".05" width="100%"
+             style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -50vh"
+             src="imagens/fotos/montanha-neve.jpg" alt="">
 
-        <div class="diario wrapper layer" data-depth=".05" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
+        <div class="diario wrapper layer" data-depth=".05"
+             style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
             <div id="olhos" style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
@@ -200,11 +245,15 @@
             </div>
         </div>
 
-        <img class="layer" data-depth=".15" style="grid-area: 1 / 10 / auto / span 4 ;position: relative; top: -200px;" src="imagens/fotos/checkov-wife.jpg" alt="">
+        <img class="layer" data-depth=".15" style="grid-area: 1 / 10 / auto / span 4 ;position: relative; top: -200px;"
+             src="imagens/fotos/checkov-wife.jpg" alt="">
 
-        <img class="layer" data-depth=".2" style="grid-area: 2 / 12 / auto / span 3; z-index: 3" src="imagens/fotos/checkov-wife-2.jpg" alt="">
+        <img class="layer" data-depth=".2" style="grid-area: 2 / 12 / auto / span 3; z-index: 3"
+             src="imagens/fotos/checkov-wife-2.jpg" alt="">
 
-        <video class="layer" data-depth=".15" style="grid-area: 16 / 6 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
+        <video class="layer" data-depth=".15"
+               style="grid-area: 16 / 6 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+               width="100%" autoplay loop muted>
             <source src="video/dança.mp4" type="video/mp4">
         </video>
     </div>
@@ -269,11 +318,13 @@
             segreda o seu amor, mas, pelos vistos, isso já não importa; não importa de que copo bebe desde que continue
             a ficar embriagada.
         </div>
-        <div class="diario wrapper layer" data-depth=".05" style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
+        <div class="diario wrapper layer" data-depth=".05"
+             style="grid-column: 7 / span 9; grid-row: 4 / span 15; z-index: -3;">
             <div style="grid-column: 1 / span 4; grid-row: 1; position: relative; top: -810px">
                 <?php include('imagens/ilustracoes/cigarro-texto.svg'); ?>
             </div>
-            <img style="grid-column: 6 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px" src="imagens/fotos/publicidade-1.jpg" alt="">
+            <img style="grid-column: 6 / span 3; grid-row: 1; z-index: -1; position: relative; top: -500px"
+                 src="imagens/fotos/publicidade-1.jpg" alt="">
             <img style="grid-column: 5 / span 5; grid-row: 1;" src="imagens/fotos/publicidade-2.jpg" alt="">
             <div style="grid-column: 3 / span 6; grid-row: 9">
                 <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
@@ -315,7 +366,7 @@
             <div style="grid-row: 1/ 16">
                 <img src="imagens/fotos/paisagem-pessoas.jpg" alt="">
             </div>
-            <div style="grid-row: 10/ 13"  id="defaultCanvas0">
+            <div style="grid-row: 10/ 13" id="defaultCanvas0">
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
             </div>
         </div>
@@ -360,7 +411,7 @@
             Então,
             fico a espera que o vento sopre para dizer a meia voz:
             <br><br>
-           <h1>— Amo-te Nadia!</h1>
+            <h1>— Amo-te Nadia!</h1>
             <br><br>
             O que acontece com Nadenka, meu Deus! Solta um grito, abre-se num sorriso amplo e estende as mãos ao
             encontro do
@@ -407,7 +458,7 @@
             jogo...
         </div>
 
-        <div class="ocupa-5-coluna" style="grid-row: 11/ span 5;" >
+        <div class="ocupa-5-coluna" style="grid-row: 11/ span 5;">
 
             <h1 id="Aborrecmento">Aborrecimento</h1>
         </div>
@@ -445,7 +496,8 @@
 
 
         <div class="ocupa-6-coluna" style="grid-row: 11/ span 16;z-index:0">
-            <img src="imagens/fotos/chekhov-inteiro.jpg" alt="" style="grid-row: 12/30;position: relative; left: -80px ">
+            <img src="imagens/fotos/chekhov-inteiro.jpg" alt=""
+                 style="grid-row: 12/30;position: relative; left: -80px ">
 
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 10/30">
@@ -483,7 +535,7 @@
             </div>
 
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16" >
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
             <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
         </div>
         <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
@@ -540,7 +592,7 @@
 <script>
     var scene = document.getElementsByClassName('scene');
 
-    for(var i = 0; i < scene.length; i++){
+    for (var i = 0; i < scene.length; i++) {
         var parallax = new Parallax(scene[i]);
     }
 </script>
