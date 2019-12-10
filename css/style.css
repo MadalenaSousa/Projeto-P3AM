@@ -17,11 +17,21 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.scene img {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.scene img.is-showing {
+    opacity: 1;
+}
+
 .sticky{
     position: -webkit-sticky;
     position: sticky;
 
 }
+
 .cls-0{
     fill:none;
 }
@@ -42,43 +52,8 @@ video::-webkit-media-controls {
         stroke-dashoffset: 0;
     }
 }
-/*
-.imagemcapa1{
-    transition: transform 1s;
-}
-.imagemcapa1:hover{
-    transform:translateY(100%);
-}
-.imagemcapa2{
-    transition: transform 1s;
-
-}
-.imagemcapa2:hover{
-    transform:translateX(-100%);
-}
-.imagemcapa3{
-    transition: transform 1s;
-
-}
-.imagemcapa3:hover{
-    transform:translateY(-100%);
-}
-
-.imagemcapa{
-    transition: transform 1s;
-
-}
-.imagemcapa:hover{
-    transform:translateX(100%);
-}
-*/
-
 
 /* Scroll Bar */
-
-::-webkit-scrollbar {
-
-}
 
 ::-webkit-scrollbar-track {
     background: black;
@@ -352,7 +327,7 @@ height:100%;
     padding: 30px;
 }
 
-.textoContraCapa>.negrito{
+.textoContraCapa > .negrito {
     font-weight: bold;
 }
 
@@ -416,41 +391,42 @@ height:100%;
         opacity: 1;
     }
 }
+
 .video1 video, .video2 video{
     width:50%;
     transition:transform 1s;
 }
+
 .video2 video:hover{
     transform:translateX(50%) translateY(50%) scale(2) ;
-z-index:100;
+    z-index:100;
 }
+
 .video2:hover{
     z-index:100;
 }
+
 .video1 video:hover{
     transform:translateX(50%) translateY(50%) scale(2);
 }
+
 .video video {
     width: 50%;
-transition:transform 1s;
+    transition:transform 1s;
 }
+
 .video{
     grid-column: 8 / span 10;
 
 }
+
 .video video:hover{
     transform: translateX(50%) scale(2);
 
 }
+
 .familia img {
     width: 50%;
-
-}
-
-
-
-.familia img:hover {
-
 }
 
 @keyframes grow {
@@ -494,7 +470,7 @@ transition:transform 1s;
 #fumo path:last-child {
     stroke-dasharray: 300;
     stroke-dashoffset: 300;
-    animation: 20s off-zero infinite linear reverse;
+    animation: 10s off-zero infinite linear reverse;
 }
 
 
@@ -504,7 +480,7 @@ transition:transform 1s;
     }
 }
 
-#fotoSociedadeVpaisagem{
+#fotoSociedadeVpaisagem {
     margin-top: -20vw;
     margin-left: -50vw;
 }
@@ -513,6 +489,64 @@ transition:transform 1s;
     font-size: 20vw;
     margin: 0;
 }
-canvas #defaultCanvas0{
+
+canvas #defaultCanvas0 {
     margin-top: 20vw;
 }
+
+#caezinhos {
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes descer {
+
+    to {
+        transform: translate3d(-40px, 200px, -100px)
+    }
+}
+
+@keyframes subir {
+    from {
+
+        transform: translate3d(-40px, 200px, -100px)
+    }
+
+    to {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+
+#BabyChekhov{
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes subirbaby {
+  to {
+        transform: translate3d(-40px, -400px, 100px)
+    }
+}
+
+@keyframes descerbaby {
+    from {
+        transform: translate3d(-40px, -400px,100px);
+    }
+
+    to {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+
+
+
+

@@ -67,35 +67,31 @@
             Mais tarde, Anton casou com Olga, uma atriz Russa.
             Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
         </div>
-        <div class="pagina1_nota1 diario"
-             style=" grid-column:6/ span 5; grid-row:1/span 5; position:relative; top:-20vw;">
+
+        <div class="pagina1_nota1 diario" style=" grid-column:6/ span 5; grid-row:1/span 5; position:relative; top:-20vw;">
             <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
         </div>
 
         <div class="russia" style="grid-column:10/ span 7; grid-row:15/ span 5; position:relative; top: -25vw;">
-            <div class="russia">
                 <?php include('imagens/ilustracoes/russia_moscovo.svg'); ?>
-            </div>
-
         </div>
+      
         <div class="noticio_dec_80" style="grid-column:7/span 3; grid-row:1/ span 8; position:relative;">
             <img src="imagens/jornal/jornal-decadade80.png" alt=""/>
         </div>
 
 
-        <div class="pagina1_nota2 diario" id="aumentar1"
-             style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top: 10vw; z-index: 2">
+        <div class="pagina1_nota2 diario" id="aumentar1" style=" grid-column:11/ span 5; grid-row:1/ span 3; position:relative; top: 10vw; z-index: 2">
             <?php include('imagens/ilustracoes/pagina1_nota2.svg'); ?>
         </div>
 
         <div class="data" style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -15vw;">
             <h1>1860</h1>
         </div>
-
     </div>
 
     <!-- Página 2 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
+    <div class="ocupa-16-coluna wrapper sub-wrapper scene">
         <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
             Um meio-dia luminoso de Inverno… Um frio, de rachar, e a Nadenka, de braço dado comigo, cobrem-se-lhe os
             caracolinhos das têmporas e a penugem do buço com uma
@@ -115,39 +111,44 @@
             Finalmente a Nadenka concorda, consigo ver na cara dela que quando ela o faz, ela teme pela sua vida.
             Sento-a no trenó, pálida e trémula, envolvo-a com um braço e lanço-me com ela no abismo.
         </div>
+        
         <div class="pagina2_nota1 diario" style="grid-column:9/ span 4; grid-row:11/ span 4; position:relative; ">
             <?php include('imagens/ilustracoes/pagina2_nota1.svg'); ?>
         </div>
+        
         <div class="pagina2_nota2 diario" style="grid-column:6/ span 5; grid-row:1/ span 5;">
             <?php include('imagens/ilustracoes/pagina2_nota2.svg'); ?>
         </div>
+        
         <div class="pagina2_nota3 diario" style="grid-column:6/ span 4; grid-row:9/ span 3; position:relative;">
             <?php include('imagens/ilustracoes/pagina2_nota3.svg'); ?>
         </div>
-        <div style="grid-column:14/span 3; grid-row:1/ span 8; position:relative; top: -25vw;">
+        
+        <div class="layer" data-depth=".15" style="grid-column:14/span 3; grid-row:1/ span 8; position:relative; top: -25vw;">
             <img src="imagens/jornal/jornal-conturbacaopolitica.png" alt=""/>
         </div>
+      
         <div class="data" style="grid-column:6/ span 6; grid-row:2/ span 5; position:relative;z-index:5; top: -50vh;">
             <h1>1905</h1>
         </div>
+        
         <div class="rev_russa" style="grid-column:3/span 5; grid-row:1/ span 8; position:relative; top: -53vh;">
             <img src="imagens/fotos/russia-2.jpeg" alt=""/>
         </div>
+        
         <div class="rev_russa" style="grid-column:10/span 3; grid-row:1/ span 8; position:relative;top:-2vh;">
             <img src="imagens/fotos/russia-3.jpeg" alt=""/>
         </div>
+        
         <div class="video" style="grid-column:7/span 2; grid-row:6/ span 8; position:relative; ">
-            <video style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-            " id="Video1" playsinline muted controls autoplay loop>
+            <video style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" "id="Video1" playsinline muted controls autoplay loop>
             <source src="video/Revoluçao.m4v" type="video/mp4"/>
             </video>
-
-
         </div>
     </div>
 
     <!-- Página 3 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
+    <div class="ocupa-16-coluna wrapper sub-wrapper scene">
         <div style="grid-column: 1 / span 5; grid-row: 1 / span 10">
             O trenó voa como uma bala. O ar que cortamos chicoteia-nos o rosto, rosna, assobia aos ouvidos, belisca de
             raiva, quer-nos arrancar a cabeça dos ombros. A força do vento não nos deixa respirar. Parece que o próprio
@@ -155,9 +156,9 @@
 
             Os objetos à volta do trenó fundem-se numa faixa comprida, desfocada, a correr loucamente… Mais um minuto e
             morremos, parece!
-
-            <h1 style="font-size:6vh">—<br> Amo-te Nádia!<br> — </h1> digo a meia voz.
-
+                                                                   
+            <h1 style="font-size:6vh">Amo-te Nádia!</h1> digo a meia voz.
+                                     
             Agora o trenó já desliza mais devagar, cada vez mais devagar, o rugido do vento e o zumbir dos patins já são
             menos assustadores, já conseguimos respirar, e finalmente, estamos no fundo. Nadenka está mais morta do que
             viva. Pálida, quase não respira… Ajudo-a a levantar-se.
@@ -169,32 +170,31 @@
             iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar
             cuidadosamente a minha luva.
         </div>
+                                     
         <div class="diario" id="aumentar2" style="grid-column:6/ span 4; grid-row: 1 / span 3; position:relative; ">
             <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
         </div>
+                                                                                                                   
         <div class="diario" style="grid-column:6/ span 9; grid-row: 7 / span 14; position:relative; ">
             <?php include('imagens/ilustracoes/pagina3_nota2_alexandre.svg'); ?>
         </div>
-        <div class="diario"
-             style="grid-column: 7 / span 5; grid-row: 8 / span 5; background:transparent; box-shadow: none;">
+                                                                                                     
+        <div class="diario" style="grid-column: 7 / span 5; grid-row: 8 / span 5; background:transparent; box-shadow: none;">
             <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
         </div>
 
         <div class="video2" style="grid-column:8/span 8; grid-row:1/ span 8; position:relative;top:-20vh; ">
-            <video class="layer" data-depth=".15"
-                   style="width: 30vw; z-index:5;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-            " id="Video1" playsinline muted controls autoplay loop>
-            <source src="video/Gunshots-Screams.m4v" type="video/mp4"/>
+            <video class="layer" data-depth=".15" style="width: 30vw; z-index:5;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" "id="Video1" playsinline muted controls autoplay loop>
+                <source src="video/Gunshots-Screams.m4v" type="video/mp4"/>
             </video>
         </div>
 
         <div class="video1" style="grid-column:12/span 2; grid-row:17/ span 8; position:relative; ">
-            <video class="layer" data-depth=".15"
-                   style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-            " id="Video1" playsinline muted controls autoplay loop>
-            <source src="video/Consequences.mp4" type="video/mp4"/>
+            <video class="layer" data-depth=".15" style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" "id="Video1" playsinline muted controls autoplay loop>
+                <source src="video/Consequences.mp4" type="video/mp4"/>
             </video>
         </div>
+                                                                     
         <div class="tub" style="grid-column:13/ span 3; grid-row: 1/ span 5; position:relative;top:-10vh">
             <img src="imagens/jornal/jornal-tuberculose.png" alt=""/>
         </div>
@@ -225,13 +225,10 @@
 
             <h1>Eu amo-te Nadenka! </h1>
         </div>
+                                                                   
+        <img class="layer" data-depth=".05" width="100%" style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -50vh" src="imagens/fotos/montanha-neve.jpg" alt="">
 
-        <img class="layer" data-depth=".05" width="100%"
-             style="grid-column: 1 / span 7; grid-row: 1; z-index: -2; position: relative; top: -50vh"
-             src="imagens/fotos/montanha-neve.jpg" alt="">
-
-        <div class="diario wrapper layer" data-depth=".05"
-             style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
+        <div class="diario wrapper layer" data-depth=".05" style="grid-column: 7 / span 9; grid-row: 1 / span 18; z-index: -1; top: -250px;">
             <div id="olhos" style="grid-column: 1 / span 4; grid-row: 1 / 6">
                 <?php include('imagens/ilustracoes/rapariga-medo-texto.svg'); ?>
             </div>
@@ -245,22 +242,18 @@
             </div>
         </div>
 
-        <img class="layer" data-depth=".15" style="grid-area: 1 / 10 / auto / span 4 ;position: relative; top: -200px;"
-             src="imagens/fotos/checkov-wife.jpg" alt="">
+        <img class="layer" data-depth=".15" style="grid-area: 1 / 10 / auto / span 4 ;position: relative; top: -200px;" src="imagens/fotos/checkov-wife.jpg" alt="">
 
-        <img class="layer" data-depth=".2" style="grid-area: 2 / 12 / auto / span 3; z-index: 3"
-             src="imagens/fotos/checkov-wife-2.jpg" alt="">
+        <img class="layer" data-depth=".2" style="grid-area: 2 / 12 / auto / span 3; z-index: 3" src="imagens/fotos/checkov-wife-2.jpg" alt="">
 
-        <video class="layer" data-depth=".15"
-               style="grid-area: 16 / 6 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-               width="100%" autoplay loop muted>
+        <video class="layer" data-depth=".15" style="grid-area: 16 / 6 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
             <source src="video/dança.mp4" type="video/mp4">
         </video>
     </div>
 
     <!-- Página 5 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper scene">
-        <div style="grid-row: 1 / span 10; grid-column: 1 / span 5">
+        <div style="grid-row: 1 / span 15; grid-column: 1 / span 5">
             Quando o trenó parou, Nadenka olhou para o monte que acabou de descer, depois examina a minha cara
             demoradamente, escuta a minha voz indiferente e impassível, e toda ela, todinha, até ao regalo e ao capucho,
             exprimem uma perplexidade extrema. Está-lhe escrito no rosto: “O que se está a passar? Quem disse disse
@@ -289,6 +282,7 @@
             <div style="grid-column: span 5; grid-row: 6">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
+
             <div style="grid-row: 1; grid-column: 7 / span 2">
                 <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
             </div>
@@ -297,7 +291,7 @@
 
     <!-- Página 6 -->
     <div class="ocupa-16-coluna wrapper sub-wrapper scene">
-        <div style="grid-row: span 15; grid-column: 1 / span 5;">
+        <div style="grid-row: 1 / span 15; grid-column: 1 / span 5;">
             E o mistério continua um mistério!
             <br><br>
             Nadenka está calada, pensativa… Acompanho-a a casa,
@@ -333,9 +327,9 @@
     </div>
 
     <!-- Página 7 -->
-    <div class="ocupa-16-coluna wrapper sub-wrapper">
+    <div class="ocupa-16-coluna wrapper sub-wrapper scene">
 
-        <div style="grid-row: span 15; grid-column: 1 / span 5;">
+        <div style="grid-row: 1 / span 15; grid-column: 1 / span 5;">
             Sucedeu que, ao meio dia, fui sozinho ao monte; escondido entre a multidão, vejo Nadenka a aproximar-se do
             monte, a procurar-me com os olhos… Depois, sobe timidamente as escadas… Ela está aterrorizada por ir
             sozinha,
@@ -361,7 +355,6 @@
             muito tempo, talvez para sempre.
         </div>
 
-
         <div class="ocupa-11-coluna" style="grid-row: 1/ 16">
             <div style="grid-row: 1/ 16">
                 <img src="imagens/fotos/paisagem-pessoas.jpg" alt="">
@@ -370,20 +363,24 @@
                 <?php include('imagens/ilustracoes/montanhas.svg'); ?>
             </div>
         </div>
-        <div class="ocupa-7-coluna" style=" grid-row: 16">
-            <div class="diario">
-                <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
-            </div>
+
+        <div class="ocupa-7-coluna diario" style="grid-row: 16 / span 6">
+            <?php include('imagens/texto-diario/texto-1-pag-7.svg'); ?>
         </div>
-        <div class="ocupa-4-coluna canvas">
+
+        <div class="ocupa-4-coluna">
             <img src="imagens/fotos/paisagem-sociedade-2.jpg" alt="">
         </div>
 
         <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
             <img id="carta" src="imagens/fotos/carta.jpg" alt="">
+        </div>
+
+        <div class="ocupa-3-coluna" style="grid-row: 1/ 16">
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
-        <div class="ocupa-4-coluna " id="fotoSociedadeVpaisagem" style="grid-row: 1/ 16;z-index: -1">
+
+        <div class="ocupa-4-coluna layer" data-depth=".15" style="grid-row: 1/ 16; z-index: -1">
             <img src="imagens/fotos/paisagem-sociedade-3.jpg" alt="">
         </div>
 
@@ -418,12 +415,11 @@
             vento, alegre, feliz, tão bonita.
             <br><br>
             Eu vou fazer as malas…
-
         </div>
+
         <div style="grid-column: 4 / span 5; grid-row: 14 / span 10; width: 100%;">
             <?php include('imagens/ilustracoes/checkov-pensador.svg'); ?>
         </div>
-
 
         <div style="grid-column: 6 / span 5;">
             <?php include('imagens/fotos/1904.svg'); ?>
@@ -431,11 +427,9 @@
 
         <img style="grid-column:13/ span 4; z-index: -1" src="imagens/fotos/pensador.jpg" alt="">
 
-
         <div class="diario" style="grid-column: 9/ span 6;z-index: 1; grid-row: 5 / span 4">
             <?php include('imagens/texto-diario/texto-2-pag-8.svg'); ?>
         </div>
-
 
         <div class="diario" style="grid-column: 11 / span 6; grid-row: 10 / span 4;z-index: 1">
             <?php include('imagens/texto-diario/texto-1-pag-8.svg'); ?>
@@ -459,22 +453,25 @@
         </div>
 
         <div class="ocupa-5-coluna" style="grid-row: 11/ span 5;">
-
             <h1 id="Aborrecmento">Aborrecimento</h1>
         </div>
 
-        <div class="ocupa-5-coluna" style="grid-row: 2/ 16">
+        <div class="ocupa-5-coluna " style="grid-row: 2/ 16">
             <?php include('imagens/ilustracoes/tabuleiro-xadrez.svg'); ?>
         </div>
+
         <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-2.svg'); ?>
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 6/ 16">
+
+        <div class="ocupa-1-coluna " style="grid-row: 6/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
+
         <div class="ocupa-1-coluna" style="grid-row: 9/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-1.svg'); ?>
         </div>
+
         <div class="ocupa-1-coluna" style="grid-row: 3/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-3.svg'); ?>
         </div>
@@ -482,65 +479,46 @@
         <div class="ocupa-1-coluna" style="grid-row: 7/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
+
         <div class="ocupa-1-coluna" style="grid-row: 2/ 16">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
+
         <div class="ocupa-1-coluna" style="grid-row: 10/ 16;">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
-
     </div>
+
 
     <!-- CONTRACAPA -->
     <div class="ocupa-16-coluna capa wrapper" style="grid-row: 1/ span 31;z-index: -1">
 
-
-        <div class="ocupa-6-coluna" style="grid-row: 11/ span 16;z-index:0">
-            <img src="imagens/fotos/chekhov-inteiro.jpg" alt=""
-                 style="grid-row: 12/30;position: relative; left: -80px ">
-
-        </div>
-        <div class="ocupa-1-coluna" style="grid-row: 10/30">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-5.svg'); ?>
+        <div style="grid-row: 11/ span 16;z-index:0;position: relative; grid-column:1/span 4">
+            <img src="imagens/fotos/chekhov-inteiro.jpg" alt="" style="grid-row: 12/30;position: relative; left: -80px ">
         </div>
 
-        <div class="ocupa-1-coluna" style="grid-row: 15/30">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
-        </div>
+        <div style="grid-row: 8/30;grid-column:4/span 1;"></div>
+                                                         
+        <div style="grid-row: 15/30;grid-column:5/span 1;"></div>
 
-        <div class="ocupa-5-coluna" style="grid-row: 7/30; ">
-            <div class="textoContraCapa " style="background-color:black;  ">
-
-                <br><br>
-
-                <a class="negrito">Título</a>: A Brincadeira<br><br>
-                <a class="negrito">Autor</a>: Anton Checkov<br><br>
-                <a class="negrito">Edição Gráfica</a>:
-                <br>
-                Ana Sofia Vicente<br>
-                Madalena Sousa<br>
-                Rita Marques<br>
-                <br>
-                <a class="negrito">Docentes:</a>
-                <br>
-                Pedro Martins<br>
-                Ana Boavida<br>
-                Luís Pereira<br>
-                <br>
-                <a class="negrito">Projeto 3 - Aplicações Multimédia</a><br><br>
-                <a class="negrito"> Faculdade de Ciências e Tecnologias</a><br><br>
-                <a class="negrito">Universidade de Coimbra</a><br><br>
-                <img class="ocupa-3-coluna" style="grid-row: 2/30" src="imagens/fotos/logo-uc.png" alt="">
-
+        <div style="grid-row: 8/30; grid-column:6 /span 5;left: -100px;">
+            <div class="textoContraCapa " style="stroke-width:3px;">
+                <?php include('imagens/fotos/creditos.svg'); ?>
             </div>
+        </div>
+
+        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16;z-index:2;position:relative;grid-column:11/span 1;">
 
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 11/ span 16">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-4.svg'); ?>
+
+        <div id="caezinhos" style="grid-row: 5/ span 16;position:relative; z-index: 0;grid-column:12/span 3;">
+            <img src="imagens/fotos/Caezinhos.jpg">
         </div>
-        <div class="ocupa-1-coluna" style="grid-row: 16/ span 16">
-            <?php include('imagens/ilustracoes/xadrez-peca-branca-1.svg'); ?>
+
+        <div id="BabyChekhov" style="grid-row: 19/ span 16;position:relative; z-index: 0;grid-column:12/span 4;">
+            <img src="imagens/fotos/ChekhovPequeno.jpg">
         </div>
+
     </div>
 </main>
 
