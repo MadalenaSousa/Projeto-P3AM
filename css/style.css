@@ -306,30 +306,15 @@ height:100%;
     margin: 0;
 }
 
-#pensador {
-    margin-left: 18vw;
-}
 
-#carta {
-    margin-top: -10vw;
-    margin-left: -40vw;
-}
 
-#Aborrecmento {
+#aborrecimento {
     font-size: 180px;
     font-weight: bold;
 }
 
-.textoContraCapa {
-    font-family: "Georgia", serif;
-    font-size: 20px;
-    color: white;
-    padding: 30px;
-}
 
-.textoContraCapa > .negrito {
-    font-weight: bold;
-}
+
 
 /* Página 5 */
 
@@ -480,10 +465,6 @@ height:100%;
     }
 }
 
-#fotoSociedadeVpaisagem {
-    margin-top: -20vw;
-    margin-left: -50vw;
-}
 
 .data h1 {
     font-size: 20vw;
@@ -512,7 +493,6 @@ canvas #defaultCanvas0 {
 
 @keyframes subir {
     from {
-
         transform: translate3d(-40px, 200px, -100px)
     }
 
@@ -545,7 +525,6 @@ canvas #defaultCanvas0 {
         transform: translate3d(0px, 0px, 0px);
     }
 }
-
 
 
 
