@@ -20,12 +20,9 @@
 </audio>
 <main class="wrapper container">
     <!-- CAPA -->
-    <div class="ocupa-19-coluna" style="grid-row: 1 / span 50;">
-        <div class=" ocupa-16-coluna wrapper sub-wrapper">
-            <div class="capa wrapper sub-wrapper" style="grid-column:1/span 16; grid-row: 1/ span 50">
-
-            </div>
-            <div style=" grid-column:4/ span 10; grid-row:13; position:relative; ">
+    <div class="ocupa-18-coluna wrapper" style="grid-row: 1 / span 20">
+        <div class="ocupa-16-coluna capa wrapper scene" style="grid-row: 1 / span 31">
+            <div class="layer" data-depth=".05" style="grid-area: 11 / 4 / span 4 / span 10">
                 <h1 class="h1"> A BRINCADEIRA </h1>
                 <h2 class="h2"> Anton Checkov </h2>
             </div>
