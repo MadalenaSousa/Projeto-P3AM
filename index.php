@@ -397,7 +397,7 @@
             <br><br>
             O que acontece com Nadenka, meu Deus! Solta um grito, abre-se num sorriso amplo e estende as mãos ao
             encontro do
-            vento, alegre, feliz, tão bonita.
+            vento, alegre, feliz,<br> tão bonita.
             <br><br>
             Eu vou fazer as malas…
         </div>
@@ -442,11 +442,13 @@
 
         <h1 class="layer" data-depth=".1" id="aborrecimento" style="grid-row:9; grid-column:1/span 30;">Aborrecimento</h1>
 
-        <div class="layer" data-depth=".08" style="grid-row: 2/ 16;grid-column:6/span 4;">
+        <img class="layer" data-depth=".25" style="grid-column:13/ span 4; z-index: -1" src="imagens/fotos/Checov-com-amigo.jpeg" alt="">
+
+        <div class="layer" data-depth=".08" style="grid-row: 1/ 16;grid-column:6/span 5;">
             <?php include('imagens/ilustracoes/tabuleiro-xadrez.svg'); ?>
         </div>
                                                           
-        <div class="layer" data-depth=".2" style="grid-row: 2/ 16;grid-column:10/span 1; width: 40px">
+        <div class="layer" data-depth=".2" style="grid-row: 2/ 16;grid-column:11/span 1; width: 40px">
             <?php include('imagens/ilustracoes/xadrez-peca-2.svg'); ?>
         </div>
 
