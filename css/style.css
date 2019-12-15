@@ -411,14 +411,15 @@ height:100%;
     transform: translateX(-50%) scale(2);
 }
 
-#seta path, #texto path, #citacao1 path {
+#seta path, #anotacao1 path, #anotacao2 path {
     fill: none;
+    opacity: 0;
 
     stroke-dasharray: 20;
     stroke-dashoffset: 20;
 
     animation-name: off-zero;
-    animation-duration: 3s;
+    animation-duration: 0.25s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -449,6 +450,7 @@ height:100%;
 @keyframes off-zero {
     to {
         stroke-dashoffset: 0;
+        opacity: 1;
     }
 }
 
