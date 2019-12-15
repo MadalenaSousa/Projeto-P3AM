@@ -120,7 +120,8 @@
         console.log(distanceToLeft);
 
         if(distanceToLeft
-        <
+
+
         -1080){
 
 
