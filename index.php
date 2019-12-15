@@ -26,7 +26,9 @@
                 <h1 class="h1"> A BRINCADEIRA </h1>
                 <h2 class="h2"> Anton Checkov </h2>
             </div>
-
+<div class="layer" data-depth=".06" style="grid-column: 8 / span 5; grid-row: 2;">
+    <img src="imagens/fotos/anton3.jpg">
+</div>
             <div class="layer" data-depth=".08" style="grid-column: 2 / span 2; grid-row: 5 / span 5;">
                 <img src="imagens/fotos/irmão.jpg" alt="">
             </div>
@@ -38,6 +40,10 @@
             <div class="layer" data-depth=".12" style="grid-column: 7/ span 5; grid-row:18 ;">
                 <img src="imagens/fotos/russia-1.jpeg" alt="">
             </div>
+            <div class="layer" data-depth=".14" style="grid-column: 13/ span 3; grid-row:23/span 5 ;">
+                <img src="imagens/fotos/Anton2.jpg" alt="">
+            </div>
+
         </div>
     </div>
 
@@ -60,9 +66,11 @@
             Mais tarde, Anton casou com Olga, uma atriz Russa.
             Em maio de 1904, ele morreu de uma doença, que já o viria a afetar há alguns anos, a tuberculose.
         </div>
-
-        <div class="pagina1_nota1 diario layer" data-depth=".1"
-             style="grid-column:6/ span 5; grid-row:1/span 5; position:relative; top:-20vw;">
+      
+        <div class=" layer" data-depth=".1" style="grid-column:5/ span 2; grid-row:1/span 2; position:relative; top:-23vw;">
+            <img src="imagens/fotos/Medicina_1860.jpg">
+        </div>
+        <div class="pagina1_nota1 diario layer" data-depth=".1" style="grid-column:6/ span 5; grid-row:1/span 5; position:relative; top:-20vw;">
             <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
         </div>
 
@@ -85,6 +93,15 @@
         <div class="data layer" data-depth=".2"
              style="grid-column:9/ span 4; grid-row:1/ span 5; position:relative; top: -15vw;">
             <h1>1860</h1>
+        </div>
+        <div class=" layer" data-depth=".1" style="grid-column:5/ span 3; grid-row:19/span 2; position:relative; top:-23vw;">
+            <img src="imagens/fotos/Medicina_1860_2.jpg">
+        </div>
+        <div class=" layer" data-depth=".1" style="grid-column:10/ span 6; grid-row:13; position:relative;z-index:-5; ">
+            <img src="imagens/fotos/Moscow_1860.png">
+        </div>
+        <div class=" layer" data-depth=".1" style="grid-column:2/ span 4; grid-row:13; position:relative;z-index:-5; ">
+            <img src="imagens/fotos/Jornal_russo_1860.jpg">
         </div>
     </div>
 
@@ -143,6 +160,16 @@
              style="grid-column:10/span 3; grid-row:1/ span 8; position:relative;top:-2vh;">
             <img src="imagens/fotos/russia-3.jpeg" alt=""/>
         </div>
+      
+        <div class=" layer" data-depth=".2" style="grid-column:10/ span 6; grid-row:13; position:relative;z-index:-5; ">
+            <img src="imagens/fotos/bloody_sunday.jpg">
+        </div>
+        <div class=" layer" data-depth=".2" style="grid-column:3/ span 4; grid-row:17; position:relative;z-index:-5; ">
+            <img src="imagens/fotos/revolução%20russa.jpg">
+        </div>
+        <div class=" layer" data-depth=".2" style="grid-column:6/ span 3; grid-row:15; position:relative;z-index:-5; ">
+            <img src="imagens/fotos/revolução_3.jpg">
+        </div>
 
         <div class="video layer" data-depth=".15" style="grid-column:7/span 2; grid-row:6/ span 8; position:relative; ">
             <video style="width: 30vw;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
@@ -175,19 +202,20 @@
             iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar
             cuidadosamente a minha luva.
         </div>
-
-        <div class="diario layer" data-depth=".1" id="aumentar2"
-             style="grid-column:6/ span 4; grid-row: 1 / span 3; position:relative; ">
+        <div class=" layer" data-depth=".25" style="grid-column:2/ span 5; grid-row:1; position:relative;z-index:-5;top:-50vh; ">
+            <img src="imagens/fotos/revolução2.jpg">
+        </div>
+        
+        <div class="diario layer" data-depth=".1" id="aumentar2" style="grid-column:6/ span 4; grid-row: 1 / span 3; position:relative; ">
             <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
         </div>
-
-        <div class="diario layer" data-depth=".05"
-             style="grid-column:6/ span 9; grid-row: 7 / span 14; position:relative; ">
+                                                                                                                   
+        <div class="diario layer"  data-depth=".05" style="grid-column:6/ span 9; grid-row: 7 / span 14; position:relative; ">
             <?php include('imagens/ilustracoes/pagina3_nota2_alexandre.svg'); ?>
         </div>
 
-        <div class="diario layer" data-depth=".1"
-             style="grid-column: 7 / span 5; grid-row: 8 / span 5; background:transparent; box-shadow: none;">
+                                                                                                     
+        <div class="diario layer" data-depth=".1" style="grid-column: 7 / span 5; grid-row: 8 / span 5; background:transparent; box-shadow: none;">
             <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
         </div>
 
