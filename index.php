@@ -394,7 +394,7 @@
         <img class="layer" data-depth=".25" id="carta" src="imagens/fotos/carta.jpg" alt=""
              style="grid-row: 1/30;grid-column:10/span 3;margin-top:-100px">
 
-        <div style="grid-row: 5/16;grid-column:13/span 3;">
+        <div style="grid-row: 5/16;grid-column:13/span 3;" id="aumentar2" data-depth=".1">
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
 
