@@ -18,12 +18,16 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.scene img {
+body {
+    overflow: auto;
+}
+
+.scene .layer {
     opacity: 0;
     transition: opacity 1s;
 }
 
-.scene img.is-showing {
+.scene .layer.is-showing {
     opacity: 1;
 }
 
@@ -58,29 +62,20 @@ video::-webkit-media-controls {
 
 /* Scroll Bar */
 
-::-webkit-scrollbar-track {
-    background: black;
-    margin-top: 0;
-    width: 5px;
-    height:5px;
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
 }
 
-::-webkit-scrollbar-track-piece {
-    background: white;
-    margin-right: 5px;
-    width: 2px;
-    height:2px;
-}
-
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background: black;
 }
 
-::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
     background: grey;
 }
 
-/* GRELHA */
+/* Grelha */
 
 * {
     box-sizing: border-box;
@@ -416,6 +411,17 @@ height:100%;
     transform: translateX(-50%) scale(2);
 }
 
+#seta path, #anotacao1 path, #anotacao2 path {
+    fill: none;
+    opacity: 0;
+
+    stroke-dasharray: 20;
+    stroke-dashoffset: 20;
+
+
+}
+
+
 /* Página 6 */
 
 #fumo path:first-child {
@@ -440,6 +446,7 @@ height:100%;
 @keyframes off-zero {
     to {
         stroke-dashoffset: 0;
+        opacity: 1;
     }
 }
 

@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
 
+    <link rel="shortcut icon" href="imagens/fotos/icon.png">
+
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
-
-
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
     <script src="javascript/parallax.js"></script>
 
@@ -18,7 +18,7 @@
     <source src="som/bg-music.mp3" type="audio/mp3">
     <source src="som/bg-music.ogg" type="audio/ogg">
 </audio>
-<main class="wrapper container">
+<main class="wrapper">
     <!-- CAPA -->
     <div class="ocupa-18-coluna wrapper" style="grid-row: 1 / span 20">
         <div class="ocupa-16-coluna capa wrapper scene" style="grid-row: 1 / span 31">
@@ -324,11 +324,15 @@
             <h1>Eu amo-te Nadia!</h1>
         </div>
 
+        <video class="layer" data-depth=".15" style="grid-area: 1 / 3 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); position: relative; top: -50vh" width="100%" autoplay loop muted>
+            <source src="video/familia.mp4" type="video/mp4">
+        </video>
+
         <div class="familia" style="grid-area: 1 / 8 / span 5 /span 5">
             <img src="imagens/fotos/checkov-family.jpg" alt="">
         </div>
 
-        <div class="diario wrapper layer" data-depth=".05" style="grid-area: 1 / 7 / span 12 / span 9">
+        <div class="diario wrapper layer" data-depth=".05" style="grid-area: 2 / 7 / span 12 / span 9">
             <div style="grid-column: span 5; grid-row: 8">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
@@ -336,6 +340,14 @@
             <div style="grid-row: 1; grid-column: 7 / span 2">
                 <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
             </div>
+        </div>
+
+        <div class="diario layer" data-depth=".05" style="grid-area: 15 / 2 / span 5 / span 7">
+            <?php include('imagens/texto-diario/texto-1-pag-5.svg'); ?>
+        </div>
+
+        <div class="layer" data-depth=".05" style="grid-area: 12 / 13 / span 5 /span 4">
+            <img src="imagens/fotos/carta-2.jpg" alt="">
         </div>
     </div>
 
@@ -374,6 +386,10 @@
                 <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
             </div>
         </div>
+
+        <video class="layer" data-depth=".15" style="grid-area: 16 / 3 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
+            <source src="video/play-checkov.mp4" type="video/mp4">
+        </video>
     </div>
 
     <!-- Página 7 -->
