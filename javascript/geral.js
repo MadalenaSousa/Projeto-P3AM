@@ -12,7 +12,7 @@ var cenas = document.getElementsByClassName("scene");
 window.onscroll = function () {
     for (let i = 0; i < cenas.length; i++) {
 
-        var fotos = cenas[i].querySelectorAll("img, .diario");
+        var fotos = cenas[i].querySelectorAll("img");
 
         if (window.scrollX + (innerWidth/4) >= cenas[i].offsetLeft) {
             for(let z=0; z<fotos.length; z++){
@@ -23,6 +23,54 @@ window.onscroll = function () {
                     fotos.classList.add("is-showing");
                 }
             }
+        }
+    }
+
+    if (window.scrollX >= innerWidth * 4) {
+        var seta = document.querySelectorAll('#seta path');
+
+        for (let i = 0; i < seta.length; i++) {
+
+            seta[i].style.cssText = 'animation-name: off-zero; \n' +
+                                    'animation-duration: 0.25s; \n' +
+                                    'animation-timing-function: ease-in-out; \n' +
+                                    'animation-iteration-count: 1; \n' +
+                                    'animation-fill-mode: forwards';
+
+            document.querySelector('#seta path:nth-child(' + (i + 1) + ')').style.animationDelay = i/4 + 's';
+
+        }
+    }
+
+    if (window.scrollX >= innerWidth * 5) {
+        var anotacao1 = document.querySelectorAll('#anotacao1 path');
+
+        for (let i = 0; i < anotacao1.length; i++) {
+
+        anotacao1[i].style.cssText = 'animation-name: off-zero; \n' +
+                                     'animation-duration: 0.25s; \n' +
+                                     'animation-timing-function: ease-in-out; \n' +
+                                     'animation-iteration-count: 1; \n' +
+                                     'animation-fill-mode: forwards';
+
+        document.querySelector('#anotacao1 path:nth-child(' + (i + 1) + ')').style.animationDelay = i/4 + 's';
+
+        }
+    }
+
+    if (window.scrollX >= innerWidth * 7) {
+        var anotacao2 = document.querySelectorAll('#anotacao2 path');
+
+        for (let i = 0; i < anotacao2.length; i++) {
+
+            anotacao2[i].style.cssText = 'animation-name: off-zero; \n' +
+                                         'animation-duration: 0.25s; \n' +
+                                         'animation-timing-function: ease-in-out; \n' +
+                                         'animation-iteration-count: 1; \n' +
+                                         'animation-fill-mode: forwards';
+
+            document.querySelector('#anotacao2 path:nth-child(' + (i + 1) + ')').style.animationDelay = i/4 + 's';
+
         }
     }
 };
@@ -167,21 +215,3 @@ document.querySelector(".familia img").addEventListener('mouseout', function () 
         'animation-duration: 2s;\n' +
         'animation-fill-mode: forwards;';
 });
-
-var anotacao1 = document.querySelectorAll('#anotacao1 path');
-
-for (let i = 0; i < anotacao1.length; i++) {
-    document.querySelector('#anotacao1 path:nth-child(' + (i + 1) + ')').style.cssText = 'animation-delay: ' + i/4 + 's';
-}
-
-var anotacao2 = document.querySelectorAll('#anotacao2 path');
-
-for (let i = 0; i < anotacao2.length; i++) {
-    document.querySelector('#anotacao2 path:nth-child(' + (i + 1) + ')').style.cssText = 'animation-delay: ' + i/4 + 's';
-}
-
-var seta = document.querySelectorAll('#seta path');
-
-for (let i = 0; i < seta.length; i++) {
-    document.querySelector('#seta path:nth-child(' + (i + 1) + ')').style.cssText = 'animation-delay: ' + i/4 + 's';
-}

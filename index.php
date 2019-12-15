@@ -269,6 +269,10 @@
             <h1>Eu amo-te Nadia!</h1>
         </div>
 
+        <video class="layer" data-depth=".15" style="grid-area: 1 / 3 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); position: relative; top: -50vh" width="100%" autoplay loop muted>
+            <source src="video/familia.mp4" type="video/mp4">
+        </video>
+
         <div class="familia" style="grid-area: 1 / 8 / span 5 /span 5">
             <img src="imagens/fotos/checkov-family.jpg" alt="">
         </div>
@@ -284,7 +288,11 @@
         </div>
 
         <div class="diario layer" data-depth=".05" style="grid-area: 15 / 2 / span 5 / span 7">
-            <?php include('imagens/texto-diario/texto 1-pag-5.svg'); ?>
+            <?php include('imagens/texto-diario/texto-1-pag-5.svg'); ?>
+        </div>
+
+        <div class="layer" data-depth=".05" style="grid-area: 12 / 13 / span 5 /span 4">
+            <img src="imagens/fotos/carta-2.jpg" alt="">
         </div>
     </div>
 
@@ -323,6 +331,10 @@
                 <?php include('imagens/texto-diario/texto-2-pag-6.svg'); ?>
             </div>
         </div>
+
+        <video class="layer" data-depth=".15" style="grid-area: 16 / 3 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" autoplay loop muted>
+            <source src="video/play-checkov.mp4" type="video/mp4">
+        </video>
     </div>
 
     <!-- Página 7 -->
@@ -354,7 +366,7 @@
             muito tempo, talvez para sempre.
         </div>
 
-        <img class="layer" data-depth=".2" src="imagens/fotos/paisagem-pessoas.jpg" alt="" style="grid-row: 1/ 30;grid-column:6/span 5;">
+        <img class="layer" data-depth=".1" src="imagens/fotos/paisagem-pessoas.jpg" alt="" style="grid-row: 1/ 30;grid-column:6/span 5;">
 
         <div style="grid-row: 8/ 20;grid-column:6/span 11;" id="defaultCanvas0">
             <?php include('imagens/ilustracoes/montanhas.svg'); ?>
@@ -372,7 +384,7 @@
             <?php include('imagens/texto-diario/texto-2-pag-7.svg'); ?>
         </div>
 
-        <img src="imagens/fotos/paisagem-sociedade-3.jpg" alt="" style="grid-row: 1/ 16;z-index:-1;grid-column:13/span 4;margin-top:-200px">
+        <img class="layer" data-depth=".1" src="imagens/fotos/paisagem-sociedade-3.jpg" alt="" style="grid-row: 1/ 16;z-index:-1;grid-column:13/span 4;margin-top:-200px">
     </div>
 
     <!-- Página 8 -->
