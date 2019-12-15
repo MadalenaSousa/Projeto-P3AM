@@ -215,3 +215,4 @@ document.querySelector(".familia img").addEventListener('mouseout', function () 
         'animation-duration: 2s;\n' +
         'animation-fill-mode: forwards;';
 });
+
