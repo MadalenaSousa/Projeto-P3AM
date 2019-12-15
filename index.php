@@ -18,7 +18,7 @@
     <source src="som/bg-music.mp3" type="audio/mp3">
     <source src="som/bg-music.ogg" type="audio/ogg">
 </audio>
-<main class="wrapper container">
+<main class="wrapper">
     <!-- CAPA -->
     <div class="ocupa-18-coluna wrapper" style="grid-row: 1 / span 20">
         <div class="ocupa-16-coluna capa wrapper scene" style="grid-row: 1 / span 31">

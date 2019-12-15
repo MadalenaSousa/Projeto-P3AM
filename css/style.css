@@ -18,6 +18,10 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+body {
+    overflow: auto;
+}
+
 .scene img {
     opacity: 0;
     transition: opacity 1s;
@@ -58,29 +62,20 @@ video::-webkit-media-controls {
 
 /* Scroll Bar */
 
-::-webkit-scrollbar-track {
-    background: black;
-    margin-top: 0;
-    width: 5px;
-    height:5px;
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
 }
 
-::-webkit-scrollbar-track-piece {
-    background: white;
-    margin-right: 5px;
-    width: 2px;
-    height:2px;
-}
-
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background: black;
 }
 
-::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
     background: grey;
 }
 
-/* GRELHA */
+/* Grelha */
 
 * {
     box-sizing: border-box;
