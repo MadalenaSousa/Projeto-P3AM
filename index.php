@@ -112,17 +112,17 @@
             caracolinhos das têmporas e a penugem do buço com uma
             geada de prata. Estamos numa colina alta. Dos nossos pés até lá baixo estende-se um declive liso em que o
             sol se reflete como num espelho. Junto a nós está um trenó coberto com um pano vermelho.
-
+            <br><br>
             — Vamos escorregar Nadenka Petrovna! — imploro-lhe eu. — Só uma vez! Garanto-te que chegamos lá abaixo sãos
             e salvos.
-
+            <br><br>
             Mas Nadenka tem medo. A distância que vai desde as suas pequeninas galochas ao fundo da colina parece-lhe
             assustadora, como um abismo desmedidamente fundo. Ela congela e fica sem respiração só de olhar para baixo,
             só de a convidar a sentar-se no trenó; o que acontecerá se se arriscar a lançar-se pelo abismo? Ela morre,
             enlouquece.
-
+            <br><br>
             — Suplico-te! — digo eu. — Não tenhas medo! Isso é fraqueza, covardice.
-
+            <br><br>
             Finalmente a Nadenka concorda, consigo ver na cara dela que quando ela o faz, ela teme pela sua vida.
             Sento-a no trenó, pálida e trémula, envolvo-a com um braço e lanço-me com ela no abismo.
         </div>
@@ -185,7 +185,7 @@
             O trenó voa como uma bala. O ar que cortamos chicoteia-nos o rosto, rosna, assobia aos ouvidos, belisca de
             raiva, quer-nos arrancar a cabeça dos ombros. A força do vento não nos deixa respirar. Parece que o próprio
             diabo nos abraça com as suas garras e, com um rugido, nos arrasta para o inferno.
-
+            <br><br>
             Os objetos à volta do trenó fundem-se numa faixa comprida, desfocada, a correr loucamente… Mais um minuto e
             morremos, parece!
 
@@ -194,10 +194,10 @@
             Agora o trenó já desliza mais devagar, cada vez mais devagar, o rugido do vento e o zumbir dos patins já são
             menos assustadores, já conseguimos respirar, e finalmente, estamos no fundo. Nadenka está mais morta do que
             viva. Pálida, quase não respira… Ajudo-a a levantar-se.
-
-            Não volto a descer por nada deste mundo. — diz ela, arregalando para mim uns olhos aterrorizados.— Por nada
+            <br><br>
+            — Não volto a descer por nada deste mundo. — diz ela, arregalando para mim uns olhos aterrorizados.— Por nada
             deste mundo. Por pouco não morri!
-
+            <br><br>
             Pouco depois, recomposta, olha-me nos olhos com dúvida: será que fui eu que disse aquelas palavras ou foi
             iludida pelo barulho do vento de furacão na descida? E eu, estou ao pé dela, a fumar, a examinar
             cuidadosamente a minha luva.
