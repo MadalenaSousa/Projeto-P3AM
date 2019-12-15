@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
 
+    <link rel="shortcut icon" href="imagens/fotos/icon.png">
+
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
-
-
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
     <script src="javascript/parallax.js"></script>
 
@@ -281,6 +281,10 @@
             <div style="grid-row: 1; grid-column: 7 / span 2">
                 <?php include('imagens/texto-diario/anotacao-familia.svg'); ?>
             </div>
+        </div>
+
+        <div class="diario layer" data-depth=".05" style="grid-area: 15 / 2 / span 5 / span 7">
+            <?php include('imagens/texto-diario/texto 1-pag-5.svg'); ?>
         </div>
     </div>
 
