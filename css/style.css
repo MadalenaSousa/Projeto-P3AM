@@ -311,53 +311,9 @@ height:100%;
 
 /* Página 5 */
 
-#evolucao-1 {
+#evolucao-1, #evolucao-2, #evolucao-3, #evolucao-4, #evolucao-5 {
     opacity: 0;
-    animation: showEvolution;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
 
-#evolucao-2 {
-    opacity: 0;
-    animation-name: showEvolution;
-    animation-duration: 3s;
-    animation-delay: 1s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-#evolucao-3 {
-    opacity: 0;
-    animation-name: showEvolution;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-#evolucao-4 {
-    opacity: 0;
-    animation-name: showEvolution;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-#evolucao-5 {
-    opacity: 0;
-    animation-name: showEvolution;
-    animation-duration: 3s;
-    animation-delay: 4s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
 }
 
 @keyframes showEvolution {

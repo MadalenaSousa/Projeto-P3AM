@@ -55,6 +55,40 @@ window.onscroll = function () {
 
         document.querySelector('#anotacao1 path:nth-child(' + (i + 1) + ')').style.animationDelay = i/4 + 's';
 
+        document.getElementById('evolucao-1').style.cssText =  'animation: showEvolution;\n' +
+                                                                        'animation-duration: 1s;\n' +
+                                                                        'animation-iteration-count: 1;\n' +
+                                                                        'animation-timing-function: ease-in-out;\n' +
+                                                                        'animation-fill-mode: forwards;';
+
+        document.getElementById('evolucao-2').style.cssText =  'animation-name: showEvolution;\n' +
+                                                                        'animation-duration: 1s;\n' +
+                                                                        'animation-delay: 1s;\n' +
+                                                                        'animation-iteration-count: 1;\n' +
+                                                                        'animation-timing-function: ease-in-out;\n' +
+                                                                        'animation-fill-mode: forwards';
+
+        document.getElementById('evolucao-3').style.cssText =  'animation-name: showEvolution;\n' +
+                                                                        'animation-duration: 1s;\n' +
+                                                                        'animation-delay: 2s;\n' +
+                                                                        'animation-iteration-count: 1;\n' +
+                                                                        'animation-timing-function: ease-in-out;\n' +
+                                                                        'animation-fill-mode: forwards';
+
+        document.getElementById('evolucao-4').style.cssText =  'animation-name: showEvolution;\n' +
+                                                                        'animation-duration: 1s;\n' +
+                                                                        'animation-delay: 3s;\n' +
+                                                                        'animation-iteration-count: 1;\n' +
+                                                                        'animation-timing-function: ease-in-out;\n' +
+                                                                        'animation-fill-mode: forwards';
+
+        document.getElementById('evolucao-5').style.cssText =  'animation-name: showEvolution;\n' +
+                                                                        'animation-duration: 1s;\n' +
+                                                                        'animation-delay: 4s;\n' +
+                                                                        'animation-iteration-count: 1;\n' +
+                                                                        'animation-timing-function: ease-in-out;\n' +
+                                                                        'animation-fill-mode: forwards';
+
         }
     }
 
