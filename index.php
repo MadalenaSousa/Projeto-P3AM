@@ -196,9 +196,10 @@
             <?php include('imagens/ilustracoes/pagina3_nota1.svg'); ?>
         </div>
                                                                                                                    
-        <div class="diario layer" data-depth=".05" style="grid-column:6/ span 9; grid-row: 7 / span 14; position:relative; ">
+        <div class="diario layer"  data-depth=".05" style="grid-column:6/ span 9; grid-row: 7 / span 14; position:relative; ">
             <?php include('imagens/ilustracoes/pagina3_nota2_alexandre.svg'); ?>
         </div>
+
                                                                                                      
         <div class="diario layer" data-depth=".1" style="grid-column: 7 / span 5; grid-row: 8 / span 5; background:transparent; box-shadow: none;">
             <?php include('imagens/ilustracoes/pagina3_nota3.svg'); ?>
