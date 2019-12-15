@@ -397,7 +397,7 @@
             <br><br>
             O que acontece com Nadenka, meu Deus! Solta um grito, abre-se num sorriso amplo e estende as mãos ao
             encontro do
-            vento, alegre, feliz, tão bonita.
+            vento, alegre, feliz,<br> tão bonita.
             <br><br>
             Eu vou fazer as malas…
         </div>
@@ -409,6 +409,7 @@
         <div class="layer" data-depth=".2" style="grid-column: 6 / span 5;">
             <?php include('imagens/fotos/1904.svg'); ?>
         </div>
+        <img class="layer" data-depth=".25" style="grid-column:12/ span 6;grid-row: 16/16; z-index: -1" src="imagens/fotos/ChechovMorto.jpg" alt="">
 
         <img class="layer" data-depth=".25" style="grid-column:13/ span 4; z-index: -1" src="imagens/fotos/pensador.jpg" alt="">
 
@@ -436,38 +437,46 @@
             jogo...
         </div>
 
+
+        <img class="layer" data-depth=".25" style="grid-column:4/ span 5;grid-row: 7 /16; z-index: -1" src="imagens/fotos/escritorio.jpg" alt="">
+
         <h1 class="layer" data-depth=".1" id="aborrecimento" style="grid-row:9; grid-column:1/span 30;">Aborrecimento</h1>
 
-        <div class="layer" data-depth=".08" style="grid-row: 2/ 16;grid-column:6/span 4;">
+        <img class="layer" data-depth=".25" style="grid-column:13/ span 4; z-index: -1" src="imagens/fotos/Checov-com-amigo.jpeg" alt="">
+
+        <div class="layer" data-depth=".08" style="grid-row: 1/ 16;grid-column:6/span 5;">
             <?php include('imagens/ilustracoes/tabuleiro-xadrez.svg'); ?>
         </div>
                                                           
-        <div class="layer" data-depth=".2" style="grid-row: 2/ 16;grid-column:10/span 1; width: 50px">
+        <div class="layer" data-depth=".2" style="grid-row: 2/ 16;grid-column:11/span 1; width: 40px">
             <?php include('imagens/ilustracoes/xadrez-peca-2.svg'); ?>
         </div>
 
-        <div class="layer" data-depth=".21" style="grid-row: 4/ 16;grid-column:12/span 1;width: 50px">
+        <div class="layer" data-depth=".21" style="grid-row: 4/ 16;grid-column:12/span 1;width: 60px">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>                                                               
 
-        <div class="layer" data-depth=".19" style="grid-row: 9/ 16">
+        <div class="layer" data-depth=".19" style="grid-row: 9/ 16;width: 30px">
             <?php include('imagens/ilustracoes/xadrez-peca-1.svg'); ?>
         </div>
                                                            
-        <div class="layer" data-depth=".18" style="grid-row: 2/ 16;grid-column:14/span 1;width: 50px">
+        <div class="layer" data-depth=".18" style="grid-row: 2/ 16;grid-column:14/span 1;width:40px">
             <?php include('imagens/ilustracoes/xadrez-peca-3.svg'); ?>
         </div>
 
-        <div class="layer" data-depth=".22" style="grid-row: 7/ 16;grid-column:16/span 1;width: 50px">
+        <div class="layer" data-depth=".22" style="grid-row: 7/ 16;grid-column:16/span 1;width: 70px">
             <?php include('imagens/ilustracoes/xadrez-peca-4.svg'); ?>
         </div>
 
-        <div class="layer" data-depth=".17" style="grid-row: 1/ 16;grid-column:12/span 1;width: 50px">
+        <div class="layer" data-depth=".17" style="grid-row: 1/ 16;grid-column:12/span 1;width: 30px">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
         </div>
                                                                       
-        <div class="layer" data-depth=".23" style="grid-row: 1/ 16;grid-column:16/span 1;width: 50px">
+        <div class="layer" data-depth=".23" style="grid-row: 1/ 16;grid-column:16/span 1;width: 30px">
             <?php include('imagens/ilustracoes/xadrez-peca-5.svg'); ?>
+        </div>
+        <div class="diario layer"  style="grid-column: 8/ span 7; grid-row: 6 / span 7">
+            <?php include('imagens/texto-diario/texto-1-pag-9.svg'); ?>
         </div>
     </div>
 
