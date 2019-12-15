@@ -4,21 +4,9 @@
 
         <style>
             .cls-0{
-            fill:none;
+            fill:#1d1d1b;
             }
-            .cls-2{
-            fill:none;
-            stroke:rgba(0, 0, 0, 0.1);
-            stroke-width: 0.05;
-            stroke-dasharray: 450;
-            stroke-dashoffset: 450;
-            animation: draw 2s linear forwards;
-            }
-            @keyframes draw {
-            to {
-            stroke-dashoffset: 0;
-            }
-            }
+
 
 
 
@@ -76,119 +64,7 @@
     <path id="cls-45" class="cls-0" d="M745.16,874.52c0,.19-.1.34-.15.51l-.31.33c-.19.23-.38.47-.56.72s-.34.5-.5.76l-.22.4c-.14.09-.27.2-.43.3a4.91,4.91,0,0,1,0-.54l.23-.41c.16-.28.34-.55.52-.81s.39-.51.6-.75l.32-.35A3,3,0,0,1,745.16,874.52Z" transform="translate(-742.98 -874.52)"/>
     <path id="cls-46" class="cls-0" d="M950.36,887.33c-.08.08-.14.12-.2.19l-.08,0H950s.05-.1,0-.08,0,0,0,0-.15.13,0,.2-.12.21-.27.19a.46.46,0,0,1,.07-.73.64.64,0,0,1,.4,0l.16,0A1.29,1.29,0,0,1,950.36,887.33Z" transform="translate(-742.98 -874.52)"/>
     <path id="cls-47" class="cls-0" d="M950.36,887.33c-.08.08-.14.12-.2.19l-.08,0H950s.05-.1,0-.08,0,0,0,0-.15.13,0,.2-.12.21-.27.19a.46.46,0,0,1,.07-.73.64.64,0,0,1,.4,0l.16,0A1.29,1.29,0,0,1,950.36,887.33Z" transform="translate(-742.98 -874.52)"/>
-    <script>
-        window.addEventListener('scroll', function(ev) {
 
-        var someDiv = document.getElementById('aumentar1');
-        var distanceToLeft = someDiv.getBoundingClientRect().left;
-
-
-        console.log(distanceToLeft);
-
-        if(distanceToLeft < 600){
-
-        document.getElementById("cls-1").classList.replace("cls-0", "cls-2");
-
-        document.getElementById("cls-2").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-3").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-4").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-5").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-6").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-7").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-8").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-9").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-10").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-11").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-12").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-13").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-14").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-15").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-16").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-17").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-18").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-19").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-20").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-21").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-22").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-23").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-24").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-25").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-26").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-27").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-28").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-29").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-30").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-31").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-32").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-33").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-34").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-35").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-36").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-37").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-38").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-39").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-40").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-41").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-42").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-43").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-44").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-45").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-46").classList.replace("cls-0", "cls-2");
-        document.getElementById("cls-47").classList.replace("cls-0", "cls-2");
-        }
-       else if(distanceToLeft >= 1200){
-
-        document.getElementById("cls-1").classList.replace("cls-2", "cls-0");
-
-        document.getElementById("cls-2").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-3").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-4").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-5").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-6").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-7").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-8").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-9").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-10").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-11").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-12").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-13").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-14").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-15").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-16").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-17").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-18").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-19").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-20").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-21").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-22").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-23").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-24").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-25").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-26").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-27").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-28").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-29").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-30").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-31").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-32").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-33").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-34").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-35").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-36").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-37").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-38").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-39").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-40").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-41").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-42").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-43").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-44").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-45").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-46").classList.replace("cls-2", "cls-0");
-        document.getElementById("cls-47").classList.replace("cls-2", "cls-0");
-        }
-        });
-    </script>
 </svg>
 
 
