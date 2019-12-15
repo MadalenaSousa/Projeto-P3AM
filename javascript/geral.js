@@ -12,15 +12,15 @@ var cenas = document.getElementsByClassName("scene");
 window.onscroll = function () {
     for (let i = 0; i < cenas.length; i++) {
 
-        var fotos = cenas[i].querySelectorAll("img");
+        var layer = cenas[i].querySelectorAll(".layer");
 
-        if (window.scrollX + (innerWidth/4) >= cenas[i].offsetLeft) {
-            for(let z=0; z<fotos.length; z++){
+        if (window.scrollX + (innerWidth/2) >= cenas[i].offsetLeft) {
+            for(let z=0; z<layer.length; z++){
 
-                setTimeout(addClass(fotos[z]), 150);
+                setTimeout(addClass(layer[z]), 2000);
 
-                function addClass (fotos) {
-                    fotos.classList.add("is-showing");
+                function addClass (layer) {
+                    layer.classList.add("is-showing");
                 }
             }
         }

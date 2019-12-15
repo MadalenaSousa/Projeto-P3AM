@@ -22,12 +22,12 @@ body {
     overflow: auto;
 }
 
-.scene img {
+.scene .layer {
     opacity: 0;
     transition: opacity 1s;
 }
 
-.scene img.is-showing {
+.scene .layer.is-showing {
     opacity: 1;
 }
 
