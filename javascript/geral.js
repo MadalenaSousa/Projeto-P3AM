@@ -167,3 +167,9 @@ document.querySelector(".familia img").addEventListener('mouseout', function () 
         'animation-duration: 2s;\n' +
         'animation-fill-mode: forwards;';
 });
+
+var paths = document.querySelectorAll('#texto path');
+
+for (let i = 0; i < paths.length; i++) {
+    document.querySelector('#texto path:nth-child(' + (i + 1) + ')').style.cssText = 'animation-delay: ' + (i * 3) + 's';
+}

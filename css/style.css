@@ -411,6 +411,20 @@ height:100%;
     transform: translateX(-50%) scale(2);
 }
 
+#seta path, #texto path, #citacao1 path {
+    fill: none;
+
+    stroke-dasharray: 20;
+    stroke-dashoffset: 20;
+
+    animation-name: off-zero;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
 /* Página 6 */
 
 #fumo path:first-child {

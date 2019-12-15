@@ -273,7 +273,7 @@
             <img src="imagens/fotos/checkov-family.jpg" alt="">
         </div>
 
-        <div class="diario wrapper layer" data-depth=".05" style="grid-area: 1 / 7 / span 12 / span 9">
+        <div class="diario wrapper layer" data-depth=".05" style="grid-area: 2 / 7 / span 12 / span 9">
             <div style="grid-column: span 5; grid-row: 8">
                 <?php include('imagens/ilustracoes/evolucao-texto.svg'); ?>
             </div>
