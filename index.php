@@ -453,6 +453,13 @@
         <div class="diario layer" data-depth=".15" style="grid-column: 11 / span 6; grid-row: 10 / span 4;z-index: 1">
             <?php include('imagens/texto-diario/texto-1-pag-8.svg'); ?>
         </div>
+        <div class="video2 layer" data-depth=".15"
+             style="grid-column:3/span 8; grid-row:2/16; position:relative;z-index:5;top: -350px ">
+            <video style="width: 30vw;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                   playsinline muted controls autoplay loop>
+                <source src="video/sociedade.mp4" type="video/mp4"/>
+            </video>
+        </div>
 
     </div>
 
