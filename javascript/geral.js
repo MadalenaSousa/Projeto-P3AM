@@ -1,5 +1,10 @@
 /* GERAL */
 
+if(document.getElementById("som").checked == true) {
+    console.log('oi');
+    document.getElementById("playAudio").play();
+}
+
 window.addEventListener("load", function () {
     window.scroll({
         left: 0,

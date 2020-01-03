@@ -14,7 +14,8 @@
 
 </head>
 <body>
-<audio id="playAudio" autoplay loop>
+<div class="mensagem">Este site foi feito para ser visto em modo paisagem. Por favor ative a rotação automática, rode o dispositivo 90º e disfrute. Obrigada!</div>
+<audio id="playAudio" loop>
     <source src="som/bg-music.mp3" type="audio/mp3">
     <source src="som/bg-music.ogg" type="audio/ogg">
 </audio>
@@ -27,7 +28,7 @@
                 <h2 class="h2"> Anton Checkov </h2>
             </div>
 <div class="layer" data-depth=".06" style="grid-column: 8 / span 5; grid-row: 2;">
-    <img src="imagens/fotos/anton3.jpg">
+    <img src="imagens/fotos/anton3.jpg" alt="">
 </div>
             <div class="layer" data-depth=".08" style="grid-column: 2 / span 2; grid-row: 5 / span 5;">
                 <img src="imagens/fotos/irmão.jpg" alt="">
@@ -635,6 +636,12 @@
         </div>
         <div id="creditos">
             Créditos
+        </div>
+        <div class="som">
+            <label>Sound On &nbsp
+                <input type="checkbox" id="som">
+                <span class="checkmark"></span>
+            </label>
         </div>
     </nav>
 </footer>
