@@ -4,8 +4,9 @@ function checkSom() {
     var checkbox = document.getElementById("allowSom");
 
     if(checkbox.checked) {
-        console.log('oi');
         document.getElementById("playAudio").play();
+    } else {
+        document.getElementById("playAudio").pause();
     }
 }
 
