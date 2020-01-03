@@ -1477,31 +1477,26 @@
 	c-0.3-0.2-0.7-0.6-0.9-0.5s-0.1,0.1-0.2,0.3c0,0.2-0.1,0.4-0.2,0.6c-0.3,0.8-1,1.5-1.8,1.9L69,79l0.7-0.8C70.4,77,71.3,75.7,72,74.3
 	z"/>
 <script>function function1(){
-        console.log(function1);
         document.getElementById(&quot;id-1&quot;).classList.replace(&quot;cls-0&quot;, &quot;cls-5&quot;);
         setTimeout(function2(), 10000);
 
         }
         function function2(){
-        console.log(function2);
         document.getElementById(&quot;id-2&quot;).classList.replace(&quot;cls-0&quot;, &quot;cls-5&quot;);
         setTimeout(function3(), 20000);
 
         }
         function function3(){
-        console.log(function3);
         document.getElementById(&quot;id-3&quot;).classList.replace(&quot;cls-0&quot;, &quot;cls-5&quot;);
         }
 
         document.getElementById(&quot;Camada_10&quot;).addEventListener(&quot;mouseover&quot;, function() {
-        console.log(&quot;svg&quot;);
 
         function1();
 
 
         });
         document.getElementById(&quot;Camada_10&quot;).addEventListener(&quot;mouseleave&quot;, function() {
-        console.log(&quot;svg&quot;);
         document.getElementById(&quot;id-3&quot;).classList.replace(&quot;cls-5&quot;, &quot;cls-0&quot;);
         document.getElementById(&quot;id-2&quot;).classList.replace(&quot;cls-5&quot;, &quot;cls-0&quot;);
         document.getElementById(&quot;id-1&quot;).classList.replace(&quot;cls-5&quot;, &quot;cls-0&quot;);

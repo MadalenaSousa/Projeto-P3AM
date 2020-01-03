@@ -907,31 +907,26 @@
 
         Bandeira1();
         function function1(){
-        console.log(function1);
         document.getElementById("id-1").classList.replace("cls-9", "cls-5");
         setTimeout(function2(), 10000);
 
         }
         function function2(){
-        console.log(function2);
         document.getElementById("id-2").classList.replace("cls-9", "cls-5");
         setTimeout(function3(), 20000);
 
         }
         function function3(){
-        console.log(function3);
         document.getElementById("id-3").classList.replace("cls-9", "cls-5");
         }
 
         document.getElementById("Camada_10").addEventListener("mouseover", function() {
-        console.log("svg");
 
         function1();
 
 
         });
         document.getElementById("Camada_10").addEventListener("mouseleave", function() {
-        console.log("svg");
         document.getElementById("id-3").classList.replace("cls-5", "cls-9");
         document.getElementById("id-2").classList.replace("cls-5", "cls-9");
         document.getElementById("id-1").classList.replace("cls-5", "cls-9");
@@ -950,7 +945,6 @@
         document.getElementById("b3").classList.replace("visivel","invisivel");
         document.getElementById("b4").classList.replace("visivel","invisivel");
 
-        console.log('bandeira1');
         temporizador1();
         function temporizador1(){
         setTimeout("Bandeira2()",randomIntFromInterval(100, 200));
@@ -962,7 +956,6 @@
         document.getElementById("b2").classList.replace("invisivel","visivel");
         document.getElementById("b3").classList.replace("visivel","invisivel");
         document.getElementById("b4").classList.replace("visivel","invisivel");
-        console.log('bandeira2');
         temporizador2();
         function temporizador2(){
         setTimeout("Bandeira3()",randomIntFromInterval(100, 200));
@@ -974,7 +967,6 @@
         document.getElementById("b2").classList.replace("visivel","invisivel");
         document.getElementById("b3").classList.replace("invisivel","visivel");
         document.getElementById("b4").classList.replace("visivel","invisivel");
-        console.log('alexandre3');
         temporizador3();
         function temporizador3(){
         setTimeout("Bandeira4()",randomIntFromInterval(100, 200));
@@ -986,7 +978,6 @@
         document.getElementById("b2").classList.replace("visivel","invisivel");
         document.getElementById("b3").classList.replace("visivel","invisivel");
         document.getElementById("b4").classList.replace("invisivel","visivel");
-        console.log('bandeira4');
         temporizador4();
         function temporizador4(){
         setTimeout("Bandeira5()",randomIntFromInterval(100, 200));
@@ -998,7 +989,6 @@
         document.getElementById("b2").classList.replace("visivel","invisivel");
         document.getElementById("b3").classList.replace("invisivel","visivel");
         document.getElementById("b4").classList.replace("visivel","invisivel");
-        console.log('bandeira5');
         temporizador5();
         function temporizador5(){
         setTimeout("Bandeira6()",randomIntFromInterval(100, 200));
@@ -1010,7 +1000,6 @@
         document.getElementById("b2").classList.replace("invisivel","visivel");
         document.getElementById("b3").classList.replace("visivel","invisivel");
         document.getElementById("b4").classList.replace("visivel","invisivel");
-        console.log('bandeira6');
         temporizador6();
         function temporizador6(){
         setTimeout("Bandeira1()",randomIntFromInterval(100, 200));

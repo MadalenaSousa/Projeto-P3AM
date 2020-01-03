@@ -1752,7 +1752,6 @@ function Alexandre1(){
     document.getElementById("alexandre3").classList.replace("visivel","invisivel");
     document.getElementById("alexandre4").classList.replace("visivel","invisivel");
     document.getElementById("alexandre5").classList.replace("visivel","invisivel");
-    console.log('alexandre1');
     temporizador1();
  function temporizador1(){
      setTimeout("Alexandre2()",3000);
@@ -1764,7 +1763,6 @@ function Alexandre2(){
     document.getElementById("alexandre3").classList.replace("visivel","invisivel");
     document.getElementById("alexandre4").classList.replace("visivel","invisivel");
     document.getElementById("alexandre5").classList.replace("visivel","invisivel");
-    console.log('alexandre2');
     temporizador2();
     function temporizador2(){
         setTimeout("Alexandre3()",50);
@@ -1776,7 +1774,6 @@ function Alexandre3(){
     document.getElementById("alexandre3").classList.replace("invisivel","visivel");
     document.getElementById("alexandre4").classList.replace("visivel","invisivel");
     document.getElementById("alexandre5").classList.replace("visivel","invisivel");
-    console.log('alexandre3');
     temporizador3();
     function temporizador3(){
         setTimeout("Alexandre4()",40);
@@ -1788,7 +1785,6 @@ function Alexandre4(){
     document.getElementById("alexandre3").classList.replace("visivel","invisivel");
     document.getElementById("alexandre4").classList.replace("invisivel","visivel");
     document.getElementById("alexandre5").classList.replace("visivel","invisivel");
-    console.log('alexandre4');
     temporizador4();
     function temporizador4(){
         setTimeout("Alexandre5()",30);
@@ -1800,7 +1796,6 @@ function Alexandre5(){
     document.getElementById("alexandre3").classList.replace("visivel","invisivel");
     document.getElementById("alexandre4").classList.replace("visivel","invisivel");
     document.getElementById("alexandre5").classList.replace("invisivel","visivel");
-    console.log('alexandre5');
     temporizador5();
     function temporizador5(){
         setTimeout("Alexandre6()",20);
@@ -1812,7 +1807,6 @@ function Alexandre6(){
     document.getElementById("alexandre3").classList.replace("visivel","invisivel");
     document.getElementById("alexandre4").classList.replace("invisivel","visivel");
     document.getElementById("alexandre5").classList.replace("visivel","invisivel");
-    console.log('alexandre6');
     temporizador6();
     function temporizador6(){
         setTimeout("Alexandre7()",30);
@@ -1824,7 +1818,6 @@ function Alexandre7(){
     document.getElementById("alexandre3").classList.replace("invisivel","visivel");
     document.getElementById("alexandre4").classList.replace("visivel","invisivel");
     document.getElementById("alexandre5").classList.replace("visivel","invisivel");
-    console.log('alexandre7');
     temporizador7();
     function temporizador7(){
         setTimeout("Alexandre8()",40);
@@ -1836,7 +1829,6 @@ function Alexandre8(){
     document.getElementById("alexandre3").classList.replace("visivel","invisivel");
     document.getElementById("alexandre4").classList.replace("visivel","invisivel");
     document.getElementById("alexandre5").classList.replace("visivel","invisivel");
-    console.log('alexandre8');
     temporizador8();
     function temporizador8(){
         setTimeout("Alexandre1()",50);
