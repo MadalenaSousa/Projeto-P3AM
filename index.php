@@ -639,7 +639,7 @@
         </div>
         <div class="som">
             <label>Sound On &nbsp
-                <input type="checkbox" id="som">
+                <input type="checkbox" id="allowSom" onclick="checkSom()">
                 <span class="checkmark"></span>
             </label>
         </div>
