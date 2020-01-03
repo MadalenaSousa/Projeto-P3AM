@@ -1,8 +1,12 @@
 /* GERAL */
 
-if(document.getElementById("som").checked == true) {
-    console.log('oi');
-    document.getElementById("playAudio").play();
+function checkSom() {
+    var checkbox = document.getElementById("allowSom");
+
+    if(checkbox.checked) {
+        console.log('oi');
+        document.getElementById("playAudio").play();
+    }
 }
 
 window.addEventListener("load", function () {
