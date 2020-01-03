@@ -10,6 +10,10 @@ function checkSom() {
     }
 }
 
+window.addEventListener("resize", function () {
+    location.reload();
+});
+
 window.addEventListener("load", function () {
     window.scroll({
         left: 0,
