@@ -7,7 +7,7 @@ var direcao = [];
 
 function setup() {
 
-    canvas = createCanvas(((innerWidth/20) * 13), 1100);
+    canvas = createCanvas(((innerWidth/20) * 13), ((innerHeight/20) * 30));
     canvas.position(innerWidth * 7 + ((innerWidth/20) * 11), 0);
 
     canvas.style('z-index', '-5');
