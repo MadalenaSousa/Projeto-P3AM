@@ -1,15 +1,5 @@
 /* GERAL */
 
-function checkSom() {
-    var checkbox = document.getElementById("allowSom");
-
-    if(checkbox.checked) {
-        document.getElementById("playAudio").play();
-    } else {
-        document.getElementById("playAudio").pause();
-    }
-}
-
 window.addEventListener("resize", function () {
     location.reload();
 });
@@ -122,6 +112,59 @@ window.onscroll = function () {
         }
     }
 };
+
+/* SOM */
+
+function checkSom() {
+    var checkbox = document.getElementById("allowSom");
+
+    if(checkbox.checked) {
+        document.getElementById("playAudio").play();
+    } else {
+        document.getElementById("playAudio").pause();
+    }
+}
+
+var frase1 = document.querySelectorAll(".amo-te-nadia");
+var som1 = document.querySelector(".amtnadia-som");
+
+for (let i = 0; i < frase1.length; i++) {
+    frase1[i].addEventListener("mouseenter", function () {
+        document.getElementById("playAudio").volume = 0.1;
+        som1.play();
+    });
+
+    frase1[i].addEventListener("mouseleave", function () {
+        document.getElementById("playAudio").volume = 1;
+        som1.pause();
+    });
+}
+
+var frase2 = document.getElementById("eu-amo-te-nadenka");
+var som2 = document.getElementById("euamtnadenka-som");
+
+frase2.addEventListener("mouseenter", function () {
+    document.getElementById("playAudio").volume = 0.1;
+    som2.play();
+});
+
+frase2.addEventListener("mouseleave", function () {
+    document.getElementById("playAudio").volume = 1;
+    som2.pause();
+});
+
+var frase3 = document.getElementById("eu-amo-te-nadia");
+var som3 = document.getElementById("euamtnadia-som");
+
+frase3.addEventListener("mouseenter", function () {
+    document.getElementById("playAudio").volume = 0.1;
+    som3.play();
+});
+
+frase3.addEventListener("mouseleave", function () {
+    document.getElementById("playAudio").volume = 1;
+    som3.pause();
+});
 
 /* NAVEGAÇÃO */
 
