@@ -189,9 +189,13 @@
             <br><br>
             Os objetos à volta do trenó fundem-se numa faixa comprida, desfocada, a correr loucamente… Mais um minuto e
             morremos, parece!
-
-            <h1 style="font-size:6vh">Amo-te Nádia!</h1> digo a meia voz.
-
+            <div class="amo-te-nadia">
+                <h1>Amo-te Nádia!</h1>
+            </div>
+            <audio class="amtnadia-som" loop>
+                <source src="som/amo-te-nadia.mp3" type="audio/mp3">
+            </audio>
+            — digo a meia voz.
             Agora o trenó já desliza mais devagar, cada vez mais devagar, o rugido do vento e o zumbir dos patins já são
             menos assustadores, já conseguimos respirar, e finalmente, estamos no fundo. Nadenka está mais morta do que
             viva. Pálida, quase não respira… Ajudo-a a levantar-se.
@@ -266,8 +270,12 @@
             Subimos ao monte de gelo por uma escada. Novamente, sento a pálida e trémula Nadenka no trenó, novamente
             voamos para o abismo terrível, novamente ruge o vento e zumbem os patins, e novamente, no momento mais
             vertiginoso e atroador da descida, digo a meia voz:
-
-            <h1>Eu amo-te Nadenka! </h1>
+            <div id="eu-amo-te-nadenka">
+                <h1>Eu amo-te Nadenka! </h1>
+            </div>
+            <audio id="euamtnadenka-som" loop>
+                <source src="som/eu-amo-te-nadenka.mp3" type="audio/mp3">
+            </audio>
         </div>
 
         <img class="layer" data-depth=".05" width="100%"
@@ -322,8 +330,12 @@
             <br><br>
             Descemos pela terceira vez, e vejo como ela olha para a minha cara, estuda o movimento dos meus lábios. Mas
             eu aperto um lenço contra os meus lábios, tusso e, chegados a meio do monte, acabo por dizer:
-            <br><br>
-            <h1>Eu amo-te Nadia!</h1>
+            <div id="eu-amo-te-nadia">
+                <h1>Eu amo-te Nadia!</h1>
+            </div>
+            <audio id="euamtnadia-som" loop>
+                <source src="som/eu-amo-te-nadia.mp3" type="audio/mp3">
+            </audio>
         </div>
 
         <video class="layer" data-depth=".15" style="grid-area: 1 / 3 / auto / span 6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); position: relative; top: -50vh" width="100%" autoplay loop muted>
@@ -366,7 +378,7 @@
             No dia seguinte, de manhã, recebo um bilhete: “Se hoje fores ao monte de gelo, vem buscar-me. N.” Desde
             então, vou todos os dias com a Nadenka ao monte de gelo e ao voarmos a pique de trenó, digo sempre, a meia
             voz, as mesmas palavras:
-            <div>
+            <div class="amo-te-nadia">
                 <h1>Amo-te Nadia!</h1>
             </div>
             Nadenka rapidamente criou o hábito de ouvir esta frase, como se cria o hábito do álcool ou da morfina. Não
@@ -470,9 +482,9 @@
             A pobre rapariga estende as duas mãos como que a pedir que o vento lhe traga outra vez aquelas palavras…
             Então,
             fico a espera que o vento sopre para dizer a meia voz:
-            <br><br>
-            <h1>Amo-te Nadia!</h1>
-            <br><br>
+            <div class="amo-te-nadia">
+                <h1>Amo-te Nadia!</h1>
+            </div>
             O que acontece com Nadenka, meu Deus! Solta um grito, abre-se num sorriso amplo e estende as mãos ao
             encontro do
             vento, alegre, feliz,<br> tão bonita.
