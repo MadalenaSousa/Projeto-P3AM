@@ -1,8 +1,8 @@
 {
-  "Imagens": [
+  "imagens": [
     {
-      "path": "imagens/pensador.jpg",
-      "tag": "biografia",
+      "src": "imagens/pensador.jpg",
+      "tag": ["tag1", "tag2"]
     }
   ]
 }
