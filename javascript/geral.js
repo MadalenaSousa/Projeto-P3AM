@@ -23,9 +23,9 @@ function setRandomImage(json, tag){
         }
     }
 
+    var usedSrc = [];
     for (let i = 0; i < imgs.length; i++) {
         var newSrc = srcTag[Math.floor(Math.random() * srcTag.length)];
-        var usedSrc = [];
 
         while(usedSrc.includes(newSrc)) {
             newSrc = srcTag[Math.floor(Math.random() * srcTag.length)];
