@@ -1,3 +1,18 @@
+/* BANCO DE IMAGENS */
+
+fetch('./json/imagens.json')
+    .then(response => {
+        return response.json()
+    })
+    .then(data => {
+        // Work with JSON data here
+        console.log(data.imagens)
+    })
+    .catch(err => {
+        console.log("error" + err);
+    });
+
+
 /* GERAL */
 
 window.addEventListener("resize", function () {
