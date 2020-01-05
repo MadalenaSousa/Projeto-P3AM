@@ -1,8 +1,18 @@
 {
   "imagens": [
     {
-      "src": "imagens/pensador.jpg",
-      "tag": ["tag1", "tag2"]
+      "src": "imagens/fotos/anton3.jpg",
+      "tag": ["tag-checkov"]
+    },
+
+    {
+      "src": "imagens/fotos/Anton2.jpg",
+      "tag": ["tag-checkov"]
+    },
+
+    {
+      "src": "imagens/fotos/AntonCheckovRetrato.jpg",
+      "tag": ["tag-checkov"]
     }
   ]
 }
