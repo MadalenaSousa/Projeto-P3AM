@@ -27,11 +27,12 @@ function setRandomImage(json, tag){
         var newSrc = srcTag[Math.floor(Math.random() * srcTag.length)];
         var usedSrc = [];
 
-        if(usedSrc.includes(newSrc)) {
+        while(usedSrc.includes(newSrc)) {
             newSrc = srcTag[Math.floor(Math.random() * srcTag.length)];
-        } else {
-            imgs[i].setAttribute("src", newSrc);
         }
+
+        imgs[i].setAttribute("src", newSrc);
+        usedSrc.push(newSrc);
     }
 }
 
