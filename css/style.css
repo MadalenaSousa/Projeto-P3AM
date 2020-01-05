@@ -459,9 +459,15 @@ height:100%;
 }
 
 
-.data h1 {
+.data .data-num {
     font-size: 20vw;
     margin: 0;
+    opacity: 1;
+}
+
+.data .data-num:hover {
+    opacity: initial;
+    cursor: initial;
 }
 
 .mensagem {
