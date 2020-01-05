@@ -23,13 +23,13 @@
     <!-- CAPA -->
     <div class="ocupa-18-coluna wrapper" style="grid-row: 1 / span 20">
         <div class="ocupa-16-coluna capa wrapper scene" style="grid-row: 1 / span 31">
-            <div class="layer" data-depth=".05" style="grid-area: 11 / 4 / span 4 / span 10">
+            <div class="layer" style="grid-area: 11 / 4 / span 4 / span 10">
                 <h1 class="h1"> A BRINCADEIRA </h1>
                 <h2 class="h2"> Anton Checkov </h2>
             </div>
-<div class="layer" data-depth=".06" style="grid-column: 8 / span 5; grid-row: 2;">
-    <img src="imagens/fotos/anton3.jpg" alt="">
-</div>
+            <div class="layer" data-depth=".06" style="grid-column: 8 / span 5; grid-row: 2;">
+                <img src="imagens/fotos/anton3.jpg" alt="">
+            </div>
             <div class="layer" data-depth=".08" style="grid-column: 2 / span 2; grid-row: 5 / span 5;">
                 <img src="imagens/fotos/irmão.jpg" alt="">
             </div>
