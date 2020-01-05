@@ -5,12 +5,35 @@ fetch('./json/imagens.json')
         return response.json()
     })
     .then(data => {
-        // Work with JSON data here
-        console.log(data.imagens)
+        console.log(data.imagens);
+
+        setRandomImage(data, "tag-checkov");
     })
     .catch(err => {
         console.log("error" + err);
     });
+
+function setRandomImage(json, tag){
+    var imgs =  document.getElementsByClassName(tag);
+    var srcTag = [];
+
+    for(let i=0; i<json.imagens.length; i++) {
+        if(json.imagens[i].tag.includes(tag)) {
+            srcTag.push(json.imagens[i].src);
+        }
+    }
+
+    for (let i = 0; i < imgs.length; i++) {
+        var newSrc = srcTag[Math.floor(Math.random() * srcTag.length)];
+        var usedSrc = [];
+
+        if(usedSrc.includes(newSrc)) {
+            newSrc = srcTag[Math.floor(Math.random() * srcTag.length)];
+        } else {
+            imgs[i].setAttribute("src", newSrc);
+        }
+    }
+}
 
 
 /* GERAL */

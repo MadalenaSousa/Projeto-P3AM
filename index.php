@@ -27,8 +27,8 @@
                 <h1 class="h1"> A BRINCADEIRA </h1>
                 <h2 class="h2"> Anton Checkov </h2>
             </div>
-            <div class="layer" data-depth=".01" style="grid-column: 8 / span 5; grid-row: 2;">
-                <img src="imagens/fotos/anton3.jpg" alt="">
+            <div class="layer" data-depth=".01" style="grid-column: 8 / span 3; grid-row: 2;">
+                <img class="tag-checkov" src="" alt="">
             </div>
             <div class="layer" data-depth=".05" style="grid-column: 2 / span 2; grid-row: 5 / span 5;">
                 <img src="imagens/fotos/irmão.jpg" alt="">
@@ -42,7 +42,7 @@
                 <img src="imagens/fotos/russia-1.jpeg" alt="">
             </div>
             <div class="layer" data-depth=".05" style="grid-column: 13/ span 3; grid-row:23/span 5 ;">
-                <img src="imagens/fotos/Anton2.jpg" alt="">
+                <img class="tag-checkov" src="" alt="">
             </div>
 
         </div>
@@ -69,7 +69,7 @@
         </div>
       
         <div class="layer" data-depth=".15" style="grid-column: 5 / span 2; grid-row: 1 / span 2; position: relative; top: -23vw;">
-            <img src="imagens/fotos/Medicina_1860.jpg">
+            <img src="imagens/fotos/Medicina_1860.jpg" alt="">
         </div>
         <div class="pagina1_nota1 diario layer" data-depth=".01" style="grid-column: 6 / span 5; grid-row: 1 / span 5; position: relative; top: -20vw;">
             <?php include('imagens/ilustracoes/pagina1_nota1.svg'); ?>
