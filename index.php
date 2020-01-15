@@ -28,7 +28,7 @@
                 <h2 class="h2"> Anton Checkov </h2>
             </div>
             <div class="layer" data-depth=".01" style="grid-column: 8 / span 3; grid-row: 2;">
-                <img class="tag-checkov" src="" alt="">
+                <img class="tag-checkov" src="imagens/fotos/anton3.jpg" alt="">
             </div>
             <div class="layer" data-depth=".05" style="grid-column: 2 / span 2; grid-row: 5 / span 5;">
                 <img src="imagens/fotos/irmão.jpg" alt="">
@@ -42,7 +42,7 @@
                 <img src="imagens/fotos/russia-1.jpeg" alt="">
             </div>
             <div class="layer" data-depth=".05" style="grid-column: 13/ span 3; grid-row:23/span 5 ;">
-                <img class="tag-checkov" src="" alt="">
+                <img class="tag-checkov" src="imagens/fotos/Anton2.jpg" alt="">
             </div>
 
         </div>
